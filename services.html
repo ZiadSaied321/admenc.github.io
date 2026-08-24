@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - ADMENC Advanced Marine Engineering</title>
+    <!-- <base href="./assets/"> -->
+    <link rel="icon" type="image/png" href="assets/icon1.png">
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Original Web Fonts Integration -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Rajdhani:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="admenc.css" />
+    <link rel="stylesheet" href="css/services.css">
+    <!-- Core Brand Typography Configuration -->
+</head>
+<body class="h-full font-body text-gray-900 overflow-x-hidden bg-gray-50 antialiased">
+  <div class="min-h-screen overflow-visible">
+    <!-- Navigation -->
+    <nav class="site-nav fixed top-0 left-0 right-0 z-50 nav-glass bg-white border-b border-gray-200 shadow-lg">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16 lg:h-20">
+          <!-- Logo -->
+          <div class="flex items-center gap-3 ml-2 sm:ml-4">
+            <div class="relative w-8 h-8 lg:w-10 lg:h-10 flex-shrink-0"></div>
+            <div class="brand">
+              <a href="index.html">
+                <img src="assets/image009.png" alt="ADMENC Logo" class="logo h-6 lg:h-8 w-auto">
+              </a>
+            </div>
+          </div>
+
+          <!-- Desktop Links -->
+          <div class="hidden lg:flex items-center gap-1">
+            <a href="index.html" class="nav-link px-4 py-2 text-gray-700 hover:text-[#33C3E6] hover:bg-[#33C3E6]/5 rounded-none transition-all">Home</a>
+            <a href="index.html#about" class="nav-link px-4 py-2 text-gray-700 hover:text-[#33C3E6] hover:bg-[#33C3E6]/5 rounded-none transition-all">About</a>
+            <a href="services.html" class="nav-link px-4 py-2 text-[#33C3E6] bg-[#33C3E6]/5 rounded-none transition-all">Services</a>
+            <a href="index.html#team" class="nav-link px-4 py-2 text-gray-700 hover:text-[#33C3E6] hover:bg-[#33C3E6]/5 rounded-none transition-all">Team</a>
+            <a href="products.html" class="nav-link px-4 py-2 text-gray-700 hover:text-[#33C3E6] hover:bg-[#33C3E6]/5 rounded-none transition-all">Products</a>
+            <a href="projects.html" class="nav-link px-4 py-2 text-gray-700 hover:text-[#33C3E6] hover:bg-[#33C3E6]/5 rounded-none transition-all">Projects</a>
+            <a href="careers.html" class="nav-link px-4 py-2 text-gray-700 hover:text-[#33C3E6] hover:bg-[#33C3E6]/5 rounded-none transition-all">Careers</a>
+            <a href="index.html#contact" class="nav-link px-4 py-2 text-gray-700 hover:text-[#33C3E6] hover:bg-[#33C3E6]/5 rounded-none transition-all">Contact</a>
+          </div>
+
+          <!-- CTA -->
+          <div class="hidden lg:flex items-center gap-4">
+            <a href="tel:034833685" class="flex items-center gap-2 text-gray-700 hover:text-[#33C3E6] transition-colors group">
+              <div class="w-8 h-8 bg-gray-100 group-hover:bg-[#33C3E6]/10 rounded-none flex items-center justify-center transition-colors">
+                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+              </div>
+              <div class="flex flex-col"><span class="text-xs text-gray-500 font-medium leading-none">Call Us</span><span class="text-sm font-bold leading-tight call-us-number">03 483 3685</span></div>
+            </a>
+            <a href="quotation.html" class="inline-flex items-center gap-2 btn-primary text-white font-bold shadow-md hover:shadow-lg transition-all" style="border-radius: 8px !important;">
+              Get Quote
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+            </a>
+          </div>
+
+          <!-- Mobile Menu Button -->
+          <button id="mobile-menu-btn" class="lg:hidden w-10 h-10 flex items-center justify-center rounded-none hover:bg-gray-100 transition-colors" aria-label="Toggle menu">
+              <svg id="menu-icon-open" class="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+              <svg id="menu-icon-close" class="w-6 h-6 text-gray-700 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Dropdown Menu -->
+      <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-gray-200">
+        <div class="px-4 py-4 space-y-1">
+          <a href="index.html" class="mobile-nav-link block px-4 py-3 text-gray-700 hover:text-[#33C3E6] hover:bg-[#33C3E6]/5 rounded-none transition-all">Home</a>
+          <a href="index.html#about" class="mobile-nav-link block px-4 py-3 text-gray-700 hover:text-[#33C3E6] hover:bg-[#33C3E6]/5 rounded-none transition-all">About</a>
+          <a href="services.html" class="mobile-nav-link block px-4 py-3 text-[#33C3E6] bg-[#33C3E6]/5 rounded-none transition-all">Services</a>
+          <a href="index.html#team" class="mobile-nav-link block px-4 py-3 text-gray-700 hover:text-[#33C3E6] hover:bg-[#33C3E6]/5 rounded-none transition-all">Team</a>
+          <a href="products.html" class="mobile-nav-link block px-4 py-3 text-gray-700 hover:text-[#33C3E6] hover:bg-[#33C3E6]/5 rounded-none transition-all">Products</a>
+          <a href="projects.html" class="mobile-nav-link block px-4 py-3 text-gray-700 hover:text-[#33C3E6] hover:bg-[#33C3E6]/5 rounded-none transition-all">Projects</a>
+          <a href="careers.html" class="mobile-nav-link block px-4 py-3 text-gray-700 hover:text-[#33C3E6] hover:bg-[#33C3E6]/5 rounded-none transition-all">Careers</a>
+          <a href="index.html#contact" class="mobile-nav-link block px-4 py-3 text-gray-700 hover:text-[#33C3E6] hover:bg-[#33C3E6]/5 rounded-none transition-all">Contact</a>
+          <a href="quotation.html" class="block mt-2 text-center btn-primary text-white font-bold py-2.5" style="border-radius: 8px !important;">Get Quote</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Full-Width Hero Image Section (Using p20.jpg, completely clear with no blur) -->
+    <div class="w-full pt-16 lg:pt-20 overflow-hidden" style="max-height: 680px;">
+        <img src="assets/p20.jpg" alt="ADMENC Marine Engineering and Electrical Services" class="w-full h-[680px] object-cover" style="object-position: center;">
+    </div>
+
+    <!-- Services Section -->
+    <section id="services" class="py-8 bg-gradient-to-b from-gray-50 to-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-8">
+          <h2 class="font-display font-bold mb-4 text-gray-900 product-panel-header" id="quote-title">COMPREHENSIVE MARINE SOLUTIONS</h2>
+          <p class="text-lg text-gray-700 product-main-desc">From routine maintenance to emergency repairs, we provide complete electrical and engineering services for all types of vessels.</p>
+        </div>
+        
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Service Card 1 -->
+          <div class="service-card rounded-2xl p-8 bg-white border border-gray-100 shadow-sm">
+            <h3 class="font-display text-2xl font-bold mb-3 text-gray-900 product-panel-header" style="font-size: 1.5rem !important;">Electrical Systems</h3>
+            <p class="text-gray-600 mb-6 leading-relaxed product-sub-desc">Complete electrical installation, maintenance, and repair for navigation, lighting, and power systems.</p>
+            <ul class="space-y-3 text-sm text-gray-700 list-disc pl-5">
+              <li>
+                <span class="font-semibold">Power distribution systems</span>
+              </li>
+              <li>
+                <span class="font-semibold">Circuit troubleshooting</span>
+              </li>
+              <li>
+                <span class="font-semibold">Generator services &amp; repairs</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Service Card 2 -->
+          <div class="service-card rounded-2xl p-8 bg-white border border-gray-100 shadow-sm">
+            <h3 class="font-display text-2xl font-bold mb-3 text-gray-900 product-panel-header" style="font-size: 1.5rem !important;">Engine Maintenance</h3>
+            <p class="text-gray-600 mb-6 leading-relaxed product-sub-desc">Comprehensive engine diagnostics, repairs, and preventive maintenance for optimal performance.</p>
+            <ul class="space-y-3 text-sm text-gray-700 list-disc pl-5">
+              <li>
+                <span class="font-semibold">Complete engine overhauls</span>
+              </li>
+              <li>
+                <span class="font-semibold">Fuel system service</span>
+              </li>
+              <li>
+                <span class="font-semibold">Performance optimization</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Service Card 3 -->
+          <div class="service-card rounded-2xl p-8 bg-white border border-gray-100 shadow-sm">
+            <h3 class="font-display text-2xl font-bold mb-3 text-gray-900 product-panel-header" style="font-size: 1.5rem !important;">Safety Systems</h3>
+            <p class="text-gray-600 mb-6 leading-relaxed product-sub-desc">Installation and maintenance of fire suppression, alarm systems, and safety equipment.</p>
+            <ul class="space-y-3 text-sm text-gray-700 list-disc pl-5">
+              <li>
+                <span class="font-semibold">Fire detection &amp; suppression</span>
+              </li>
+              <li>
+                <span class="font-semibold">Bilge alarm systems</span>
+              </li>
+              <li>
+                <span class="font-semibold">Emergency lighting</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Service Card 4 -->
+          <div class="service-card rounded-2xl p-8 bg-white border border-gray-100 shadow-sm">
+            <h3 class="font-display text-2xl font-bold mb-3 text-gray-900 product-panel-header" style="font-size: 1.5rem !important;">Navigation Equipment</h3>
+            <p class="text-gray-600 mb-6 leading-relaxed product-sub-desc">Installation and calibration of GPS, radar, sonar, and communication systems.</p>
+            <ul class="space-y-3 text-sm text-gray-700 list-disc pl-5">
+              <li>
+                <span class="font-semibold">GPS &amp; chartplotters</span>
+              </li>
+              <li>
+                <span class="font-semibold">VHF/SSB radios</span>
+              </li>
+              <li>
+                <span class="font-semibold">AIS systems</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Service Card 5 -->
+          <div class="service-card rounded-2xl p-8 bg-white border border-gray-100 shadow-sm">
+            <h3 class="font-display text-2xl font-bold mb-3 text-gray-900 product-panel-header" style="font-size: 1.5rem !important;">HVAC Systems</h3>
+            <p class="text-gray-600 mb-6 leading-relaxed product-sub-desc">Marine air conditioning and ventilation installation, repair, and maintenance services.</p>
+            <ul class="space-y-3 text-sm text-gray-700 list-disc pl-5">
+              <li>
+                <span class="font-semibold">AC installation &amp; repair</span>
+              </li>
+              <li>
+                <span class="font-semibold">Refrigerant service</span>
+              </li>
+              <li>
+                <span class="font-semibold">Duct cleaning &amp; maintenance</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Service Card 6 -->
+          <div class="service-card rounded-2xl p-8 bg-white border border-gray-100 shadow-sm">
+            <h3 class="font-display text-2xl font-bold mb-3 text-gray-900 product-panel-header" style="font-size: 1.5rem !important;">Emergency Repairs</h3>
+            <p class="text-gray-600 mb-6 leading-relaxed product-sub-desc">24/7 emergency response for critical breakdowns and urgent repairs at sea or dock.</p>
+            <ul class="space-y-3 text-sm text-gray-700 list-disc pl-5">
+              <li>
+                <span class="font-semibold">24/7 availability</span>
+              </li>
+              <li>
+                <span class="font-semibold">Rapid response times</span>
+              </li>
+              <li>
+                <span class="font-semibold">On-site service</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- Footer -->
+    <footer class="py-8 border-t-2 border-gray-200 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col md:flex-row items-center justify-between text-center md:text-left gap-6">
+          
+          <!-- Logo Section -->
+          <div class="flex items-center justify-center gap-3">
+            <div class="brand">
+                <img src="assets/image009.png" alt="ADMENC Logo" class="logo h-6 lg:h-8 w-auto">
+            </div>
+          </div>
+            
+          <!-- Copyright Text -->
+          <p class="text-gray-600 text-xs font-medium text-center">
+              © 2010 ADMENC – Advanced Marine Engineering. All rights reserved.
+          </p>
+
+          <!-- Social Icon -->
+          <div class="flex justify-center">
+            <a href="https://www.linkedin.com/company/admenc"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="w-11 h-11 bg-white border-2 border-gray-200 rounded-full flex items-center justify-center hover:bg-[#33C3E6] hover:border-[#33C3E6] hover:text-white transition-all shadow-sm"
+               aria-label="Follow ADMENC on LinkedIn">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                </svg>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/201114240497" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" width="32" height="32" />
+  </a>
+
+  <style>
+    .whatsapp-float {
+        position: fixed;
+        bottom: 24px;
+        right: 16px;
+        width: 64px;
+        height: 64px;
+        background-color: #25D366;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 10px 24px rgba(0, 0, 0, 0.28);
+        z-index: 9999;
+        text-decoration: none;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .whatsapp-float:hover {
+        transform: translateY(-2px) scale(1.06);
+        box-shadow: 0 16px 34px rgba(0, 0, 0, 0.32);
+    }
+    @media (max-width: 480px) {
+        .whatsapp-float {
+            width: 56px;
+            height: 56px;
+            bottom: 18px;
+            right: 12px;
+            }
+        .whatsapp-float img {
+            width: 26px;
+            height: 26px;
+        }
+    }
+  </style>
+
+  <!-- Scripts Layer -->
+  <script>
+    // Mobile Navigation Component Logic
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const iconOpen = document.getElementById('menu-icon-open');
+    const iconClose = document.getElementById('menu-icon-close');
+
+    if (mobileMenuBtn && mobileMenu) {
+        mobileMenuBtn.getInstance = true;
+        mobileMenuBtn.addEventListener('click', () => {
+            const isHidden = mobileMenu.classList.toggle('hidden');
+            if (isHidden) {
+                iconOpen.classList.remove('hidden');
+                iconClose.classList.add('hidden');
+            } else {
+                iconOpen.classList.add('hidden');
+                iconClose.classList.remove('hidden');
+            }
+        });
+    }
+
+    // Close menu when clicking a link
+    const mobileNavLinks = mobileMenu.querySelectorAll('a');
+    mobileNavLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            mobileMenu.classList.add('hidden');
+            iconOpen.classList.remove('hidden');
+            iconClose.classList.add('hidden');
+        });
+    });
+  </script>
+</body>
+</html>

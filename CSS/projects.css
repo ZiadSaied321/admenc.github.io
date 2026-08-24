@@ -1,0 +1,146 @@
+/* Base Body Typography Override */
+      body {
+          font-family: 'Poppins', sans-serif !important;
+          font-weight: 400 !important;
+          font-size: 14px !important;
+      }
+
+      /* Desktop nav links - Adjusted to be smaller */
+      nav a {
+          font-size: 0.85rem !important;
+          font-weight: 600 !important;
+      }
+
+      /* Mobile menu links - Adjusted to be smaller */
+      #mobile-menu a {
+          font-size: 0.9rem !important; 
+          font-weight: 600 !important;
+      }
+
+      /* Call Us text - Adjusted to be smaller */
+      nav .text-xs,
+      nav .text-sm {
+          font-size: 0.8rem !important;
+      }
+
+      /* Get Quote button text, slightly bigger size, squarish with rounded edges (border-radius: 8px) */
+      nav .btn-primary,
+      .btn-primary {
+          font-size: 0.95rem !important;
+          padding: 0.6rem 1.5rem !important;
+          background-color: #33C3E6 !important;
+          border-radius: 8px !important;
+          border: 2px solid #33C3E6 !important;
+          color: #fff !important;
+      }
+      
+      .btn-primary:hover {
+          background-color: #0ea5e9 !important;
+          border-color: #0ea5e9;
+      }
+
+      /* Dynamic Product Headers */
+      .product-panel-header,
+      .font-display {
+          font-family: 'Rajdhani', sans-serif !important;
+          font-weight: 700 !important;
+      }
+
+      /* Main Intro Paragraphs under Headers */
+      .product-main-desc {
+          font-size: 1.02rem !important;
+          line-height: 1.55 !important;
+          font-weight: 400 !important;
+      }
+
+      /* Smaller List/Card Descriptions */
+      .product-sub-desc {
+          font-size: 0.92rem !important;
+          line-height: 1.55 !important;
+          font-weight: 400 !important;
+      }
+
+      /* Make CALL US phone number perfectly bold */
+      .site-nav .call-us-number {
+          font-family: "Poppins", sans-serif !important;
+          font-weight: 600 !important;
+          font-variation-settings: "wght" 600 !important;
+          font-size: 0.85rem !important;
+      }
+
+      .nav-glass {
+          background-color: #ffffff !important;
+          backdrop-filter: none !important;
+      }
+
+      /* ======================================
+          WHATSAPP FLOATING BUTTON STYLES
+          ====================================== */
+      .whatsapp-float {
+          position: fixed;
+          bottom: 24px;
+          right: 24px;
+          width: 64px;
+          height: 64px;
+          background-color: #25D366;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          box-shadow: 0 10px 24px rgba(0, 0, 0, 0.28);
+          z-index: 9999;
+          text-decoration: none;
+          transition: transform 0.2s ease, box-shadow 0.2s ease;
+      }
+
+      .whatsapp-float:hover {
+          transform: translateY(-2px) scale(1.06);
+          box-shadow: 0 16px 34px rgba(0, 0, 0, 0.32);
+      }
+
+      @media (max-width: 480px) {
+          .whatsapp-float {
+              width: 56px;
+              height: 56px;
+              bottom: 18px;
+              right: 18px;
+          }
+
+          .whatsapp-float img {
+              width: 26px;
+              height: 26px;
+          }
+      }
+
+.whatsapp-float {
+        position: fixed;
+        bottom: 24px;
+        right: 16px;
+        width: 64px;
+        height: 64px;
+        background-color: #25D366;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 10px 24px rgba(0, 0, 0, 0.28);
+        z-index: 9999;
+        text-decoration: none;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .whatsapp-float:hover {
+        transform: translateY(-2px) scale(1.06);
+        box-shadow: 0 16px 34px rgba(0, 0, 0, 0.32);
+    }
+    @media (max-width: 480px) {
+        .whatsapp-float {
+            width: 56px;
+            height: 56px;
+            bottom: 18px;
+            right: 12px;
+            }
+        .whatsapp-float img {
+            width: 26px;
+            height: 26px;
+        }
+    }

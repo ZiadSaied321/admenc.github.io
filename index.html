@@ -1,0 +1,2855 @@
+<!doctype html>
+<html lang="en" class="h-full">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ADMENC - Advanced Marine Engineering</title>
+  <link rel="icon" type="image/png" href="assets/icon1.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- <base href="./assets/"> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&amp;family=Rajdhani:wght@600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="admenc.css" />
+  <link rel="stylesheet" href="CSS/index.css">
+  <!-- Core Brand Typography Configuration -->
+  
+ </head>
+ <body class="h-full font-body text-gray-900 overflow-x-hidden">
+  <div><!-- Navigation -->
+<nav class="site-nav fixed top-0 left-0 right-0 z-50 nav-glass bg-white border-b border-gray-200 shadow-lg">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16 lg:h-20">
+      <!-- Logo Section -->
+      <div class="flex items-center gap-3 ml-2 sm:ml-4">
+        <div class="relative w-8 h-8 lg:w-10 lg:h-10 flex-shrink-0"></div>
+        <div class="brand">
+          <img src="assets/image009.png" alt="ADMENC Logo" class="logo h-6 lg:h-8 w-auto">
+        </div>
+      </div>
+
+      <!-- Desktop Navigation Links -->
+      <div class="hidden lg:flex items-center gap-1">
+        <a href="index.html" class="nav-link px-4 py-2 text-gray-700 hover:text-[#33C3E6] hover:bg-[#33C3E6]/5 rounded-none transition-all">Home</a>
+        <a href="index.html#about" class="nav-link px-4 py-2 text-gray-700 hover:text-[#33C3E6] hover:bg-[#33C3E6]/5 rounded-none transition-all">About</a>
+        <a href="services.html" class="nav-link px-4 py-2 text-gray-700 hover:text-[#33C3E6] hover:bg-[#33C3E6]/5 rounded-none transition-all">Services</a>
+        <a href="index.html#team" class="nav-link px-4 py-2 text-gray-700 hover:text-[#33C3E6] hover:bg-[#33C3E6]/5 rounded-none transition-all">Team</a>
+        <a href="products.html" class="nav-link px-4 py-2 text-gray-700 hover:text-[#33C3E6] hover:bg-[#33C3E6]/5 rounded-none transition-all">Products</a>
+        <a href="projects.html" class="nav-link px-4 py-2 text-gray-700 hover:text-[#33C3E6] hover:bg-[#33C3E6]/5 rounded-none transition-all">Projects</a>
+        <a href="careers.html" class="nav-link px-4 py-2 text-gray-700 hover:text-[#33C3E6] hover:bg-[#33C3E6]/5 rounded-none transition-all">Careers</a>
+        <a href="index.html#contact" class="nav-link px-4 py-2 text-gray-700 hover:text-[#33C3E6] hover:bg-[#33C3E6]/5 rounded-none transition-all">Contact</a>
+      </div>
+
+      <!-- Desktop CTA Section -->
+      <div class="hidden lg:flex items-center gap-4">
+        <a href="tel:034833685" class="flex items-center gap-2 text-gray-700 hover:text-[#33C3E6] transition-colors group">
+          <div class="w-8 h-8 bg-gray-100 group-hover:bg-[#33C3E6]/10 rounded-none flex items-center justify-center transition-colors">
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+          </div>
+          <div class="flex flex-col"><span class="text-xs text-gray-500 font-medium leading-none">Call Us</span><span class="text-sm font-bold leading-tight call-us-number">03 483 3685</span></div>
+      
+      <a href="quotation.html" style="font-size: 0.95rem !important; padding: 0.6rem 1.5rem !important; background-color: #33C3E6 !important; border-radius: 8px !important; border: 2px solid #33C3E6 !important; color: #fff !important; display: inline-flex !important; align-items: center !important; gap: 8px !important; font-weight: 700 !important; text-decoration: none !important;" class="shadow-sm hover:shadow transition-all">
+        Get Quote
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+      </a>
+
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button id="mobile-menu-btn" class="lg:hidden w-10 h-10 flex items-center justify-center rounded-none hover:bg-gray-100 transition-colors" aria-label="Toggle menu">
+        <svg id="menu-icon-open" class="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="menu-icon-close" class="w-6 h-6 text-gray-700 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+      </button>
+    </div>
+  </div>
+  
+  <!-- Mobile Menu Dropdown -->
+  <div id="mobile-menu" class="lg:hidden hidden bg-white border-t border-gray-200">
+    <div class="px-4 py-4 space-y-1">
+      <a href="index.html#home" class="mobile-nav-link block px-4 py-3 text-gray-700 hover:text-[#33C3E6] hover:bg-[#33C3E6]/5 rounded-none transition-all">Home</a>
+      <a href="index.html#about" class="mobile-nav-link block px-4 py-3 text-gray-700 hover:text-[#33C3E6] hover:bg-[#33C3E6]/5 rounded-none transition-all">About</a>
+      <a href="services.html" class="mobile-nav-link block px-4 py-3 text-gray-700 hover:text-[#33C3E6] hover:bg-[#33C3E6]/5 rounded-none transition-all">Services</a>
+      <a href="index.html#team" class="mobile-nav-link block px-4 py-3 text-gray-700 hover:text-[#33C3E6] hover:bg-[#33C3E6]/5 rounded-none transition-all">Team</a>
+      <a href="products.html" class="mobile-nav-link block px-4 py-3 text-gray-700 hover:text-[#33C3E6] hover:bg-[#33C3E6]/5 rounded-none transition-all">Products</a>
+      <a href="projects.html" class="mobile-nav-link block px-4 py-3 text-gray-700 hover:text-[#33C3E6] hover:bg-[#33C3E6]/5 rounded-none transition-all">Projects</a>
+      <a href="careers.html" class="mobile-nav-link block px-4 py-3 text-gray-700 hover:text-[#33C3E6] hover:bg-[#33C3E6]/5 rounded-none transition-all">Careers</a>
+      <a href="index.html#contact" class="mobile-nav-link block px-4 py-3 text-gray-700 hover:text-[#33C3E6] hover:bg-[#33C3E6]/5 rounded-none transition-all">Contact</a>
+      <a href="quotation.html" class="block mt-2 text-center btn-primary text-white font-bold" style="border-radius: 8px !important;">Get Quote</a>
+    </div>
+  </div>
+</nav>
+ <!--Hero -->
+<section id="home" class="hero-section pt-0 pb-12 lg:pb-20 overflow-x-hidden relative min-h-[600px] lg:min-h-[760px]">
+    
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 lg:pt-36">
+     <div class="grid lg:grid-cols-12 gap-8 items-center">
+
+      <!-- Adjusted top margin to drop it down and right padding to push it left -->
+      <div class="space-y-6 text-center order-2 lg:order-1 lg:col-span-6 z-10 pb-4 lg:-mt-36 lg:pr-32">
+       <h1 class="font-display text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-[1.15] fade-in hero-title-enhanced" id="hero-title">
+        <span class="text-gray-800 drop-shadow-sm">EXPERT MARINE</span><br>
+        <span class="hero-text-gradient">ENGINEERING</span><br>
+        <span class="text-gray-800 drop-shadow-sm">SOLUTIONS</span>
+       </h1>
+       <p class="text-base sm:text-lg text-gray-600 max-w-xl mx-auto leading-relaxed fade-in stagger-1 font-medium" id="hero-subtitle">
+        Professional electrical maintenance and marine services for ships and boats. Keeping your vessels running at <span class="text-[#33C3E6] font-bold">peak performance</span> with <span class="text-[#33C3E6] font-bold">24/7 support</span>.
+       </p>
+       
+       <div class="flex flex-col sm:flex-row gap-4 justify-center fade-in stagger-2 pt-2">
+        <a href="services.html" class="hero-btn-primary inline-flex justify-center items-center px-8 py-3.5 text-white font-bold rounded-full text-base group">
+         <span>Explore Services</span>
+         <svg class="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewbox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" /></svg>
+        </a>
+        <a href="#contact" class="hero-btn-secondary inline-flex justify-center items-center px-8 py-3.5 font-bold rounded-full text-base group">
+         <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewbox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
+         Contact Us
+        </a>
+       </div>
+
+       <div class="hero-stats-grid grid grid-cols-3 gap-4 pt-2">
+        <div class="hero-stat-card group">
+         <div class="relative p-4 text-center">
+          <p class="font-display text-2xl lg:text-3xl font-extrabold hero-stat-number">15+</p>
+          <p class="text-[10px] text-gray-600 font-semibold mt-1 uppercase tracking-wide">Years Experience</p>
+         </div>
+        </div>
+        <div class="hero-stat-card group">
+         <div class="relative p-4 text-center">
+          <p class="font-display text-2xl lg:text-3xl font-extrabold hero-stat-number">500+</p>
+          <p class="text-[10px] text-gray-600 font-semibold mt-1 uppercase tracking-wide">Vessels Serviced</p>
+         </div>
+        </div>
+        <div class="hero-stat-card group">
+         <div class="relative p-4 text-center">
+          <p class="font-display text-2xl lg:text-3xl font-extrabold hero-stat-number">24/7</p>
+          <p class="text-[10px] text-gray-600 font-semibold mt-1 uppercase tracking-wide">Support Available</p>
+         </div>
+        </div>
+       </div>
+      </div>
+
+     </div>
+    </div>
+
+<div class="relative order-1 lg:order-2 w-full h-[460px] lg:h-[760px] lg:w-[48vw] lg:absolute lg:top-0 lg:right-0 overflow-hidden">
+  <img 
+    src="assets/p1.jpg" 
+    alt="Marine Engineering Hero" 
+    class="w-full h-full object-cover block translate-x-[2px]"
+    style="clip-path: polygon(
+      37% 2%, 
+      100% 2%, 
+      100% 100%, 
+      37% 100%, 
+
+      29% 97%, 
+      5% 67%, 
+      2% 60%, 
+      2% 50%, 
+
+      2% 50%, 
+      2% 40%, 
+      5% 33%, 
+      29% 3%
+    );"
+  />
+</div>
+
+</section>
+   <!-- About Section -->
+<section id="about" class="py-12 bg-[#33C3E6] text-white scroll-mt-[1px]">
+   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+     <div class="grid lg:grid-cols-2 gap-10 items-center">
+       
+       <!-- Left Column: Image (Micro-adjusted slightly up for a perfect balance) -->
+       <div class="relative order-2 lg:order-1 lg:mt-14">
+         <img src="assets/p11.jpg" class="w-full h-auto rounded-2xl shadow-lg" alt="About Image">
+       </div>
+
+       <!-- Right Column: Content Wrapper -->
+       <div class="space-y-6 order-1 lg:order-2">
+         <div class="inline-flex items-center gap-2 px-4 py-2 bg-white rounded-full fade-in shadow-sm">
+           <span class="text-xs font-bold text-[#33C3E6] uppercase tracking-wider">About Us</span>
+         </div>
+         
+         <h2 class="font-display text-4xl lg:text-5xl font-bold mb-4 text-white" id="quote-title">YOUR TRUSTED PARTNER IN MARINE ENGINEERING</h2>
+         <p class="text-lg text-white/90 leading-relaxed" id="about-description">ADMENC has been providing top-tier marine electrical and engineering services for over 15 years. Our team of certified professionals ensures your vessels operate safely and efficiently, minimizing downtime and maximizing performance.</p>
+         
+         <div class="grid sm:grid-cols-2 gap-6 pt-6">
+           <div class="flex items-start gap-4 p-4 rounded-xl hover:bg-white/10 transition-colors">
+             <div>
+               <h4 class="font-bold text-white mb-1">Certified Experts</h4>
+               <p class="text-sm text-white/80">Licensed marine engineers with years of experience</p>
+             </div>
+           </div>
+           <div class="flex items-start gap-4 p-4 rounded-xl hover:bg-white/10 transition-colors">
+             <div>
+               <h4 class="font-bold text-white mb-1">Fast Response</h4>
+               <p class="text-sm text-white/80">24/7 emergency support whenever you need us</p>
+             </div>
+           </div>
+           <div class="flex items-start gap-4 p-4 rounded-xl hover:bg-white/10 transition-colors">
+             <div>
+               <h4 class="font-bold text-white mb-1">Quality Parts</h4>
+               <p class="text-sm text-white/80">OEM and certified components only</p>
+             </div>
+           </div>
+           <div class="flex items-start gap-4 p-4 rounded-xl hover:bg-white/10 transition-colors">
+             <div>
+               <h4 class="font-bold text-white mb-1">Full Documentation</h4>
+               <p class="text-sm text-white/80">Detailed service reports and records</p>
+             </div>
+           </div>
+         </div>
+       </div>
+
+     </div>
+   </div>
+</section>
+
+      <!-- Horizontal Image Scroller -->
+   <div class="scroll-container">
+  <div class="scroll-track">
+    <img src="assets/scroll1.jpeg" alt="">
+    <img src="assets/scroll2.jpeg" alt="">
+    <img src="assets/scroll3.jpeg" alt="">
+    <img src="assets/scroll4.jpeg" alt="">
+    <img src="assets/scroll5.jpeg" alt="">
+    <img src="assets/scroll6.jpeg" alt="">
+    <img src="assets/scroll7.jpeg" alt="">
+    <img src="assets/scroll8.jpeg" alt="">
+    <img src="assets/scroll9.jpeg" alt="">
+    <img src="assets/scroll10.jpeg" alt="">
+    <img src="assets/scroll11.jpeg" alt="">
+    <img src="assets/scroll12.jpeg" alt="">
+    <img src="assets/scroll13.jpeg" alt="">
+    <img src="assets/scroll14.jpeg" alt="">
+    <img src="assets/scroll15.jpeg" alt="">
+
+    <!-- duplicates -->
+    <img src="assets/scroll1.jpeg" alt="">
+    <img src="assets/scroll2.jpeg" alt="">
+    <img src="assets/scroll3.jpeg" alt="">
+    <img src="assets/scroll4.jpeg" alt="">
+    <img src="assets/scroll5.jpeg" alt="">
+    <img src="assets/scroll6.jpeg" alt="">
+    <img src="assets/scroll7.jpeg" alt="">
+    <img src="assets/scroll8.jpeg" alt="">
+    <img src="assets/scroll9.jpeg" alt="">
+    <img src="assets/scroll10.jpeg" alt="">
+    <img src="assets/scroll11.jpeg" alt="">
+    <img src="assets/scroll12.jpeg" alt="">
+    <img src="assets/scroll13.jpeg" alt="">
+    <img src="assets/scroll14.jpeg" alt="">
+    <img src="assets/scroll15.jpeg" alt="">
+  </div>
+</div>
+   <!-- Partners Section -->
+   <section class="py-6 bg-white border-b border-gray-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+     <div class="text-center mb-8">
+      <h2 class="font-display text-4xl lg:text-5xl font-bold mb-4 text-gray-900" id="quote-title">TRUSTED BY INDUSTRY LEADERS</h2>
+    
+      <p class="text-gray-600">Supplier of the world's leading marine brands and manufacturers</p>
+     </div>
+     
+    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-8 items-center">
+        
+        <!-- Row 1 -->
+        <div class="flex items-center justify-center p-6 bg-gray-50 rounded-xl hover:bg-white hover:shadow-lg transition-all group">
+            <img src="assets/partner1.png" class="h-12 opacity-80 group-hover:opacity-100 transition" alt="Partner 1">
+        </div>
+
+        <div class="flex items-center justify-center p-6 bg-gray-50 rounded-xl hover:bg-white hover:shadow-lg transition-all group">
+            <img src="assets/partner2.png" class="h-12 opacity-80 group-hover:opacity-100 transition" alt="Partner 2">
+        </div>
+
+        <div class="flex items-center justify-center p-6 bg-gray-50 rounded-xl hover:bg-white hover:shadow-lg transition-all group">
+            <img src="assets/partner3.png" class="h-12 opacity-80 group-hover:opacity-100 transition" alt="Partner 3">
+        </div>
+
+        <div class="flex items-center justify-center p-6 bg-gray-50 rounded-xl hover:bg-white hover:shadow-lg transition-all group">
+            <img src="assets/partner4.png" class="h-12 opacity-80 group-hover:opacity-100 transition" alt="Partner 4">
+        </div>
+
+        <!-- Row 2 -->
+        <div class="flex items-center justify-center p-6 bg-gray-50 rounded-xl hover:bg-white hover:shadow-lg transition-all group">
+            <img src="assets/partner5.png" class="h-12 opacity-80 group-hover:opacity-100 transition" alt="Partner 5">
+        </div>
+
+        <div class="flex items-center justify-center p-6 bg-gray-50 rounded-xl hover:bg-white hover:shadow-lg transition-all group">
+            <img src="assets/partner6.png" class="h-20 opacity-80 group-hover:opacity-100 transition" alt="Partner 6">
+        </div>
+
+        <div class="flex items-center justify-center p-6 bg-gray-50 rounded-xl hover:bg-white hover:shadow-lg transition-all group">
+            <img src="assets/partner7.png" class="h-20 opacity-80 group-hover:opacity-100 transition" alt="Partner 7">
+        </div>
+
+        <div class="flex items-center justify-center p-6 bg-gray-50 rounded-xl hover:bg-white hover:shadow-lg transition-all group">
+            <img src="assets/partner8.png" class="h-20 opacity-80 group-hover:opacity-100 transition" alt="Partner 8">
+        </div>
+
+        <!-- Row 3 -->
+        <div class="flex items-center justify-center p-6 bg-gray-50 rounded-xl hover:bg-white hover:shadow-lg transition-all group">
+            <img src="assets/partner9.png" class="h-20 opacity-80 group-hover:opacity-100 transition" alt="Partner 9">
+        </div>
+
+        <div class="flex items-center justify-center p-6 bg-gray-50 rounded-xl hover:bg-white hover:shadow-lg transition-all group">
+            <img src="assets/partner10.png" class="h-12 opacity-80 group-hover:opacity-100 transition" alt="Partner 10">
+        </div>
+
+        <div class="flex items-center justify-center p-6 bg-gray-50 rounded-xl hover:bg-white hover:shadow-lg transition-all group">
+            <img src="assets/partner11.png" class="h-12 opacity-80 group-hover:opacity-100 transition" alt="Partner 11">
+        </div>
+
+        <div class="flex items-center justify-center p-6 bg-gray-50 rounded-xl hover:bg-white hover:shadow-lg transition-all group">
+            <img src="assets/partner12.png" class="h-20 opacity-80 group-hover:opacity-100 transition" alt="Partner 12">
+        </div>
+
+    </div>
+
+     </div>
+     <div class="mt-8 text-center">
+      <p class="text-sm text-gray-600 font-semibold">Certified service center for premium marine engine manufacturers</p>
+     </div>
+    </div>
+     
+    </style>
+   </section><!-- Testimonials Section -->
+ 
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   </section><!-- Team Section -->
+   <section id="team" class="py-8 bg-[#33C3E6] text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+     <div class="text-center max-w-3xl mx-auto mb-8">
+      <div class="inline-flex items-center gap-2 px-4 py-2 bg-white/20 rounded-full mb-6"><span class="text-xs font-bold text-white uppercase tracking-wider font-['Poppins']">Our Team</span>
+      </div>
+      <h2 class="font-['Rajdhani'] text-4xl lg:text-5xl font-bold mb-4 text-white" id="quote-title">MEET OUR LEADERSHIP</h2>
+      <p class="text-lg text-white/90 font-['Poppins']" id="team-subtitle">Our experienced team of marine engineering professionals is dedicated to providing exceptional service and expertise.</p>
+     </div><!-- CEOs Section -->
+     <div class="mb-12">
+      <h3 class="font-['Rajdhani'] text-3xl font-bold text-center mb-12 text-white">Company Leadership</h3>
+      <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <!-- CEO 1 -->
+       <div class="bg-white rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all border-2 border-white group">
+        <div class="flex flex-col items-center text-center">
+         <div class="w-32 h-32 bg-white/20 rounded-full flex items-center justify-center mb-6 shadow-lg group-hover:scale-105 transition-transform"><span class="text-white font-['Rajdhani'] text-4xl font-bold">RE</span>
+         </div>
+         <h4 class="font-['Rajdhani'] text-2xl font-bold text-[#33C3E6] mb-2">Raafat El-Sawy</h4>
+         <p class="text-[#33C3E6]/90 font-bold text-lg mb-4 font-['Poppins']">Chief Executive Officer</p>
+         <p class="text-[#33C3E6]/80 leading-relaxed font-['Poppins']">Leading ADMENC with decades of marine engineering expertise and a vision for excellence in vessel maintenance and repair.</p>
+        </div>
+       </div><!-- CEO 2 -->
+       <div class="bg-white rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all border-2 border-white group">
+        <div class="flex flex-col items-center text-center">
+         <div class="w-32 h-32 bg-white/20 rounded-full flex items-center justify-center mb-6 shadow-lg group-hover:scale-105 transition-transform"><span class="text-white font-['Rajdhani'] text-4xl font-bold">AA</span>
+         </div>
+         <h4 class="font-['Rajdhani'] text-2xl font-bold text-[#33C3E6] mb-2">Alaa Ali</h4>
+         <p class="text-[#33C3E6]/90 font-bold text-lg mb-4 font-['Poppins']">Chief Executive Officer</p>
+         <p class="text-[#33C3E6]/80 leading-relaxed font-['Poppins']">Co-leading our operations with technical mastery and commitment to delivering world-class marine engineering solutions.</p>
+        </div>
+       </div>
+      </div>
+     </div><!-- Branches Section -->
+   <!-- Our Branches in Egypt -->
+<h3 class="font-['Rajdhani'] text-3xl font-bold text-center mb-12 text-white">
+    Our Branches in Egypt
+</h3>
+
+<div class="grid md:grid-cols-3 gap-8 mb-12">
+
+    <!-- Alexandria Branch -->
+    <div class="bg-white rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all border-2 border-white group flex flex-col justify-between">
+        <div>
+            <h4 class="branch-title font-['Rajdhani'] text-xl font-bold mb-2 text-[#33C3E6]">
+                Alexandria Branch (Head Office)
+            </h4>
+
+            <p class="text-[#33C3E6]/90 leading-relaxed text-sm font-['Poppins'] mb-6">
+                3rd Floor, Building No. 94,<br>
+                El-Gaish Road, El Azarita,<br>
+                Alexandria, Egypt<br><br>
+
+                <strong class="branch-subtitle text-[#33C3E6] font-['Poppins']">Phone Numbers:</strong><br>
+                <a href="tel:034833685" class="text-[#33C3E6] hover:underline">
+                    03 483 3685
+                </a><br>
+                <a href="tel:+201114240497" class="text-[#33C3E6] hover:underline">
+                    +20 111 424 0497
+                </a><br>
+                <a href="tel:+201220017562" class="text-[#33C3E6] hover:underline">
+                    +20 122 001 7562
+                </a>
+            </p>
+        </div>
+
+        <!-- Alexandria Map -->
+        <div class="w-full h-[220px] rounded-xl overflow-hidden border border-[#33C3E6]/20">
+            <iframe 
+                width="100%" 
+                height="100%" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"
+                src="https://maps.google.com/maps?q=El-Gaish+Road,+El+Azarita,+Alexandria,+Egypt&t=&z=15&ie=UTF8&iwloc=&output=embed">
+            </iframe>
+        </div>
+    </div>
+
+    <!-- Damanhour Branch -->
+    <div class="bg-white rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all border-2 border-white group flex flex-col justify-between">
+        <div>
+            <h4 class="branch-title font-['Rajdhani'] text-xl font-bold mb-2 text-[#33C3E6]">
+                Damanhour Branch
+            </h4>
+
+            <p class="text-[#33C3E6]/90 leading-relaxed text-sm font-['Poppins'] mb-6">
+                Office No. (203), 1st Floor of Sama Building,<br>
+                26th Street from Abdelsalam Elshazly street<br>
+                Damanhour, Elbeheira, Egypt<br><br>
+
+                <strong class="branch-subtitle text-[#33C3E6] font-['Poppins']">Phone Numbers:</strong><br>
+                <a href="tel:+201020004346" class="text-[#33C3E6] hover:underline">
+                    +2 0102 000 4346
+                </a><br>
+                <a href="tel:+201559234346" class="text-[#33C3E6] hover:underline">
+                    +2 0155 923 4346
+                </a><br>
+                <a href="tel:+20453366379" class="text-[#33C3E6] hover:underline">
+                    +2 045 336 6379
+                </a>
+            </p>
+        </div>
+
+        <!-- Damanhour Map (Using exact lat/lng from your link) -->
+        <div class="w-full h-[220px] rounded-xl overflow-hidden border border-[#33C3E6]/20">
+     <iframe 
+    width="100%" 
+    height="100%" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade"
+    src="https://maps.google.com/maps?q=31.0284729,30.4500122+(Sama+Building,+Damanhour)&hl=en&z=17&output=embed">
+</iframe>
+</div>
+    </div>
+
+    <!-- Ismailia Branch -->
+    <div class="bg-white rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all border-2 border-white group flex flex-col justify-between">
+        <div>
+            <h4 class="branch-title font-['Rajdhani'] text-xl font-bold mb-2 text-[#33C3E6]">
+                Ismailia Branch
+            </h4>
+
+            <p class="text-[#33C3E6]/90 leading-relaxed text-sm font-['Poppins'] mb-6">
+                Office No.6 of Building No.4,<br>
+                General Investment Authority<br>
+                Ismailia Free Zone, Ismailia Desert Rd,<br>
+                Abu Swuir, Ismailia, Egypt<br><br>
+
+                <strong class="branch-subtitle text-[#33C3E6] font-['Poppins']">Phone Numbers:</strong><br>
+                <a href="tel:+201019035140" class="text-[#33C3E6] hover:underline">
+                    +2 0101 903 5140
+                </a><br>
+                <a href="tel:+201551913700" class="text-[#33C3E6] hover:underline">
+                    +2 0155 191 3700
+                </a>
+            </p>
+        </div>
+
+        <!-- Ismailia Map -->
+        <div class="w-full h-[220px] rounded-xl overflow-hidden border border-[#33C3E6]/20">
+            <iframe 
+                width="100%" 
+                height="100%" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"
+                src="https://maps.google.com/maps?q=Ismailia+Free+Zone,+Ismailia+Desert+Road,+Egypt&t=&z=15&ie=UTF8&iwloc=&output=embed">
+            </iframe>
+        </div>
+    </div>
+
+</div>
+   </section>
+   <!-- Projects Section -->
+   <section id="projects" class="py-8 bg-white" style="display: none;">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+     <div class="text-center max-w-3xl mx-auto mb-8">
+      <div class="inline-flex items-center gap-2 px-4 py-2 bg-[#33C3E6]/10 rounded-full mb-6"><span class="text-xs font-bold text-[#33C3E6] uppercase tracking-wider">Our Projects</span>
+      </div>
+      <h2 class="font-display text-4xl lg:text-5xl xl:text-6xl font-bold mb-6 text-gray-900" id="projects-title">FEATURED PROJECTS &amp; SUCCESS STORIES</h2>
+      <p class="text-lg text-gray-700" id="projects-subtitle">Explore some of our most successful marine engineering projects, from luxury yachts to commercial fleets.</p>
+     </div>
+     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8"><!-- Project 1 -->
+      <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all border-2 border-gray-200 hover:border-[#33C3E6] group">
+       <div class="relative h-56 bg-gradient-to-br from-[#33C3E6]/20 to-blue-100 flex items-center justify-center overflow-hidden">
+        <svg class="w-32 h-32 opacity-30 group-hover:scale-110 transition-transform" viewbox="0 0 200 200" fill="none"><path d="M40 120 L100 140 L160 120 L150 80 L50 80 Z" fill="#33C3E6" /> <path d="M60 80 L60 40 L100 20 L140 40 L140 80" fill="none" stroke="#33C3E6" stroke-width="4" /> <circle cx="100" cy="100" r="8" fill="#000" />
+        </svg>
+        <div class="absolute top-4 right-4 bg-white px-3 py-1 rounded-full shadow-md"><span class="text-xs font-bold text-[#33C3E6]">2024</span>
+        </div>
+       </div>
+       <div class="p-6">
+        <h3 class="font-display text-xl font-bold text-gray-900 mb-2">Luxury Superyacht Refit</h3>
+        <p class="text-sm text-gray-600 mb-4">Complete electrical system overhaul and navigation upgrade for 150ft superyacht in Alexandria.</p>
+        <div class="flex flex-wrap gap-2 mb-4"><span class="px-3 py-1 bg-[#33C3E6]/10 text-[#33C3E6] text-xs font-semibold rounded-full">Electrical</span> <span class="px-3 py-1 bg-[#33C3E6]/10 text-[#33C3E6] text-xs font-semibold rounded-full">Navigation</span> <span class="px-3 py-1 bg-[#33C3E6]/10 text-[#33C3E6] text-xs font-semibold rounded-full">HVAC</span>
+        </div>
+        <div class="flex items-center justify-between pt-4 border-t border-gray-200"><span class="text-sm text-gray-600"><strong>Duration:</strong> 8 weeks</span> <span class="text-sm font-bold text-[#33C3E6]">Alexandria</span>
+        </div>
+       </div>
+      </div><!-- Project 2 -->
+      <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all border-2 border-gray-200 hover:border-[#33C3E6] group">
+       <div class="relative h-56 bg-gradient-to-br from-[#33C3E6]/20 to-blue-100 flex items-center justify-center overflow-hidden">
+        <svg class="w-32 h-32 opacity-30 group-hover:scale-110 transition-transform" viewbox="0 0 200 200" fill="none"><rect x="50" y="60" width="100" height="80" rx="8" fill="#33C3E6" /> <path d="M60 60 L60 30 L100 20 L140 30 L140 60" fill="none" stroke="#33C3E6" stroke-width="4" /> <circle cx="80" cy="100" r="6" fill="#fff" /> <circle cx="120" cy="100" r="6" fill="#fff" />
+        </svg>
+        <div class="absolute top-4 right-4 bg-white px-3 py-1 rounded-full shadow-md"><span class="text-xs font-bold text-[#33C3E6]">2023</span>
+        </div>
+       </div>
+       <div class="p-6">
+        <h3 class="font-display text-xl font-bold text-gray-900 mb-2">Commercial Fleet Upgrade</h3>
+        <p class="text-sm text-gray-600 mb-4">Engine maintenance and safety system installation for 12-vessel commercial fishing fleet.</p>
+        <div class="flex flex-wrap gap-2 mb-4"><span class="px-3 py-1 bg-[#33C3E6]/10 text-[#33C3E6] text-xs font-semibold rounded-full">Engine</span> <span class="px-3 py-1 bg-[#33C3E6]/10 text-[#33C3E6] text-xs font-semibold rounded-full">Safety</span>
+        </div>
+        <div class="flex items-center justify-between pt-4 border-t border-gray-200"><span class="text-sm text-gray-600"><strong>Duration:</strong> 6 months</span> <span class="text-sm font-bold text-[#33C3E6]">Ismailia</span>
+        </div>
+       </div>
+      </div><!-- Project 3 -->
+      <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all border-2 border-gray-200 hover:border-[#33C3E6] group">
+       <div class="relative h-56 bg-gradient-to-br from-[#33C3E6]/20 to-blue-100 flex items-center justify-center overflow-hidden">
+        <svg class="w-32 h-32 opacity-30 group-hover:scale-110 transition-transform" viewbox="0 0 200 200" fill="none"><path d="M30 110 L100 130 L170 110 L160 70 L40 70 Z" fill="#33C3E6" /> <rect x="80" y="40" width="40" height="30" rx="4" fill="#33C3E6" /> <circle cx="100" cy="95" r="12" fill="#fff" />
+        </svg>
+        <div class="absolute top-4 right-4 bg-white px-3 py-1 rounded-full shadow-md"><span class="text-xs font-bold text-[#33C3E6]">2024</span>
+        </div>
+       </div>
+       <div class="p-6">
+        <h3 class="font-display text-xl font-bold text-gray-900 mb-2">Emergency Rescue Vessel</h3>
+        <p class="text-sm text-gray-600 mb-4">Emergency repair and power restoration for rescue vessel in Suez Canal within 24 hours.</p>
+        <div class="flex flex-wrap gap-2 mb-4"><span class="px-3 py-1 bg-[#33C3E6]/10 text-[#33C3E6] text-xs font-semibold rounded-full">Emergency</span> <span class="px-3 py-1 bg-[#33C3E6]/10 text-[#33C3E6] text-xs font-semibold rounded-full">Electrical</span>
+        </div>
+        <div class="flex items-center justify-between pt-4 border-t border-gray-200"><span class="text-sm text-gray-600"><strong>Duration:</strong> 24 hours</span> <span class="text-sm font-bold text-[#33C3E6]">Ismailia</span>
+        </div>
+       </div>
+      </div><!-- Project 4 -->
+      <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all border-2 border-gray-200 hover:border-[#33C3E6] group">
+       <div class="relative h-56 bg-gradient-to-br from-[#33C3E6]/20 to-blue-100 flex items-center justify-center overflow-hidden">
+        <svg class="w-32 h-32 opacity-30 group-hover:scale-110 transition-transform" viewbox="0 0 200 200" fill="none"><path d="M50 100 L100 115 L150 100 L145 70 L55 70 Z" fill="#33C3E6" /> <path d="M70 70 L85 40 L115 40 L130 70" fill="none" stroke="#33C3E6" stroke-width="4" /> <rect x="90" y="20" width="20" height="15" rx="2" fill="#33C3E6" />
+        </svg>
+        <div class="absolute top-4 right-4 bg-white px-3 py-1 rounded-full shadow-md"><span class="text-xs font-bold text-[#33C3E6]">2023</span>
+        </div>
+       </div>
+       <div class="p-6">
+        <h3 class="font-display text-xl font-bold text-gray-900 mb-2">Charter Yacht Fleet</h3>
+        <p class="text-sm text-gray-600 mb-4">Preventive maintenance program for 8 luxury charter yachts ensuring zero downtime.</p>
+        <div class="flex flex-wrap gap-2 mb-4"><span class="px-3 py-1 bg-[#33C3E6]/10 text-[#33C3E6] text-xs font-semibold rounded-full">Maintenance</span> <span class="px-3 py-1 bg-[#33C3E6]/10 text-[#33C3E6] text-xs font-semibold rounded-full">Navigation</span>
+        </div>
+        <div class="flex items-center justify-between pt-4 border-t border-gray-200"><span class="text-sm text-gray-600"><strong>Duration:</strong> Ongoing</span> <span class="text-sm font-bold text-[#33C3E6]">Alexandria</span>
+        </div>
+       </div>
+      </div><!-- Project 5 -->
+      <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all border-2 border-gray-200 hover:border-[#33C3E6] group">
+       <div class="relative h-56 bg-gradient-to-br from-[#33C3E6]/20 to-blue-100 flex items-center justify-center overflow-hidden">
+        <svg class="w-32 h-32 opacity-30 group-hover:scale-110 transition-transform" viewbox="0 0 200 200" fill="none"><rect x="60" y="70" width="80" height="60" rx="6" fill="#33C3E6" /> <path d="M70 70 L70 45 L100 30 L130 45 L130 70" fill="none" stroke="#33C3E6" stroke-width="4" /> <rect x="80" y="90" width="15" height="20" rx="2" fill="#fff" /> <rect x="105" y="90" width="15" height="20" rx="2" fill="#fff" />
+        </svg>
+        <div class="absolute top-4 right-4 bg-white px-3 py-1 rounded-full shadow-md"><span class="text-xs font-bold text-[#33C3E6]">2024</span>
+        </div>
+       </div>
+       <div class="p-6">
+        <h3 class="font-display text-xl font-bold text-gray-900 mb-2">Cargo Ship Modernization</h3>
+        <p class="text-sm text-gray-600 mb-4">Full navigation system upgrade and engine automation for 200m cargo vessel.</p>
+        <div class="flex flex-wrap gap-2 mb-4"><span class="px-3 py-1 bg-[#33C3E6]/10 text-[#33C3E6] text-xs font-semibold rounded-full">Navigation</span> <span class="px-3 py-1 bg-[#33C3E6]/10 text-[#33C3E6] text-xs font-semibold rounded-full">Automation</span>
+        </div>
+        <div class="flex items-center justify-between pt-4 border-t border-gray-200"><span class="text-sm text-gray-600"><strong>Duration:</strong> 12 weeks</span> <span class="text-sm font-bold text-[#33C3E6]">Damanhour</span>
+        </div>
+       </div>
+      </div><!-- Project 6 -->
+      <div class="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all border-2 border-gray-200 hover:border-[#33C3E6] group">
+       <div class="relative h-56 bg-gradient-to-br from-[#33C3E6]/20 to-blue-100 flex items-center justify-center overflow-hidden">
+        <svg class="w-32 h-32 opacity-30 group-hover:scale-110 transition-transform" viewbox="0 0 200 200" fill="none"><path d="M45 115 L100 130 L155 115 L148 75 L52 75 Z" fill="#33C3E6" /> <circle cx="100" cy="95" r="18" fill="none" stroke="#fff" stroke-width="4" /> <path d="M100 85 L100 95 L108 100" stroke="#fff" stroke-width="3" stroke-linecap="round" />
+        </svg>
+        <div class="absolute top-4 right-4 bg-white px-3 py-1 rounded-full shadow-md"><span class="text-xs font-bold text-[#33C3E6]">2023</span>
+        </div>
+       </div>
+       <div class="p-6">
+        <h3 class="font-display text-xl font-bold text-gray-900 mb-2">Marina Power Upgrade</h3>
+        <p class="text-sm text-gray-600 mb-4">Complete power distribution system installation for 50-berth luxury marina facility.</p>
+        <div class="flex flex-wrap gap-2 mb-4"><span class="px-3 py-1 bg-[#33C3E6]/10 text-[#33C3E6] text-xs font-semibold rounded-full">Electrical</span> <span class="px-3 py-1 bg-[#33C3E6]/10 text-[#33C3E6] text-xs font-semibold rounded-full">Installation</span>
+        </div>
+        <div class="flex items-center justify-between pt-4 border-t border-gray-200"><span class="text-sm text-gray-600"><strong>Duration:</strong> 4 months</span> <span class="text-sm font-bold text-[#33C3E6]">Alexandria</span>
+        </div>
+       </div>
+      </div>
+     </div><!-- Project Stats -->
+     <div class="mt-16 bg-gradient-to-br from-[#33C3E6] to-blue-500 rounded-2xl p-8 lg:p-12 text-white shadow-2xl">
+      <div class="grid md:grid-cols-4 gap-8 text-center">
+       <div>
+        <p class="font-display text-4xl lg:text-5xl font-bold mb-2">500+</p>
+        <p class="text-sm font-semibold opacity-90">Projects Completed</p>
+       </div>
+       <div>
+        <p class="font-display text-4xl lg:text-5xl font-bold mb-2">98%</p>
+        <p class="text-sm font-semibold opacity-90">Client Satisfaction</p>
+       </div>
+       <div>
+        <p class="font-display text-4xl lg:text-5xl font-bold mb-2">15+</p>
+        <p class="text-sm font-semibold opacity-90">Years Experience</p>
+       </div>
+       <div>
+        <p class="font-display text-4xl lg:text-5xl font-bold mb-2">24/7</p>
+        <p class="text-sm font-semibold opacity-90">Support Available</p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-20 bg-white">
+
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+
+    <!-- Centered Header -->
+    <div class="text-center mb-12">
+      <div class="inline-flex items-center gap-2 px-4 py-2 bg-[#33C3E6]/10 rounded-full">
+        <span class="text-xs font-bold text-[#33C3E6] uppercase tracking-wider">
+          Get In Touch
+        </span>
+      </div>
+    </div>
+
+
+    <!-- Contact Layout -->
+    <div class="grid lg:grid-cols-2 gap-16 items-center">
+
+
+      <!-- LEFT CONTACT BOX -->
+      <div class="bg-[#33C3E6] rounded-2xl min-h-[400px] pt-20 pl-20 pr-12 pb-12 shadow-xl border border-gray-200 flex items-center justify-center">
+
+        <div class="w-full max-w-lg text-left ml-6">
+
+          <h2 id="quote-title"
+              style="font-size: 2.5rem !important; line-height: 1.1;"
+              class="font-bold uppercase text-white mb-6 text-center -ml-6">
+            CONTACT US
+          </h2>
+
+          <p class="text-sm text-white leading-relaxed mb-6">
+            Contact us today for a free consultation and quote. Our team is ready to help with all your marine engineering needs.
+          </p>
+
+          <h3 class="font-semibold text-white mb-2">
+            GET IN TOUCH
+          </h3>
+
+          <p class="text-base text-white font-medium mb-8">
+            <a href="mailto:admenc.alex@gmail.com" class="text-white hover:underline">
+              admenc.alex@gmail.com
+            </a>
+          </p>
+
+          <h4 class="font-semibold text-white mb-2">
+            Business Hours
+          </h4>
+
+          <p class="text-xs text-white leading-relaxed">
+            Sun - Thu: 10:00 AM - 5:00 PM<br>
+            Emergency: 24/7 Available
+          </p>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- RIGHT CONTACT FORM -->
+      <div class="flex flex-col justify-center">
+
+        <form id="contact-form" class="w-full">
+
+
+          <p class="text-center text-gray-600 text-base leading-relaxed mb-8">
+            Fill out the form below and we will contact you as soon as possible!
+          </p>
+
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-5">
+
+
+            <input 
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="Your Name"
+              class="w-full px-4 py-3 border border-gray-300 rounded-none text-sm text-gray-800 placeholder-gray-400 focus:outline-none focus:border-[#33C3E6]"
+            >
+
+
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="Your Email"
+              class="w-full px-4 py-3 border border-gray-300 rounded-none text-sm text-gray-800 placeholder-gray-400 focus:outline-none focus:border-[#33C3E6]"
+            >
+
+          </div>
+
+
+
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            required
+            placeholder="Message"
+            class="w-full px-4 py-3 border border-gray-300 rounded-none text-sm text-gray-800 placeholder-gray-400 focus:outline-none focus:border-[#33C3E6] resize-none mb-6"
+          ></textarea>
+
+
+
+          <div class="flex justify-center">
+
+            <button 
+              type="submit"
+              class="w-64 py-5 bg-[#33C3E6] hover:bg-[#159ac0] text-white text-xl font-bold rounded-full transition-all shadow-md">
+              Send
+            </button>
+
+          </div>
+
+
+          <p id="form-status" class="text-center text-sm hidden mt-4"></p>
+
+
+        </form>
+
+      </div>
+
+
+    </div>
+    <!-- END CONTACT GRID -->
+
+
+  </div>
+  <!-- END MAX WIDTH -->
+
+
+</section>
+<!-- END CONTACT SECTION -->
+
+
+
+    <!-- Footer -->
+    <footer class="py-8 border-t-2 border-gray-200 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col md:flex-row items-center justify-between gap-6">
+          <div class="flex items-center gap-3">
+            <div class="w-12 h-12">
+              <svg viewBox="0 0 100 100" class="w-full h-full"><defs>
+                <linearGradient id="footerLogoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#33C3E6" />
+                    <stop offset="100%" style="stop-color: #33C3E6" />
+                </linearGradient>
+                </defs>  
+              </svg>
+            </div>   
+            <div class="brand">
+                <img src="assets/image009.png" alt="ADMENC Logo" class="logo h-6 lg:h-8 w-auto">
+            </div>
+          </div>
+            
+          <p class="text-gray-600 text-xs font-medium text-center">
+              © 2010 ADMENC – Advanced Marine Engineering. All rights reserved.
+          </p>
+
+          <a href="https://www.linkedin.com/company/admenc"
+             target="_blank"
+             rel="noopener noreferrer"
+             class="w-11 h-11 bg-white border-2 border-gray-200 rounded-full flex items-center justify-center hover:bg-[#33C3E6] hover:border-[#33C3E6] hover:text-white transition-all shadow-sm"
+             aria-label="Follow ADMENC on LinkedIn">
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+              </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/201114240497" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" width="32" height="32" />
+  </a>
+
+  <style>
+    .whatsapp-float {
+        position: fixed;
+        bottom: 24px;
+        right: 16px;
+        width: 64px;
+        height: 64px;
+        background-color: #25D366;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 10px 24px rgba(0, 0, 0, 0.28);
+        z-index: 9999;
+        text-decoration: none;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .whatsapp-float:hover {
+        transform: translateY(-2px) scale(1.06);
+        box-shadow: 0 16px 34px rgba(0, 0, 0, 0.32);
+    }
+    @media (max-width: 480px) {
+        .whatsapp-float {
+            width: 56px;
+            height: 56px;
+            bottom: 18px;
+            right: 12px;
+            }
+        .whatsapp-float img {
+            width: 26px;
+            height: 26px;
+        }
+    }
+  </style>
+
+  <!-- Scripts Layer -->
+  <script>
+    // Mobile Navigation Component Logic
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const iconOpen = document.getElementById('menu-icon-open');
+    const iconClose = document.getElementById('menu-icon-close');
+
+    if (mobileMenuBtn && mobileMenu) {
+        mobileMenuBtn.getInstance = true;
+        mobileMenuBtn.addEventListener('click', () => {
+            const isHidden = mobileMenu.classList.toggle('hidden');
+            if (isHidden) {
+                iconOpen.classList.remove('hidden');
+                iconClose.classList.add('hidden');
+            } else {
+                iconOpen.classList.add('hidden');
+                iconClose.classList.remove('hidden');
+            }
+        });
+    }
+
+    // Close menu when clicking a link
+    const mobileNavLinks = mobileMenu.querySelectorAll('a');
+    mobileNavLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            mobileMenu.classList.add('hidden');
+            iconOpen.classList.remove('hidden');
+            iconClose.classList.add('hidden');
+        });
+    });
+  </script>
+</body>
+</html>
+
+<script>
+    const defaultConfig = {
+      hero_title: 'EXPERT MARINE<br>ENGINEERING<br>SOLUTIONS',
+      hero_subtitle: 'Professional electrical maintenance and marine services for ships and boats. Keeping your vessels running at peak performance with 24/7 support.',
+      about_title: 'YOUR TRUSTED PARTNER IN MARINE ENGINEERING',
+      about_description: 'ADMENC has been providing top-tier marine electrical and engineering services for over 15 years. Our team of certified professionals ensures your vessels operate safely and efficiently, minimizing downtime and maximizing performance.',
+      services_title: 'COMPREHENSIVE MARINE SOLUTIONS',
+      team_title: 'MEET OUR LEADERSHIP',
+      team_subtitle: 'Our experienced team of marine engineering professionals is dedicated to providing exceptional service and expertise.',
+      projects_title: 'FEATURED PROJECTS & SUCCESS STORIES',
+      projects_subtitle: 'Explore some of our most successful marine engineering projects, from luxury yachts to commercial fleets.',
+      quote_title: 'GET YOUR FREE QUOTE TODAY',
+      quote_subtitle: 'Fill out the form below and our team will get back to you within 24 hours with a detailed quote for your marine service needs.',
+      careers_title: 'BUILD YOUR CAREER WITH ADMENC',
+      careers_subtitle: 'We\'re always looking for talented marine engineers, technicians, and support staff to join our growing team across Egypt. Bring your expertise to a company that values excellence and innovation.',
+      contact_title: 'READY TO GET STARTED?',
+      contact_subtitle: 'Contact us today for a free consultation and quote. Our team is ready to help with all your marine engineering needs.',
+      background_color: '#ffffff',
+      surface_color: '#f0f9ff',
+      text_color: '#111827',
+      primary_color: '#33C3E6',
+      accent_color: '#33C3E6',
+      font_family: 'Poppins',
+      font_size: 12
+    };
+    
+    let config = { ...defaultConfig };
+
+    async function onConfigChange(cfg) {
+      config = { ...defaultConfig, ...cfg };
+      
+      // Update text content
+      const heroTitle = document.getElementById('hero-title');
+      if (heroTitle) {
+        const titleText = config.hero_title || defaultConfig.hero_title;
+        const parts = titleText.split('<br>');
+        if (parts.length >= 2) {
+          heroTitle.innerHTML = `${parts[0]}<br><span class="text-gradient">${parts[1]}</span><br>${parts[2] || ''}`;
+        } else {
+          heroTitle.innerHTML = titleText;
+        }
+      }
+      
+      const heroSubtitle = document.getElementById('hero-subtitle');
+      if (heroSubtitle) heroSubtitle.textContent = config.hero_subtitle || defaultConfig.hero_subtitle;
+      
+      const aboutTitle = document.getElementById('about-title');
+      if (aboutTitle) aboutTitle.textContent = config.about_title || defaultConfig.about_title;
+      
+      const aboutDesc = document.getElementById('about-description');
+      if (aboutDesc) aboutDesc.textContent = config.about_description || defaultConfig.about_description;
+      
+      const servicesTitle = document.getElementById('services-title');
+      if (servicesTitle) servicesTitle.textContent = config.services_title || defaultConfig.services_title;
+      
+      const teamTitle = document.getElementById('team-title');
+      if (teamTitle) teamTitle.textContent = config.team_title || defaultConfig.team_title;
+      
+      const teamSubtitle = document.getElementById('team-subtitle');
+      if (teamSubtitle) teamSubtitle.textContent = config.team_subtitle || defaultConfig.team_subtitle;
+      
+      const projectsTitle = document.getElementById('projects-title');
+      if (projectsTitle) projectsTitle.textContent = config.projects_title || defaultConfig.projects_title;
+      
+      const projectsSubtitle = document.getElementById('projects-subtitle');
+      if (projectsSubtitle) projectsSubtitle.textContent = config.projects_subtitle || defaultConfig.projects_subtitle;
+      
+      const quoteTitle = document.getElementById('quote-title');
+      if (quoteTitle) quoteTitle.textContent = config.quote_title || defaultConfig.quote_title;
+      
+      const quoteSubtitle = document.getElementById('quote-subtitle');
+      if (quoteSubtitle) quoteSubtitle.textContent = config.quote_subtitle || defaultConfig.quote_subtitle;
+      
+      const careersTitle = document.getElementById('careers-title');
+      if (careersTitle) careersTitle.textContent = config.careers_title || defaultConfig.careers_title;
+      
+      const careersSubtitle = document.getElementById('careers-subtitle');
+      if (careersSubtitle) careersSubtitle.textContent = config.careers_subtitle || defaultConfig.careers_subtitle;
+      
+      const contactTitle = document.getElementById('contact-title');
+      if (contactTitle) contactTitle.textContent = config.contact_title || defaultConfig.contact_title;
+      
+      const contactSubtitle = document.getElementById('contact-subtitle');
+      if (contactSubtitle) contactSubtitle.textContent = config.contact_subtitle || defaultConfig.contact_subtitle;
+
+      // Apply font
+      const fontFamily = config.font_family || defaultConfig.font_family;
+      const baseFontStack = 'Poppins, sans-serif';
+      document.body.style.fontFamily = `${fontFamily}, ${baseFontStack}`;
+      
+      // Apply font size
+      const baseSize = config.font_size || defaultConfig.font_size;
+     
+    }
+
+    function mapToCapabilities(cfg) {
+      return {
+        recolorables: [
+          {
+            get: () => cfg.background_color || defaultConfig.background_color,
+            set: (value) => { cfg.background_color = value; window.elementSdk.setConfig({ background_color: value }); }
+          },
+          {
+            get: () => cfg.surface_color || defaultConfig.surface_color,
+            set: (value) => { cfg.surface_color = value; window.elementSdk.setConfig({ surface_color: value }); }
+          },
+          {
+            get: () => cfg.text_color || defaultConfig.text_color,
+            set: (value) => { cfg.text_color = value; window.elementSdk.setConfig({ text_color: value }); }
+          },
+          {
+            get: () => cfg.primary_color || defaultConfig.primary_color,
+            set: (value) => { cfg.primary_color = value; window.elementSdk.setConfig({ primary_color: value }); }
+          },
+          {
+            get: () => cfg.accent_color || defaultConfig.accent_color,
+            set: (value) => { cfg.accent_color = value; window.elementSdk.setConfig({ accent_color: value }); }
+          }
+        ],
+        borderables: [],
+        fontEditable: {
+          get: () => cfg.font_family || defaultConfig.font_family,
+          set: (value) => { cfg.font_family = value; window.elementSdk.setConfig({ font_family: value }); }
+        },
+        fontSizeable: {
+          get: () => cfg.font_size || defaultConfig.font_size,
+          set: (value) => { cfg.font_size = value; window.elementSdk.setConfig({ font_size: value }); }
+        }
+      };
+    }
+
+    function mapToEditPanelValues(cfg) {
+      return new Map([
+        ['hero_title', cfg.hero_title || defaultConfig.hero_title],
+        ['hero_subtitle', cfg.hero_subtitle || defaultConfig.hero_subtitle],
+        ['about_title', cfg.about_title || defaultConfig.about_title],
+        ['about_description', cfg.about_description || defaultConfig.about_description],
+        ['services_title', cfg.services_title || defaultConfig.services_title],
+        ['team_title', cfg.team_title || defaultConfig.team_title],
+        ['team_subtitle', cfg.team_subtitle || defaultConfig.team_subtitle],
+        ['projects_title', cfg.projects_title || defaultConfig.projects_title],
+        ['projects_subtitle', cfg.projects_subtitle || defaultConfig.projects_subtitle],
+        ['quote_title', cfg.quote_title || defaultConfig.quote_title],
+        ['quote_subtitle', cfg.quote_subtitle || defaultConfig.quote_subtitle],
+        ['careers_title', cfg.careers_title || defaultConfig.careers_title],
+        ['careers_subtitle', cfg.careers_subtitle || defaultConfig.careers_subtitle],
+        ['contact_title', cfg.contact_title || defaultConfig.contact_title],
+        ['contact_subtitle', cfg.contact_subtitle || defaultConfig.contact_subtitle]
+      ]);
+    }
+
+    // Initialize Element SDK
+    if (window.elementSdk) {
+      window.elementSdk.init({
+        defaultConfig,
+        onConfigChange,
+        mapToCapabilities,
+        mapToEditPanelValues
+      });
+    }
+
+  
+    // ── Contact Form ──
+    const contactForm = document.getElementById('contact-form');
+    const formStatus = document.getElementById('form-status');
+    if (contactForm && formStatus) {
+      contactForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        sendJsonForm(contactForm, 'New Contact Message — ADMENC', formStatus,
+          'Thank you! Your message has been sent. We\'ll get back to you within 24 hours.');
+      });
+    }
+         // ===== WEB3FORMS CONFIG =====
+    const WEB3FORMS_KEY = '4d078c3e-a619-4df1-b6a4-517d94b0b347';
+    const WEB3FORMS_URL = 'https://api.web3forms.com/submit';
+
+    // Helper: send a JSON form (no file uploads)
+    async function sendJsonForm(form, subject, statusEl, successMsg) {
+      const btn = form.querySelector('button[type="submit"]');
+      const originalText = btn.textContent;
+      btn.disabled = true;
+      btn.textContent = 'Sending…';
+
+      const data = Object.fromEntries(new FormData(form));
+      data.access_key = WEB3FORMS_KEY;
+      data.subject = subject;
+      data.from_name = 'ADMENC Website';
+
+      try {
+        const res = await fetch(WEB3FORMS_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+          body: JSON.stringify(data)
+        });
+        const json = await res.json();
+        if (json.success) {
+          statusEl.textContent = '✓ ' + successMsg;
+          statusEl.className = 'text-center text-sm text-[#33C3E6] font-semibold';
+          form.reset();
+        } else {
+          statusEl.textContent = '⚠ Something went wrong. Please try again.';
+          statusEl.className = 'text-center text-sm text-red-600 font-semibold';
+        }
+      } catch (err) {
+        statusEl.textContent = '⚠ Network error. Please check your connection and try again.';
+        statusEl.className = 'text-center text-sm text-red-600 font-semibold';
+      }
+      statusEl.classList.remove('hidden');
+      btn.disabled = false;
+      btn.textContent = originalText;
+      setTimeout(() => statusEl.classList.add('hidden'), 6000);
+    }
+
+    // Helper: send a FormData form (supports file uploads)
+    async function sendFormData(form, statusEl, successMsg) {
+      const btn = form.querySelector('button[type="submit"]');
+      const originalText = btn.textContent;
+      btn.disabled = true;
+      btn.textContent = 'Sending…';
+
+      const fd = new FormData(form);
+
+      try {
+        const res = await fetch(WEB3FORMS_URL, {
+          method: 'POST',
+          body: fd
+        });
+        const json = await res.json();
+        console.log('Web3Forms response:', json);
+        if (json.success) {
+          statusEl.textContent = '✓ ' + successMsg;
+          statusEl.className = 'text-center text-sm text-[#33C3E6] font-semibold';
+          form.reset();
+        } else {
+          statusEl.textContent = '⚠ ' + (json.message || 'Something went wrong. Please try again.');
+          statusEl.className = 'text-center text-sm text-red-600 font-semibold';
+        }
+      } catch (err) {
+        console.error('Web3Forms error:', err);
+        statusEl.textContent = '⚠ Network error. Please check your connection and try again.';
+        statusEl.className = 'text-center text-sm text-red-600 font-semibold';
+      }
+      statusEl.classList.remove('hidden');
+      btn.disabled = false;
+      btn.textContent = originalText;
+      setTimeout(() => statusEl.classList.add('hidden'), 6000);
+    }
+
+   </script>
+
+ 
+<script>
+    
+    // ── Careers Form (with CV file upload via Formsubmit.co) ──
+    // Note: Do not use /ajax/ endpoint as it strips file attachments. The regular endpoint works with Accept: json.
+    const FORMSUBMIT_URL = 'https://formsubmit.co/admenc.alex@gmail.com';
+    const careersForm = document.getElementById('careers-form');
+    const careerStatus = document.getElementById('career-status');
+    if (careersForm && careerStatus) {
+      careersForm.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        // Validate file size before sending
+        const cvInput = document.getElementById('career-cv');
+        if (cvInput && cvInput.files.length > 0) {
+          const fileSize = cvInput.files[0].size / 1024 / 1024;
+          if (fileSize > 5) {
+            careerStatus.textContent = '⚠ File size exceeds 5MB. Please upload a smaller file.';
+            careerStatus.className = 'text-center text-sm text-red-600 font-semibold';
+            careerStatus.classList.remove('hidden');
+            return;
+          }
+        }
+        const btn = careersForm.querySelector('button[type="submit"]');
+        const originalText = btn.textContent;
+        btn.disabled = true;
+        btn.textContent = 'Sending…';
+
+        const fd = new FormData(careersForm);
+        try {
+          const res = await fetch(FORMSUBMIT_URL, {
+            method: 'POST',
+            body: fd,
+            headers: { 'Accept': 'application/json' }
+          });
+          
+          if (res.ok) {
+            careerStatus.textContent = '✓ Application and CV submitted successfully! We\'ll review your application and be in touch soon.';
+            careerStatus.className = 'text-center text-sm text-[#33C3E6] font-semibold';
+            careersForm.reset();
+          } else {
+            careerStatus.textContent = '⚠ Something went wrong. Please try again.';
+            careerStatus.className = 'text-center text-sm text-red-600 font-semibold';
+          }
+        } catch (err) {
+          console.error('Formsubmit error:', err);
+          careerStatus.textContent = '⚠ Network error. Please check your connection and try again.';
+          careerStatus.className = 'text-center text-sm text-red-600 font-semibold';
+        }
+        careerStatus.classList.remove('hidden');
+        btn.disabled = false;
+        btn.textContent = originalText;
+        setTimeout(() => careerStatus.classList.add('hidden'), 6000);
+      });
+    }
+
+    // Smooth scroll for navigation
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      });
+    });
+
+    // Scroll animation observer
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('active');
+        }
+      });
+    }, observerOptions);
+
+    // Observe all animated elements
+    document.addEventListener('DOMContentLoaded', () => {
+      const animatedElements = document.querySelectorAll('.fade-in, .slide-in-left, .slide-in-right, .scale-in');
+      animatedElements.forEach(el => observer.observe(el));
+    });
+</script>
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9c37cc7597f07951',t:'MTc2OTM0NDQwMy4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script>
+ <script>
+const botBtn = document.getElementById("chatbot-button");
+const botWindow = document.getElementById("chatbot-window");
+const botClose = document.getElementById("chatbot-close");
+const botSend = document.getElementById("chatbot-send");
+const botInput = document.getElementById("chatbot-input");
+const botMessages = document.getElementById("chatbot-messages");
+
+/* Only wire up the chat widget if its markup actually exists on this page */
+if (botBtn && botWindow && botClose && botSend && botInput && botMessages) {
+
+  /* Open Chat */
+  botBtn.onclick = () => {
+      botWindow.style.display = "flex";
+  };
+
+  /* Close Chat */
+  botClose.onclick = () => {
+      botWindow.style.display = "none";
+  };
+
+  /* Add Message Function */
+  function addMessage(text, sender="bot") {
+      const message = document.createElement("div");
+      message.style.margin = "8px 0";
+      message.style.padding = "8px 10px";
+      message.style.borderRadius = "10px";
+      message.style.maxWidth = "80%";
+
+      if (sender === "bot") {
+          message.style.background = "#e8f9ff";
+          message.style.color = "#333";
+          message.style.alignSelf = "flex-start";
+      } else {
+          message.style.background = "#33C3E6";
+          message.style.color = "white";
+          message.style.alignSelf = "flex-end";
+      }
+
+      message.textContent = text;
+      botMessages.appendChild(message);
+      botMessages.scrollTop = botMessages.scrollHeight;
+  }
+
+  /* Send Button */
+  botSend.onclick = () => {
+      const text = botInput.value.trim();
+      if (!text) return;
+
+      addMessage(text, "user");
+      botInput.value = "";
+
+      // Basic bot response (you can upgrade later)
+      setTimeout(() => {
+          addMessage("Thank you! How can we assist you with your marine engineering needs?");
+      }, 500);
+  };
+
+  /* Press Enter to Send */
+  botInput.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") botSend.click();
+  });
+}
+</script>
+ <style>
+  
+.btn-primary{
+  background-color:#33C3E6;
+  border: 2px solid #33C3E6;
+  color: #fff;
+}
+.btn-primary:hover{
+  background-color: #33C3E6;
+  border-color: #33C3E6;
+}
+
+
+.service-icon-wrapper {
+    background-color: #33C3E6 !important;
+}
+
+
+
+/* Smaller section titles (About, Services, Team, Projects, Careers, Contact) */
+#about-title,
+#services-title,
+#team-title,
+#projects-title,
+#careers-title,
+#contact-title {
+    font-size: 2.2rem !important;   /* smaller but still bold */
+    line-height: 1.2 !important;
+}
+
+@media (min-width: 1024px) {
+    #about-title,
+    #services-title,
+    #team-title,
+    #projects-title,
+    #careers-title,
+    #contact-title {
+        font-size: 2.8rem !important;
+    }
+}
+
+/* Reduce paragraph sizes slightly */
+#about-description,
+#team-subtitle,
+#projects-subtitle,
+#careers-subtitle,
+#contact-subtitle {
+    font-size: 1rem !important;     /* instead of text-lg */
+    line-height: 1.6 !important;
+}
+
+/* Reduce sub‑section headings inside blocks */
+h3.font-display {
+    font-size: 1.6rem !important;
+}
+
+/* Reduce small feature grids (like Certified Experts, etc.) */
+#about .text-sm,
+#services .text-sm,
+#team .text-sm,
+#projects .text-sm {
+    font-size: 0.85rem !important;
+}
+
+/* TEAM SECTION — make entire team area more compact */
+#team {
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
+}
+
+/* Main titles */
+#team-title {
+    font-size: 2rem !important;
+    margin-bottom: 1.5rem !important;
+}
+
+#team-subtitle {
+    font-size: 0.95rem !important;
+}
+
+/* Leadership header */
+#team h3 {
+    font-size: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+}
+
+/* TEAM CARDS — smaller + tighter layout */
+#team .group {
+    padding: 1.25rem !important;
+}
+
+/* Circle icons */
+#team .group .w-32,
+#team .group .h-32 {
+    width: 80px !important;
+    height: 80px !important;
+}
+
+/* Names */
+#team .group h4 {
+    font-size: 1.2rem !important;
+    margin-bottom: 0.3rem !important;
+}
+
+/* Titles (CEO, etc.) */
+#team .group p.text-\[\#33C3E6\] {
+    font-size: 0.95rem !important;
+    margin-bottom: 0.7rem !important;
+}
+
+/* Descriptions */
+#team .group p.text-gray-600 {
+    font-size: 0.85rem !important;
+    line-height: 1.4 !important;
+}
+
+/* GRID SPACING — reduce vertical space */
+#team .grid {
+    gap: 1.25rem !important;
+}
+
+/* Branch cards */
+#team .rounded-2xl {
+    padding: 1.25rem !important;
+}
+
+/* Branch titles */
+#team h4 {
+    font-size: 1.1rem !important;
+    margin-bottom: 0.4rem !important;
+}
+
+/* Branch descriptions */
+#team .text-gray-600 {
+    font-size: 0.85rem !important;
+}
+
+
+.hero-section {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(135deg, #f8fafc 0%, #e0f2fe 50%, #f0f9ff 100%);
+}
+
+.hero-section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("./p1.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.15;
+    z-index: 0;
+    pointer-events: none;
+}
+
+/* Hero Text Gradient */
+.hero-text-gradient {
+    background: linear-gradient(135deg,  #33C3E6 0%, #33C3E6 50%, #06b6d4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    filter: drop-shadow(0 2px 4px rgba(14, 165, 233, 0.3));
+}
+
+/* Hero Primary Button */
+.hero-btn-primary {
+    background: linear-gradient(135deg,  #33C3E6 0%, #33C3E6 100%);
+    box-shadow: 0 4px 20px rgba(14, 165, 233, 0.4), 0 0 0 0 rgba(51, 195, 230, 0.4);
+    transition: all 0.3s ease;
+    border: none;
+}
+
+.hero-btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(14, 165, 233, 0.5), 0 0 20px rgba(51, 195, 230, 0.3);
+}
+
+/* Hero Secondary Button - Optimized */
+.hero-btn-secondary {
+    background: rgba(255, 255, 255, 0.95); /* slightly stronger instead of blur */
+    border: 1px solid #e5e7eb;
+    color: #374151;
+
+    /* lighter shadow */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+
+    /* remove expensive blur */
+    /* backdrop-filter: blur(10px); ❌ removed */
+
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover effect (cheap + smooth) */
+.hero-btn-secondary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+}
+
+.hero-btn-secondary:hover {
+    border-color: #33C3E6;
+    color:  #33C3E6;
+    box-shadow: 0 8px 25px rgba(51, 195, 230, 0.2);
+    transform: translateY(-2px);
+}
+
+/* Hero Stat Cards */
+.hero-stat-card {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(51, 195, 230, 0.15);
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-stat-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg,  #33C3E6, #33C3E6, #06b6d4);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.hero-stat-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 35px rgba(51, 195, 230, 0.15);
+    border-color: rgba(51, 195, 230, 0.3);
+}
+
+.hero-stat-card:hover::before {
+    opacity: 1;
+}
+
+.hero-stat-number {
+    background: linear-gradient(135deg,  #33C3E6 0%, #33C3E6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Pulse animation for decorative elements */
+@keyframes pulse-slow {
+    0%, 100% { opacity: 0.1; transform: scale(1); }
+    50% { opacity: 0.15; transform: scale(1.05); }
+}
+
+.animate-pulse-slow {
+    animation: pulse-slow 4s ease-in-out infinite;
+}
+
+/* ===== RESPONSIVE STYLES ===== */
+
+/* Mobile Menu Animation */
+#mobile-menu {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+#mobile-menu.open {
+    max-height: 500px;
+}
+
+/* Tablet Breakpoint (md: 768px) */
+@media (max-width: 1023px) {
+    /* Hero Section */
+    .hero-section {
+        padding-top: 7rem !important;
+    }
+    
+    /* Hero Subtitle */
+    .hero-section p {
+        font-size: 1rem !important;
+    }
+    
+    /* Hero Stats */
+    .hero-stat-card .relative {
+        padding: 1rem !important;
+    }
+    
+    .hero-stat-number {
+        font-size: 1.75rem !important;
+    }
+    
+    /* Section Headers */
+    section h2 {
+        font-size: 1.75rem !important;
+    }
+    
+    /* Service Cards Grid */
+    .grid.md\\:grid-cols-2.lg\\:grid-cols-3 {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+    
+    /* Team Grid */
+    #team .grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+    
+    /* Partners Grid */
+    .grid.lg\\:grid-cols-4 {
+        grid-template-columns: repeat(3, 1fr) !important;
+    }
+}
+
+/* Mobile Breakpoint (sm: 640px) */
+@media (max-width: 767px) {
+    /* Hero Section */
+    .hero-section {
+        padding-top: 6.5rem !important;
+        padding-bottom: 1.5rem !important;
+    }
+    
+    /* Hero Subtitle */
+    .hero-section p {
+        font-size: 0.9rem !important;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    
+    /* Hero Buttons */
+    .hero-btn-primary,
+    .hero-btn-secondary {
+        padding: 0.75rem 1.5rem !important;
+        font-size: 0.875rem !important;
+    }
+    
+    /* Hero Stats */
+    .hero-stat-card {
+        border-radius: 12px !important;
+    }
+    
+    .hero-stat-card .relative {
+        padding: 0.75rem !important;
+    }
+    
+    .hero-stat-number {
+        font-size: 1.5rem !important;
+    }
+    
+    .hero-stat-card p:last-child {
+        font-size: 0.65rem !important;
+    }
+    
+    /* All Section Padding */
+    section {
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+    
+    /* Section Headers */
+    section h2 {
+        font-size: 1.5rem !important;
+        margin-bottom: 0.75rem !important;
+    }
+    
+    section h3 {
+        font-size: 1.25rem !important;
+    }
+    
+    /* Service Cards - Stack */
+    .grid.md\\:grid-cols-2.lg\\:grid-cols-3,
+    .grid.sm\\:grid-cols-2.lg\\:grid-cols-3 {
+        grid-template-columns: 1fr !important;
+    }
+    
+    /* Team Grid - Stack */
+    #team .grid {
+        grid-template-columns: 1fr !important;
+        gap: 1rem !important;
+    }
+    
+    /* Partners Grid */
+    .grid.lg\\:grid-cols-4,
+    .grid.sm\\:grid-cols-3 {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 0.75rem !important;
+    }
+    
+    /* Partner Cards */
+    .grid.lg\\:grid-cols-4 > div {
+        padding: 0.75rem !important;
+    }
+    
+    .grid.lg\\:grid-cols-4 img {
+        height: 2rem !important;
+    }
+    
+    /* About Grid */
+    .grid.lg\\:grid-cols-2 {
+        grid-template-columns: 1fr !important;
+        gap: 1.5rem !important;
+    }
+    
+    /* Form Grid */
+    .grid.sm\\:grid-cols-2,
+    .grid.md\\:grid-cols-2 {
+        grid-template-columns: 1fr !important;
+    }
+    
+    /* Testimonial Cards */
+    .testimonial-card {
+        padding: 1rem !important;
+    }
+    
+    /* Contact Section Grid */
+    .grid.lg\\:grid-cols-3 {
+        grid-template-columns: 1fr !important;
+    }
+    
+    /* Footer */
+    footer .flex {
+        flex-direction: column !important;
+        text-align: center;
+        gap: 1rem !important;
+    }
+    
+    /* General container padding */
+    .max-w-7xl,
+    .max-w-6xl,
+    .max-w-4xl {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }
+    
+    /* Badge sizing */
+    .inline-flex.px-4.py-2 {
+        padding: 0.375rem 0.75rem !important;
+        font-size: 0.7rem !important;
+    }
+}
+
+/* Extra Small Mobile (xs: 480px) */
+@media (max-width: 480px) {
+    /* Hero Stats - 3 column compact */
+    .grid.grid-cols-3 {
+        gap: 0.5rem !important;
+    }
+    
+    .hero-stat-number {
+        font-size: 1.25rem !important;
+    }
+    
+    .hero-stat-card p:last-child {
+        font-size: 0.6rem !important;
+    }
+    
+    /* Partners - 2 columns */
+    .grid.lg\\:grid-cols-4 {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+    
+    /* Even smaller padding */
+    .max-w-7xl,
+    .max-w-6xl,
+    .max-w-4xl {
+        padding-left: 0.75rem !important;
+        padding-right: 0.75rem !important;
+    }
+}
+
+#about .grid.sm\:grid-cols-2.gap-6.pt-6 {
+    padding-top: 0.3rem !important;   /* reduce huge top spacing */
+    margin-top: 0 !important;         /* force it closer to the paragraph */
+}
+/* Reduce the vertical spacing between the top row and bottom row */
+#about .grid.sm\:grid-cols-2 {
+    row-gap: 0.1rem !important;   /* default was 1.5rem (gap-6) */
+
+/* ===== Horizontal Image Scroller ===== */
+
+.scroll-container {
+  width: 100%;
+  overflow: hidden;
+  margin: 40px 0;
+}
+
+.scroll-track {
+  display: flex;              /* ✅ THIS makes images side-by-side */
+  gap: 16px;
+  width: max-content;
+  animation: scroll 6s linear infinite;
+}
+
+.scroll-track img {
+  width: 100px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+
+ </style>
+ 
+ <!-- Mobile Menu Toggle Script -->
+ <script>
+ document.addEventListener('DOMContentLoaded', function() {
+     const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+     const mobileMenu = document.getElementById('mobile-menu');
+     const menuIconOpen = document.getElementById('menu-icon-open');
+     const menuIconClose = document.getElementById('menu-icon-close');
+     
+     if (mobileMenuBtn && mobileMenu) {
+         mobileMenuBtn.addEventListener('click', function() {
+             const isOpen = mobileMenu.classList.contains('open');
+             
+             if (isOpen) {
+                 mobileMenu.classList.remove('open');
+                 mobileMenu.classList.add('hidden');
+                 menuIconOpen.classList.remove('hidden');
+                 menuIconClose.classList.add('hidden');
+             } else {
+                 mobileMenu.classList.remove('hidden');
+                 setTimeout(() => mobileMenu.classList.add('open'), 10);
+                 menuIconOpen.classList.add('hidden');
+                 menuIconClose.classList.remove('hidden');
+             }
+         });
+         
+         // Close menu when clicking a link
+         const mobileNavLinks = mobileMenu.querySelectorAll('a');
+         mobileNavLinks.forEach(link => {
+             link.addEventListener('click', function() {
+                 mobileMenu.classList.remove('open');
+                 setTimeout(() => mobileMenu.classList.add('hidden'), 300);
+                 menuIconOpen.classList.remove('hidden');
+                 menuIconClose.classList.add('hidden');
+             });
+         });
+     }
+ });
+ </script>
+ 
+ 
+ <style>
+
+
+/* Reduce all section titles (About, Services, Team, Projects, Careers, Contact) */
+section h2 {
+    font-size: 1.9rem !important;
+    line-height: 1.2 !important;
+}
+
+
+/* Reduce all section subtitles (gray text under titles) */
+section > p,
+section .max-w-3xl p,
+section .max-w-2xl p {
+    font-size: 0.95rem !important;
+    line-height: 1.6 !important;
+}
+
+
+/* Smaller headings inside cards (like service cards, team cards, branches) */
+h3.font-display,
+#team h3,
+#services h3 {
+    font-size: 1.4rem !important;  /* smaller than before */
+}
+
+/* Smaller h4 (card titles) */
+h4 {
+    font-size: 1.1rem !important;
+}
+
+/* Smaller text inside lists, bullet points, features */
+.text-sm {
+    font-size: 0.8rem !important;
+}
+
+/* Smaller buttons everywhere */
+button,
+.btn-primary,
+.hero-btn-primary,
+.hero-btn-secondary,
+a.btn-primary {
+    font-size: 0.8rem !important;
+    padding: 0.5rem 1rem !important;
+}
+
+/* Smaller form labels */
+label {
+    font-size: 0.8rem !important;
+}
+
+/* Smaller form inputs */
+input,
+select,
+textarea {
+    font-size: 0.85rem !important;
+}
+
+
+/* ===== LIGHTER CORNER SHADING + MORE VISIBLE HERO BACKGROUND IMAGE ===== */
+
+
+/* 2) Show the background image more (increase opacity of ::before image) */
+.hero-section::before {
+    opacity: 0.22 !important; /* was 0.15 — shows the image more */
+}
+
+/* 3) Soften the blue corner "orbs" overlay (the absolute decorative circles) */
+.hero-section > .absolute.pointer-events-none > div:nth-child(1),
+.hero-section > .absolute.pointer-events-none > div:nth-child(2),
+.hero-section > .absolute.pointer-events-none > div:nth-child(3) {
+    opacity: 0.04 !important;    /* lighter blue glow (was 0.10 / 0.08 / 0.05) */
+    filter: blur(40px) !important; /* slightly more diffused, less solid */
+}
+
+/* You can fine-tune each orb individually if needed: */
+.hero-section > .absolute.pointer-events-none > div:nth-child(1) { opacity: 0.05 !important; }
+.hero-section > .absolute.pointer-events-none > div:nth-child(2) { opacity: 0.04 !important; }
+.hero-section > .absolute.pointer-events-none > div:nth-child(3) { opacity: 0.03 !important; }
+
+/* 4) Reduce the white gradient overlay so the image is not washed out */
+.hero-section > .absolute.pointer-events-none > div:nth-child(4) {
+    /* Replace Tailwind utility BG with a custom lighter overlay */
+    background: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0.00) 0%,
+        rgba(255, 255, 255, 0.20) 50%,
+        rgba(255, 255, 255, 0.50) 100%
+    ) !important;  /* was via-white/40 to white/80 (more opaque) */
+}
+
+/* 5) Optional: slightly reduce the hero section’s top/bottom padding to show more image area */
+.hero-section {
+    padding-top: 9rem !important;
+    padding-bottom: 2rem !important;
+}
+/* ===== NAV BAR TEXT SIZE SLIGHTLY BIGGER ===== */
+
+/* Desktop nav links */
+nav a {
+    font-size: 1rem !important;   /* was ~0.85rem */
+    font-weight: 600 !important;
+}
+
+/* Mobile menu links */
+#mobile-menu a {
+    font-size: 1.05rem !important; 
+    font-weight: 600 !important;
+}
+
+/* Call Us text */
+nav .text-xs,
+nav .text-sm {
+    font-size: 0.95rem !important;
+}
+
+/* Get Quote button text */
+nav .btn-primary {
+    font-size: 0.95rem !important;
+    padding: 0.55rem 1.3rem !important;
+}
+
+@media (max-width: 767px) {
+    .hero-section {
+        padding-top: 6.5rem !important;
+    }
+}
+@media (min-width: 1280px) {
+  #hero-title { font-size: 3.6rem !important; }
+}
+
+@media (max-width: 1023px) {
+  #hero-title { font-size: 2.6rem !important; }
+}
+
+@media (max-width: 639px) {
+  #hero-title { font-size: 2.1rem !important; }
+}
+
+
+
+/* 2) Unified size for ALL other hero titles (non-Home)
+   We target the page-specific hero title classes you already use,
+   and also a generic .page-hero-title for any future page. */
+.projects-hero-title,
+.careers-hero-title,
+.page-hero-title {
+  font-size: 2rem !important;      /* desktop base */
+  line-height: 1.2 !important;
+  letter-spacing: 0.2px;
+}
+
+@media (min-width: 1280px) {
+  .projects-hero-title,
+  .careers-hero-title,
+  .page-hero-title {
+    font-size: 2rem !important;    /* XL screens */
+  }
+}
+
+@media (max-width: 1023px) {
+  .projects-hero-title,
+  .careers-hero-title,
+  .page-hero-title {
+    font-size: 2.7rem !important;    /* tablets */
+  }
+}
+
+@media (max-width: 639px) {
+  .projects-hero-title,
+  .careers-hero-title,
+  .page-hero-title {
+    font-size: 1.95rem !important;   /* mobile */
+  }
+}
+/* ===== STANDARD HERO TITLES (ALL PAGES EXCEPT HOME) ===== */
+
+.page-hero-title {
+    font-size: 2rem;
+    line-height: 1.2;
+}
+
+@media (min-width: 1024px) {
+    .page-hero-title {
+        font-size: 2rem;
+    }
+}
+
+/* Fix hero stats alignment */
+.hero-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);   /* 3 equal columns */
+    gap: 1.5rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+/* Make hero statistic cards smaller */
+.hero-stat-card {
+    padding: 1.2rem 0.8rem !important;      /* reduce height & width */
+    border-radius: 14px !important;         /* smaller corners */
+    transform: scale(0.9);                  /* shrink overall */
+}
+
+.hero-stat-number {
+    font-size: 1.8rem !important;           /* reduce number size */
+    font-weight: 800 !important;
+}
+
+.hero-stat-card p:last-child {
+    font-size: 0.75rem !important;          /* reduce label size */
+}
+
+
+.site-nav .btn-primary {
+  font-size: 0.85rem !important;
+  padding: 0.55rem 1.2rem !important;
+}
+
+
+
+.site-nav .logo {
+  height: 32px !important;
+  width: auto !important;
+}
+
+
+.site-nav a.nav-link {
+    font-weight: 600 !important;
+    font-weight: 600 !important;
+}
+
+/* Neutralize earlier font-size rules so they don't fight this */
+nav a { font-size: inherit !important; }                 /* neutralize 1rem */
+.site-nav .nav-link { font-size: inherit !important; }   /* neutralize 0.9rem */
+#mobile-menu a { font-size: inherit !important; }        /* neutralize 1.05rem */
+
+/* Apply the unified sizes */
+@media (min-width: 1024px) {
+  .site-nav a.nav-link {
+    font-size: var(--nav-size-desktop) !important;
+  }
+}
+
+@media (max-width: 1023px) {
+  .site-nav a.nav-link,
+  #mobile-menu a.mobile-nav-link {
+    font-size: var(--nav-size-mobile) !important;
+  }
+}
+
+/* ===== MAKE ADMENC HOME NAVBAR MATCH PROJECTS & CAREERS ===== */
+
+.site-nav a.nav-link {
+    font-family: "Poppins", sans-serif !important;
+    font-size: 0.9rem !important;        /* same as projects & careers */
+    font-weight: 600 !important;         /* same weight */
+    line-height: 1.2 !important;         /* same line height */
+    letter-spacing: 0 !important;        /* identical spacing */
+    color: #374151 !important;           /* Tailwind text-gray-700 */
+}
+
+/* Ensure hover colors stay identical too */
+.site-nav a.nav-link:hover {
+    color: #33C3E6 !important;
+    background: rgba(51, 195, 230, 0.05) !important;
+}
+
+/* Mobile menu links - match same style */
+#mobile-menu a.mobile-nav-link {
+    font-family: "Poppins", sans-serif !important;
+    font-size: 1rem !important;        /* same as projects/careers mobile */
+    font-weight: 600 !important;
+    line-height: 1.2 !important;
+}
+
+/* Make CALL US phone number perfectly bold (same as Projects & Careers) */
+.site-nav .call-us-number {
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 600 !important;     /* heavier bold */
+    font-variation-settings: "wght" 600 !important; /* forces true bold in variable fonts */
+}
+
+
+/* Force bold Get Quote text (matches Projects & Careers exactly) */
+.site-nav a.btn-primary,
+.site-nav a.btn-primary span,
+.site-nav .get-quote-text {
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 700 !important;
+    font-variation-settings: "wght" 700 !important;
+}
+/* ===== Chatbot Button ===== */
+#chatbot-button {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    width: 65px;
+    height: 65px;
+    background: #33C3E6;
+    color: white;
+    border-radius: 50%;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+    z-index: 9999;
+    transition: 0.3s ease;
+}
+
+#chatbot-button:hover {
+    background:#2bb2d3;
+    transform: scale(1.1);
+}
+
+/* ===== Chatbot Theme Vars ===== */
+:root {
+  --cb-primary: #33C3E6;
+  --cb-primary-600: #2bb2d3;
+  --cb-bg: #ffffff;
+  --cb-muted: #6b7280; /* gray-500 */
+  --cb-shadow: 0 12px 38px rgba(0,0,0,.18);
+  --cb-radius: 18px;
+  --cb-z: 999999999;
+}
+
+/* ===== Container positioning ===== */
+#admenc-chatbot { position: fixed; bottom: 24px; right: 24px; z-index: var(--cb-z); }
+
+/* ===== Floating Action Button (FAB) ===== */
+#cb-fab{
+  appearance: none; border: 0; outline: none; cursor: pointer;
+  width: 62px; height: 62px; border-radius: 50%;
+  background: var(--cb-primary); color: #fff;
+  box-shadow: 0 12px 30px rgba(51,195,230,.5);
+  display: grid; place-items: center;
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+#cb-fab:hover{ transform: translateY(-2px) scale(1.04); box-shadow: 0 16px 36px rgba(51,195,230,.56); }
+#cb-fab:active{ transform: scale(.98); }
+
+/* ===== Window ===== */
+#cb-window{
+  position: absolute; bottom: 82px; right: 0;
+  width: min(360px, 92vw); height: 520px; display: grid;
+  grid-template-rows: auto 1fr auto auto; /* header | messages | quick | input */
+  background: var(--cb-bg); border-radius: var(--cb-radius);
+  box-shadow: var(--cb-shadow); overflow: hidden; opacity: 0; pointer-events: none;
+  transform-origin: bottom right; transform: scale(.96) translateY(8px);
+  transition: opacity .18s ease, transform .18s ease;
+}
+#cb-window.open{ opacity: 1; pointer-events: all; transform: scale(1) translateY(0); }
+
+/* ===== Header ===== */
+#cb-header{
+  background: linear-gradient(135deg, var(--cb-primary), var(--cb-primary-600));
+  color:#fff; padding: 14px 14px 12px; display: flex; align-items: center; justify-content: space-between;
+}
+.cb-brand{ display:flex; align-items:center; gap:10px; }
+.cb-logo{ width:28px; height:28px; object-fit: contain; filter: drop-shadow(0 2px 4px rgba(0,0,0,.2)); }
+#cb-title{ font: 700 16px/1.2 "Poppins", sans-serif; letter-spacing:.2px; }
+#cb-close{
+  background: transparent; border: 0; color: #fff; font-size: 22px; line-height: 1; cursor: pointer;
+  width: 32px; height: 32px; border-radius: 8px; transition: background .15s ease;
+}
+#cb-close:hover{ background: rgba(255,255,255,.18); }
+
+/* ===== Messages ===== */
+#cb-messages{ padding: 14px 14px 6px; background: #f9fafb; position: relative; }
+.cb-scroll{ overflow-y: auto; scrollbar-width: thin; scrollbar-color: #cfeff7 transparent; }
+.cb-scroll::-webkit-scrollbar{ width:8px; } 
+.cb-scroll::-webkit-scrollbar-thumb{ background:#cfeff7; border-radius:6px; }
+
+/* Message row */
+.cb-row{ display:flex; gap:10px; margin: 8px 0; align-items: flex-end; }
+.cb-row.bot{ justify-content: flex-start; }
+.cb-row.user{ justify-content: flex-end; }
+
+/* Avatars */
+.cb-avatar{
+  width: 28px; height: 28px; border-radius: 50%; flex: 0 0 28px; display:grid; place-items:center; color:#fff;
+  background: var(--cb-primary);
+  box-shadow: 0 2px 8px rgba(51,195,230,.35);
+  font-weight: 700; font-size: 12px; font-family: "Poppins", sans-serif;
+}
+.cb-avatar.user{ background: #0ea5e9; }
+
+/* Bubbles */
+.cb-bubble{
+  max-width: 75%; padding: 10px 12px; border-radius: 14px; font: 500 14px/1.45 "Poppins", sans-serif;
+  box-shadow: 0 6px 20px rgba(0,0,0,.06); position: relative;
+  word-break: break-word; background: #fff; color:#111827;
+}
+.cb-row.bot .cb-bubble{ background: #e9f8ff; color:#0f172a; }
+.cb-row.user .cb-bubble{ background: var(--cb-primary); color:#fff; }
+
+/* Bubble tails */
+.cb-row.bot .cb-bubble:after{
+  content:""; position: absolute; left: -6px; bottom: 6px; width: 10px; height: 10px;
+  background: #e9f8ff; border-bottom-left-radius: 3px; transform: rotate(45deg);
+}
+.cb-row.user .cb-bubble:after{
+  content:""; position: absolute; right: -6px; bottom: 6px; width: 10px; height: 10px;
+  background: var(--cb-primary); border-bottom-right-radius: 3px; transform: rotate(45deg);
+}
+
+/* Typing indicator */
+.cb-typing{ display:flex; align-items:center; gap:8px; margin: 8px 0; }
+.cb-typing .dots{ display:flex; gap:4px; }
+.cb-typing .dot{ width:6px; height:6px; background:#9bdff0; border-radius:50%; animation: cb-bounce 1s infinite; }
+.cb-typing .dot:nth-child(2){ animation-delay: .15s; }
+.cb-typing .dot:nth-child(3){ animation-delay: .3s; }
+@keyframes cb-bounce{
+  0%,80%,100% { transform: translateY(0); opacity:.6; }
+  40% { transform: translateY(-4px); opacity:1; }
+}
+
+/* ===== Quick replies ===== */
+#cb-quick-replies{ display:flex; gap:8px; padding: 4px 14px 10px; flex-wrap: wrap; background:#f9fafb; }
+#cb-quick-replies button{
+  background:#fff; color:#036e87; border:1px solid #d8f3fb; border-radius: 999px; padding: 6px 10px;
+  font: 600 12px/1 "Poppins", sans-serif; cursor:pointer; transition: all .15s ease;
+}
+#cb-quick-replies button:hover{ background:#e9f8ff; border-color:#b8eaf7; }
+
+/* ===== Input bar ===== */
+#cb-input-bar{
+  display:flex; gap:8px; align-items:center; padding: 10px; background:#fff; border-top: 1px solid #eef2f7;
+}
+#cb-input{
+  flex:1; border:1px solid #dbe7ef; border-radius: 12px; padding: 10px 12px; outline: none;
+  font: 500 14px/1.2 "Poppins", sans-serif;
+}
+#cb-input:focus{ border-color: #a5e6f6; box-shadow: 0 0 0 3px rgba(51,195,230,.18); }
+#cb-send{
+  background: var(--cb-primary); color:#fff; border:0; border-radius: 12px; padding: 10px 14px; cursor:pointer;
+  font: 700 13px/1 "Poppins", sans-serif; transition: transform .1s ease, background .12s ease;
+}
+#cb-send:hover{ background: var(--cb-primary-600); }
+#cb-send:active{ transform: scale(.98); }
+
+/* ===== Responsive ===== */
+@media (max-width: 480px){
+  #admenc-chatbot{ bottom: 18px; right: 18px; }
+  #cb-window{ width: min(92vw, 380px); height: 72vh; }
+}
+/* ==========================================
+   COMPACT SERVICES SECTION
+   ========================================== */
+
+/* Reduce the main section spacing */
+#services {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+}
+
+/* Make the section title smaller */
+#services-title {
+    font-size: 1.9rem !important;
+    margin-bottom: 0.5rem !important;
+}
+
+/* Make subtitle smaller */
+#services p.text-lg {
+    font-size: 0.9rem !important;
+    line-height: 1.4 !important;
+    max-width: 80% !important;
+    margin: 0 auto 0.8rem auto !important;
+}
+
+/* Reduce grid spacing */
+#services .grid {
+    gap: 1rem !important;
+}
+
+/* Service cards smaller */
+#services .service-card {
+    padding: 1rem !important;
+    border-radius: 14px !important;
+    min-height: auto !important;
+}
+
+/* Shrink the top icons OR remove them entirely */
+#services .service-icon-wrapper {
+    width: 42px !important;
+    height: 42px !important;
+    border-radius: 10px !important;
+    margin-bottom: 0.6rem !important;
+    transform: scale(0.8) !important;
+}
+
+/* If you want to REMOVE the icons completely, UNCOMMENT this line: */
+/* #services .service-icon-wrapper { display: none !important; } */
+
+/* Service card titles */
+#services h3 {
+    font-size: 1.1rem !important;
+    margin-bottom: 0.4rem !important;
+}
+
+/* Description paragraphs */
+#services .service-card p {
+    font-size: 0.82rem !important;
+    line-height: 1.35 !important;
+    margin-bottom: 0.6rem !important;
+}
+
+/* Checklist text */
+#services ul li {
+    font-size: 0.78rem !important;
+    gap: 0.4rem !important;
+}
+
+/* Checklist icons */
+#services ul li svg {
+    width: 14px !important;
+    height: 14px !important;
+}
+
+/* Make grid fit better on desktop */
+@media (min-width: 1024px) {
+    #services .grid.md\:grid-cols-2.lg\:grid-cols-3 {
+        grid-template-columns: repeat(3, 1fr) !important;
+    }
+}
+/* ==========================================
+   COMPACT TEAM SECTION — ICONS REMOVED
+   ========================================== */
+
+/* Reduce main section padding */
+#team {
+    padding-top: 1.8rem !important;
+    padding-bottom: 2rem !important;
+}
+
+/* Section title smaller */
+#team-title {
+    font-size: 1.9rem !important;
+    margin-bottom: 0.4rem !important;
+}
+
+/* Subtitle smaller */
+#team-subtitle {
+    font-size: 0.9rem !important;
+    max-width: 70% !important;
+    margin: 0 auto 1.2rem auto !important;
+}
+
+/* Leadership header smaller */
+#team h3 {
+    font-size: 1.2rem !important;
+    margin-bottom: 0.8rem !important;
+}
+
+/* Leadership cards */
+#team .group {
+    padding: 0.9rem !important;
+    border-radius: 14px !important;
+    min-height: auto !important;
+}
+
+/* Leadership avatar circles smaller */
+#team .group .w-32,
+#team .group .h-32 {
+    width: 60px !important;
+    height: 60px !important;
+    font-size: 1.1rem !important;
+}
+
+/* Leadership names */
+#team .group h4 {
+    font-size: 1rem !important;
+    margin-bottom: 0.25rem !important;
+}
+
+/* Leadership titles */
+#team .group p.text-\[\#33C3E6\] {
+    font-size: 1rem !important;
+    margin-bottom: 0.4rem !important;
+}
+
+/* Leadership description */
+#team .group p.text-gray-600 {
+    font-size: 1rem !important;
+    line-height: 1.3 !important;
+}
+
+/* Leadership grid tighter */
+#team .grid.md\:grid-cols-2 {
+    gap: 1rem !important;
+}
+
+/* ==========================================
+   BRANCHES — ICONS REMOVED
+   ========================================== */
+
+/* Remove the square icons completely */
+#team .w-16.h-16 {
+    display: none !important;
+}
+
+/* Branch cards smaller */
+#team .rounded-2xl {
+    padding: 1rem !important;
+    border-radius: 14px !important;
+}
+
+/* Branch titles */
+#team h4 {
+    font-size: 1rem !important;
+    margin-bottom: 0.5rem !important;
+}
+
+/* Branch descriptions */
+#team .text-gray-600 {
+    font-size: 1rem !important;
+    line-height: 1.35 !important;
+}
+
+/* Checklist smaller */
+#team ul li {
+    font-size: 0.78rem !important;
+    line-height: 1.3 !important;
+    gap: 0.35rem !important;
+}
+
+/* Checklist icons smaller */
+#team ul li svg {
+    width: 14px !important;
+    height: 14px !important;
+}
+
+/* Branch grid tighter */
+#team .grid.md\:grid-cols-3 {
+    gap: 1rem !important;
+}
+
+/* Fit 3 branches evenly */
+@media (min-width: 1024px) {
+    #team .grid.md\:grid-cols-3 {
+        grid-template-columns: repeat(3, 1fr) !important;
+    }
+}
+/* ==========================================
+   REMOVE LEADERSHIP AVATAR ICONS (RE / AA)
+   ========================================== */
+
+#team .group .w-32,
+#team .group .h-32 {
+    display: none !important;
+}
+
+/* Fix spacing after removing icons */
+#team .group {
+    padding-top: 1.2rem !important;
+}
+
+/* Move text upward to close the empty gap */
+#team .group h4 {
+    margin-top: 0 !important;
+}
+/* Blue branch titles */
+.branch-title {
+    color: #33C3E6 !important;
+    font-size: 1.3rem !important;
+    letter-spacing: 0.3px;
+}
+
+/* Make "Tel.:" blue too */
+.branch-subtitle {
+    color: #33C3E6 !important;
+    font-weight: 700 !important;
+}
+
+/* Improve card look */
+#team .rounded-2xl {
+    border-radius: 16px !important;
+    transition: 0.25s ease-in-out;
+}
+
+#team .rounded-2xl:hover {
+    box-shadow: 0 10px 28px rgba(51, 195, 230, 0.25) !important;
+    transform: translateY(-4px);
+}
+/* Make partner logos smaller */
+.partners-section img {
+    height: 40px !important;   /* adjust this number to control size */
+    width: auto !important;
+    object-fit: contain !important;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Shrink the box around each logo */
+.partners-section .p-6,
+.grid > div {
+    padding: 1rem !important;
+}
+ </style>
+<!-- Chatbot Widget -->
+
+
+  <!-- Chat Window -->
+  <section id="cb-window" role="dialog" aria-modal="false" aria-labelledby="cb-title">
+    <header id="cb-header">
+      <div class="cb-brand">
+        <img src="assets/image009.png" alt="" class="cb-logo" />
+        <h3 id="cb-title">ADMENC Assistant</h3>
+      </div>
+      <button id="cb-close" aria-label="Close chat">×</button>
+    </header>
+
+    <div id="cb-messages" class="cb-scroll">
+      <!-- Bot welcome message gets injected by JS -->
+    </div>
+
+    <div id="cb-quick-replies" class="cb-quick">
+      <button data-text="Request a quote">Request a quote</button>
+      <button data-text="Emergency support">Emergency support</button>
+      <button data-text="Navigation equipment">Navigation equipment</button>
+    </div>
+
+    <footer id="cb-input-bar">
+      <input id="cb-input" type="text" placeholder="Type your message…" aria-label="Message" />
+      <button id="cb-send" class="cb-send">Send</button>
+    </footer>
+  </section>
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const $ = (s, root=document) => root.querySelector(s);
+  const $$ = (s, root=document) => root.querySelectorAll(s);
+
+  const fab = $("#cb-fab");
+  const win = $("#cb-window");
+  const closeBtn = $("#cb-close");
+  const msgBox = $("#cb-messages");
+  const input = $("#cb-input");
+  const sendBtn = $("#cb-send");
+  const quick = $("#cb-quick-replies");
+
+  // Open/Close
+  const openChat = () => { win.classList.add("open"); input.focus(); };
+  const closeChat = () => { win.classList.remove("open"); };
+
+  fab?.addEventListener("click", openChat);
+  closeBtn?.addEventListener("click", closeChat);
+  document.addEventListener("keydown", e => { if (e.key === "Escape") closeChat(); });
+
+  // Helpers
+  function addRow({text, sender="bot"}){
+    const row = document.createElement("div");
+    row.className = `cb-row ${sender}`;
+    const avatar = document.createElement("div");
+    avatar.className = `cb-avatar ${sender}`;
+    avatar.textContent = sender === "bot" ? "A" : "U";
+    const bubble = document.createElement("div");
+    bubble.className = "cb-bubble";
+    bubble.textContent = text;
+    if(sender === "bot"){ row.append(avatar, bubble); } else { row.append(bubble, avatar); }
+    msgBox.appendChild(row);
+    msgBox.scrollTop = msgBox.scrollHeight;
+    return row;
+  }
+
+  function showTyping(){
+    const wrap = document.createElement("div");
+    wrap.className = "cb-typing";
+    wrap.innerHTML = `
+      <div class="cb-avatar">A</div>
+      <div class="dots">
+        <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+      </div>`;
+    msgBox.appendChild(wrap);
+    msgBox.scrollTop = msgBox.scrollHeight;
+    return wrap;
+  }
+
+  // Welcome sequence once
+  let welcomed = false;
+  function welcome(){
+    if(welcomed) return; welcomed = true;
+    setTimeout(() => addRow({text: "Hi! I’m the ADMENC Assistant 👋", sender:"bot"}), 150);
+    setTimeout(() => addRow({text: "How can we help? You can ask for a quote, emergency support, or details on electrical, engine, safety, HVAC, and navigation services.", sender:"bot"}), 500);
+  }
+  welcome();
+
+  // Quick replies
+  quick?.addEventListener("click", (e) => {
+    const btn = e.target.closest("button");
+    if(!btn) return;
+    input.value = btn.dataset.text || btn.textContent.trim();
+    sendBtn.click();
+  });
+
+  // Send flow
+  function send(){
+    const text = input.value.trim();
+    if(!text) return;
+    addRow({text, sender:"user"});
+    input.value = "";
+
+    const typing = showTyping();
+    // Mock bot response — replace later with real API call
+    setTimeout(() => {
+      typing.remove();
+      // Simple intent examples
+      const t = text.toLowerCase();
+      if(t.includes("quote")){
+        addRow({text: "Sure — to get a quote fast, please share: vessel type, length, current location, and the service needed. You can also use the form in the “Get Quote” section.", sender:"bot"});
+      } else if (t.includes("emergency")){
+        addRow({text: "Emergency support is 24/7. You can call 03 483 3685 now. Tell me your vessel type, location, and the issue so we can dispatch a technician.", sender:"bot"});
+      } else if (t.includes("navigation")){
+        addRow({text: "We install & calibrate GPS, radar, sonar, AIS, and radios. Would you like recommendations for your vessel class?", sender:"bot"});
+      } else {
+        addRow({text: "Thanks! A specialist will get back to you shortly. You can also leave your email/phone here to speed things up.", sender:"bot"});
+      }
+    }, 800);
+  }
+
+  sendBtn?.addEventListener("click", send);
+  input?.addEventListener("keydown", (e) => { if(e.key === "Enter") send(); });
+
+  // Accessibility: focus trap when open
+  const focusablesSel = 'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])';
+  document.addEventListener("keydown", (e) => {
+    if(e.key !== "Tab" || !win.classList.contains("open")) return;
+    const f = [...win.querySelectorAll(focusablesSel)].filter(x => !x.disabled && x.offsetParent !== null);
+    if(!f.length) return;
+    const first = f[0], last = f[f.length-1];
+    if(e.shiftKey && document.activeElement === first){ last.focus(); e.preventDefault(); }
+    else if(!e.shiftKey && document.activeElement === last){ first.focus(); e.preventDefault(); }
+  });
+});
+</script>
+<style>
+/* ===== SCROLLER CONTAINER ===== */
+.scroll-container {
+  width: 90%;
+  margin: 50px auto;
+ 
+}
+
+/* ===== TRACK ===== */
+.scroll-track {
+  display: flex;
+  gap: 24px;
+  width: max-content;
+}
+
+/* ===== IMAGE CARD ===== */
+.scroll-track img {
+  width: 300px;
+  height: 450px;
+  flex-shrink: 0;
+
+  border-radius: 14px;
+  border: 2px solid #e5e7eb;
+  background: #ffffff00;
+
+  box-shadow: 0 6px 14px rgba(44, 109, 177, 0.61);
+  cursor: pointer;
+
+  transition: 
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
+}
+
+/* Hover effect */
+.scroll-track img:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 22px rgb(16, 84, 192);
+}
+
+/* ===== ACTIVE (CLICKED) IMAGE ===== */
+.scroll-track img.active {
+  border-color: #33C3E6;
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 16px 35px rgb(51, 138, 230);
+  z-index: 2;
+}
+</style>
+
+<script>
+
+/* ===== IMAGE SCROLLER SCRIPT ===== */
+
+const track = document.querySelector('.scroll-track');
+const images = document.querySelectorAll('.scroll-track img');
+
+let position = 0;
+let speed = 1.5;     // increase number = faster scroll
+let paused = false; // controls hover pause
+
+/* Pause on hover */
+track.addEventListener("mouseenter", () => {
+  paused = true;
+});
+
+track.addEventListener("mouseleave", () => {
+  paused = false;
+});
+
+/* Auto scroll animation */
+function animateScroll() {
+  if (!paused) {
+    position -= speed;
+
+    if (Math.abs(position) >= track.scrollWidth / 2) {
+      position = 0;
+    }
+
+    track.style.transform = `translateX(${position}px)`;
+  }
+
+  requestAnimationFrame(animateScroll);
+}
+
+animateScroll();
+
+/* Click to highlight image */
+images.forEach(img => {
+  img.addEventListener("click", () => {
+    images.forEach(i => i.classList.remove("active"));
+    img.classList.add("active");
+  });
+});
+</script>
+<style>
+/* ==================================================
+   CONTACT FORM – FULL SPACING RESET & NORMALIZATION
+   ================================================== */
+
+/* 1. Restore grid behavior */
+#contact .grid {
+  display: grid !important;
+}
+
+/* 2. Restore correct column layout */
+#contact .sm\:grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+}
+
+/* 3. Restore Tailwind gap sizes */
+#contact .gap-4 {
+  gap: 1rem !important;
+}
+
+#contact .space-y-4 > * + * {
+  margin-top: 1rem !important;
+}
+
+/* 4. Fix card padding (not oversized) */
+#contact .rounded-2xl {
+  padding: 1.75rem !important;
+}
+
+/* 5. Normalize labels */
+#contact label {
+  font-size: 0.8rem !important;
+  font-weight: 600 !important;
+  margin-bottom: 0.25rem !important;
+}
+
+/* 6. Normalize inputs */
+#contact input,
+#contact textarea {
+  font-size: 0.85rem !important;
+  padding: 0.6rem 0.75rem !important;
+}
+
+/* 7. Fix textarea height */
+#contact textarea {
+  min-height: 110px;
+}
+
+/* 8. Fix spacing before submit button */
+#contact button[type="submit"] {
+  margin-top: 1rem !important;
+  font-size: 0.85rem !important;
+  padding: 0.75rem !important;
+}
+
+#contact .grid {
+  row-gap: 0.2rem !important;   /* ↓ was too large */
+  column-gap: 0.2rem !important; /* keep column spacing */
+}
+
+</style>
+<style>
+    /* ======================================
+   GLOBAL MOBILE RESPONSIVENESS FIXES
+   ====================================== */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  button,
+  a.btn {
+    width: 100%;
+  }
+}
+}
+</style>
+<script src="main.js" defer></script>
+
+</body>
+</html>

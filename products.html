@@ -1,0 +1,1331 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products | ADMENC</title>
+    <!-- <base href="./assets/"> -->
+    <link rel="icon" type="image/png" href="assets/icon1.png" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Original Web Fonts Integration -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Rajdhani:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="admenc.css" />
+    <link rel="stylesheet" href="CSS/products.css" />
+    <!-- Core Brand Typography Configuration -->
+  </head>
+  <body class="bg-gray-50 text-gray-800 antialiased">
+    <!-- Navigation (matches admenc's site-nav exactly, placed back at the very top) -->
+    <!-- Navigation -->
+    <nav
+      class="site-nav fixed top-0 left-0 right-0 z-50 nav-glass bg-white border-b border-gray-200 shadow-lg"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16 lg:h-20">
+          <!-- Logo -->
+          <div class="flex items-center gap-3 ml-2 sm:ml-4">
+            <div class="relative w-8 h-8 lg:w-10 lg:h-10 flex-shrink-0"></div>
+            <div class="brand">
+              <a href="index.html">
+                <img
+                  src="assets/image009.png"
+                  alt="ADMENC Logo"
+                  class="logo h-6 lg:h-8 w-auto"
+                />
+              </a>
+            </div>
+          </div>
+
+          <!-- Desktop Links -->
+          <div class="hidden lg:flex items-center gap-1">
+            <a
+              href="index.html"
+              class="nav-link px-4 py-2 text-gray-700 hover:text-[#33C3E6] hover:bg-[#33C3E6]/5 rounded-none transition-all"
+              >Home</a
+            >
+            <a
+              href="index.html#about"
+              class="nav-link px-4 py-2 text-gray-700 hover:text-[#33C3E6] hover:bg-[#33C3E6]/5 rounded-none transition-all"
+              >About</a
+            >
+            <a
+              href="services.html"
+              class="nav-link px-4 py-2 text-gray-700 hover:text-[#33C3E6] hover:bg-[#33C3E6]/5 rounded-none transition-all"
+              >Services</a
+            >
+            <a
+              href="index.html#team"
+              class="nav-link px-4 py-2 text-gray-700 hover:text-[#33C3E6] hover:bg-[#33C3E6]/5 rounded-none transition-all"
+              >Team</a
+            >
+            <a
+              href="products.html"
+              class="nav-link active-page px-4 py-2 text-[#33C3E6] bg-[#33C3E6]/5 rounded-none transition-all"
+              >Products</a
+            >
+            <a
+              href="projects.html"
+              class="nav-link px-4 py-2 text-gray-700 hover:text-[#33C3E6] hover:bg-[#33C3E6]/5 rounded-none transition-all"
+              >Projects</a
+            >
+            <a
+              href="careers.html"
+              class="nav-link px-4 py-2 text-gray-700 hover:text-[#33C3E6] hover:bg-[#33C3E6]/5 rounded-none transition-all"
+              >Careers</a
+            >
+            <a
+              href="index.html#contact"
+              class="nav-link px-4 py-2 text-gray-700 hover:text-[#33C3E6] hover:bg-[#33C3E6]/5 rounded-none transition-all"
+              >Contact</a
+            >
+          </div>
+
+          <!-- CTA -->
+          <div class="hidden lg:flex items-center gap-4">
+            <a
+              href="tel:034833685"
+              class="flex items-center gap-2 text-gray-700 hover:text-[#33C3E6] transition-colors group"
+            >
+              <div
+                class="w-8 h-8 bg-gray-100 group-hover:bg-[#33C3E6]/10 rounded-none flex items-center justify-center transition-colors"
+              >
+                <svg
+                  class="w-3.5 h-3.5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  stroke-width="2.5"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                  />
+                </svg>
+              </div>
+              <div class="flex flex-col">
+                <span class="text-xs text-gray-500 font-medium leading-none"
+                  >Call Us</span
+                ><span class="text-sm font-bold leading-tight call-us-number"
+                  >03 483 3685</span
+                >
+              </div>
+            </a>
+            <a
+              href="quotation.html"
+              class="inline-flex items-center gap-2 btn-primary text-white font-bold shadow-md hover:shadow-lg transition-all"
+              style="border-radius: 8px !important"
+            >
+              Get Quote
+              <svg
+                class="w-4 h-4"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                stroke-width="2.5"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M13 7l5 5m0 0l-5 5m5-5H6"
+                />
+              </svg>
+            </a>
+          </div>
+
+          <!-- Mobile Menu Button -->
+          <button
+            id="mobile-menu-btn"
+            class="lg:hidden w-10 h-10 flex items-center justify-center rounded-none hover:bg-gray-100 transition-colors"
+            aria-label="Toggle menu"
+          >
+            <svg
+              id="menu-icon-open"
+              class="w-6 h-6 text-gray-700"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+            <svg
+              id="menu-icon-close"
+              class="w-6 h-6 text-gray-700 hidden"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Dropdown Menu -->
+      <div
+        id="mobile-menu"
+        class="hidden lg:hidden bg-white border-t border-gray-200"
+      >
+        <div class="px-4 py-4 space-y-1">
+          <a
+            href="index.html"
+            class="mobile-nav-link block px-4 py-3 text-gray-700 hover:text-[#33C3E6] hover:bg-[#33C3E6]/5 rounded-none transition-all"
+            >Home</a
+          >
+          <a
+            href="index.html#about"
+            class="mobile-nav-link block px-4 py-3 text-gray-700 hover:text-[#33C3E6] hover:bg-[#33C3E6]/5 rounded-none transition-all"
+            >About</a
+          >
+          <a
+            href="services.html"
+            class="mobile-nav-link block px-4 py-3 text-gray-700 hover:text-[#33C3E6] hover:bg-[#33C3E6]/5 rounded-none transition-all"
+            >Services</a
+          >
+          <a
+            href="index.html#team"
+            class="mobile-nav-link block px-4 py-3 text-gray-700 hover:text-[#33C3E6] hover:bg-[#33C3E6]/5 rounded-none transition-all"
+            >Team</a
+          >
+          <a
+            href="products.html"
+            class="mobile-nav-link block px-4 py-3 text-[#33C3E6] bg-[#33C3E6]/5 rounded-none transition-all"
+            >Products</a
+          >
+          <a
+            href="projects.html"
+            class="mobile-nav-link block px-4 py-3 text-gray-700 hover:text-[#33C3E6] hover:bg-[#33C3E6]/5 rounded-none transition-all"
+            >Projects</a
+          >
+          <a
+            href="careers.html"
+            class="mobile-nav-link block px-4 py-3 text-gray-700 hover:text-[#33C3E6] hover:bg-[#33C3E6]/5 rounded-none transition-all"
+            >Careers</a
+          >
+          <a
+            href="index.html#contact"
+            class="mobile-nav-link block px-4 py-3 text-gray-700 hover:text-[#33C3E6] hover:bg-[#33C3E6]/5 rounded-none transition-all"
+            >Contact</a
+          >
+          <a
+            href="quotation.html"
+            class="block mt-2 text-center btn-primary text-white font-bold"
+            style="border-radius: 8px !important"
+            >Get Quote</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!-- Top Full-Width Image Sticking to Top and Sides (positioned right below the fixed navbar) -->
+    <div class="w-full pt-16 lg:pt-20">
+      <img
+        src="assets/p14.jpg"
+        alt="Products Banner"
+        class="w-full h-auto object-block block"
+      />
+    </div>
+
+    <!-- Main Content Area with compressed vertical padding and gaps -->
+    <main
+      class="py-8 lg:py-12 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center"
+    >
+      <!-- Main Hero Title -->
+      <div class="text-center w-full mb-8">
+        <h1
+          class="font-brand-heading text-4xl text-gray-900 sm:text-5xl mb-2 text-center uppercase tracking-wide"
+          style="
+            font-family: &quot;Rajdhani&quot;, sans-serif;
+            font-weight: 700;
+          "
+        >
+          Our Marine <span class="text-[#33C3E6]">Products</span>
+        </h1>
+      </div>
+
+      <!-- Content Layout Stack -->
+      <div class="flex flex-col gap-8 w-full items-center">
+        <!-- Tab Switcher Navigation Buttons (Sharp Edges) -->
+        <div class="w-full flex justify-center">
+          <div
+            class="flex flex-wrap gap-3 items-center justify-center max-w-4xl"
+          >
+            <button
+              onclick="showProduct('electric-motors')"
+              id="btn-electric-motors"
+              class="product-btn px-5 py-2.5 rounded-none font-semibold text-sm bg-[#33C3E6] text-white transition-all shadow-sm cursor-pointer text-center"
+            >
+              Electric Motors
+            </button>
+            <button
+              onclick="showProduct('marine-generators')"
+              id="btn-marine-generators"
+              class="product-btn px-5 py-2.5 rounded-none font-semibold text-sm text-gray-700 bg-white border border-gray-200 hover:bg-gray-50 hover:text-gray-900 transition-all cursor-pointer text-center"
+            >
+              Marine Generators
+            </button>
+            <button
+              onclick="showProduct('marine-transformers')"
+              id="btn-marine-transformers"
+              class="product-btn px-5 py-2.5 rounded-none font-semibold text-sm text-gray-700 bg-white border border-gray-200 hover:bg-gray-50 hover:text-gray-900 transition-all cursor-pointer text-center"
+            >
+              Marine Transformers
+            </button>
+            <button
+              onclick="showProduct('propulsion-motors')"
+              id="btn-propulsion-motors"
+              class="product-btn px-5 py-2.5 rounded-none font-semibold text-sm text-gray-700 bg-white border border-gray-200 hover:bg-gray-50 hover:text-gray-900 transition-all cursor-pointer text-center"
+            >
+              Electric Propulsion Motors
+            </button>
+            <button
+              onclick="showProduct('electric-spare-parts')"
+              id="btn-electric-spare-parts"
+              class="product-btn px-5 py-2.5 rounded-none font-semibold text-sm text-gray-700 bg-white border border-gray-200 hover:bg-gray-50 hover:text-gray-900 transition-all cursor-pointer text-center"
+            >
+              Electric Spare Parts
+            </button>
+            <button
+              onclick="showProduct('marine-lights')"
+              id="btn-marine-lights"
+              class="product-btn px-5 py-2.5 rounded-none font-semibold text-sm text-gray-700 bg-white border border-gray-200 hover:bg-gray-50 hover:text-gray-900 transition-all cursor-pointer text-center"
+            >
+              Marine lignting
+            </button>
+            <button
+              onclick="showProduct('PLC')"
+              id="btn-PLC"
+              class="product-btn px-5 py-2.5 rounded-none font-semibold text-sm text-gray-700 bg-white border border-gray-200 hover:bg-gray-50 hover:text-gray-900 transition-all cursor-pointer text-center"
+            >
+              PLC
+            </button>
+            <button
+              onclick="showProduct('electrical-protection')"
+              id="btn-electrical-protection"
+              class="product-btn px-5 py-2.5 rounded-none font-semibold text-sm text-gray-700 bg-white border border-gray-200 hover:bg-gray-50 hover:text-gray-900 transition-all cursor-pointer text-center"
+            >
+              Electrical protection
+            </button>
+            <button
+              onclick="showProduct('power-systems')"
+              id="btn-power-systems"
+              class="product-btn px-5 py-2.5 rounded-none font-semibold text-sm text-gray-700 bg-white border border-gray-200 hover:bg-gray-50 hover:text-gray-900 transition-all cursor-pointer text-center"
+            >
+              Power systems
+            </button>
+            <button
+              onclick="showProduct('amp')"
+              id="btn-amp"
+              class="product-btn px-5 py-2.5 rounded-none font-semibold text-sm text-gray-700 bg-white border border-gray-200 hover:bg-gray-50 hover:text-gray-900 transition-all cursor-pointer text-center"
+            >
+              AMP
+            </button>
+          </div>
+        </div>
+
+        <!-- Content Presentation Panels -->
+        <div class="py-2 min-h-[260px] w-full">
+          <!-- Panel 1: Electric Motors -->
+          <div id="panel-electric-motors" class="product-panel space-y-6">
+            <div>
+              <h3 class="product-panel-header text-gray-900 mb-2 uppercase">
+                Electric Motors
+              </h3>
+              <p class="product-main-desc text-gray-700">
+                Electric motors convert electrical energy into mechanical energy
+                to power a wide range of onboard equipment. They operate by
+                creating a rotating magnetic field inside the motor, which
+                interacts with the rotor to produce continuous rotational
+                motion. This mechanical motion is then transmitted to connected
+                machinery such as pumps, fans, compressors, winches, cranes,
+                steering gear, and thrusters. Due to their reliability and
+                efficiency, electric motors are the most commonly used
+                electrical machines on modern vessels.
+              </p>
+            </div>
+            <div>
+              <h4 class="product-main-desc font-bold text-gray-900 mb-3">
+                What We Offer
+              </h4>
+              <ul class="space-y-2.5 w-full">
+                <li
+                  class="flex items-start gap-3 product-sub-desc text-gray-600"
+                >
+                  <span class="text-[#33C3E6] font-bold">•</span>
+                  <span
+                    ><strong>High Efficiency:</strong> Converts electrical
+                    energy into mechanical power with minimal energy
+                    losses.</span
+                  >
+                </li>
+                <li
+                  class="flex items-start gap-3 product-sub-desc text-gray-600"
+                >
+                  <span class="text-[#33C3E6] font-bold">•</span>
+                  <span
+                    ><strong>Reliable Performance:</strong> Designed for
+                    continuous operation under harsh marine conditions,
+                    including vibration, humidity, and temperature
+                    variations.</span
+                  >
+                </li>
+                <li
+                  class="flex items-start gap-3 product-sub-desc text-gray-600"
+                >
+                  <span class="text-[#33C3E6] font-bold">•</span>
+                  <span
+                    ><strong>Low Maintenance:</strong> Modern AC motors have
+                    simple construction with fewer moving parts, reducing
+                    maintenance requirements.</span
+                  >
+                </li>
+                <li
+                  class="flex items-start gap-3 product-sub-desc text-gray-600"
+                >
+                  <span class="text-[#33C3E6] font-bold">•</span>
+                  <span
+                    ><strong>Versatile Applications:</strong> Suitable for
+                    powering nearly every mechanical system onboard, from
+                    auxiliary equipment to propulsion support.</span
+                  >
+                </li>
+                <li
+                  class="flex items-start gap-3 product-sub-desc text-gray-600"
+                >
+                  <span class="text-[#33C3E6] font-bold">•</span>
+                  <span
+                    ><strong>Energy Savings:</strong> Compatible with variable
+                    frequency drives (VFDs), allowing motor speed to match
+                    operational demand and reducing electricity
+                    consumption.</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Panel 2: Marine Generators -->
+          <div
+            id="panel-marine-generators"
+            class="product-panel hidden space-y-6"
+          >
+            <div>
+              <h3 class="product-panel-header text-gray-900 mb-2 uppercase">
+                Marine Generators (Alternators)
+              </h3>
+              <p class="product-main-desc text-gray-700">
+                Marine generators are responsible for producing the electrical
+                power required to operate all onboard electrical systems. They
+                work by converting mechanical energy from a diesel engine, gas
+                turbine, or shaft-driven system into electrical energy through
+                the principle of electromagnetic induction. As the generator's
+                rotor rotates within a magnetic field, an alternating electrical
+                current is induced in the stator windings, supplying power to
+                the vessel's electrical network. Marine generators are the
+                primary source of electricity for lighting, navigation systems,
+                communication equipment, cargo handling systems, and auxiliary
+                machinery.
+              </p>
+            </div>
+            <div>
+              <h4 class="product-main-desc font-bold text-gray-900 mb-3">
+                What We Offer
+              </h4>
+              <ul class="space-y-2.5 w-full">
+                <li
+                  class="flex items-start gap-3 product-sub-desc text-gray-600"
+                >
+                  <span class="text-[#33C3E6] font-bold">•</span>
+                  <span
+                    ><strong>Continuous Power Supply:</strong> Delivers reliable
+                    electrical power to all essential shipboard equipment.</span
+                  >
+                </li>
+                <li
+                  class="flex items-start gap-3 product-sub-desc text-gray-600"
+                >
+                  <span class="text-[#33C3E6] font-bold">•</span>
+                  <span
+                    ><strong>High Electrical Output:</strong> Capable of
+                    supplying large electrical loads required for commercial and
+                    passenger vessels.</span
+                  >
+                </li>
+                <li
+                  class="flex items-start gap-3 product-sub-desc text-gray-600"
+                >
+                  <span class="text-[#33C3E6] font-bold">•</span>
+                  <span
+                    ><strong>Efficient Energy Conversion:</strong> Converts
+                    mechanical energy into electrical energy with high
+                    efficiency.</span
+                  >
+                </li>
+                <li
+                  class="flex items-start gap-3 product-sub-desc text-gray-600"
+                >
+                  <span class="text-[#33C3E6] font-bold">•</span>
+                  <span
+                    ><strong>Operational Reliability:</strong> Designed for
+                    continuous operation during long voyages with minimal
+                    downtime.</span
+                  >
+                </li>
+                <li
+                  class="flex items-start gap-3 product-sub-desc text-gray-600"
+                >
+                  <span class="text-[#33C3E6] font-bold">•</span>
+                  <span
+                    ><strong>Flexible Power Management:</strong> Multiple
+                    generators can operate together to increase capacity and
+                    provide redundancy in case of failure.</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Panel 3: Marine Transformers -->
+          <div
+            id="panel-marine-transformers"
+            class="product-panel hidden space-y-6"
+          >
+            <div>
+              <h3 class="product-panel-header text-gray-900 mb-2 uppercase">
+                Marine Transformers
+              </h3>
+              <p class="product-main-desc text-gray-700">
+                Marine transformers are electrical machines used to increase or
+                decrease voltage levels while maintaining efficient power
+                transmission throughout the vessel. They work through the
+                principle of electromagnetic induction, where alternating
+                current flowing through the primary winding creates a magnetic
+                field that induces a voltage in the secondary winding. By
+                changing the number of turns in each winding, the transformer
+                can either step up or step down the output voltage to meet the
+                requirements of different onboard equipment. Transformers also
+                provide electrical isolation, improving safety and protecting
+                sensitive electrical systems from faults.
+              </p>
+            </div>
+            <div>
+              <h4 class="product-main-desc font-bold text-gray-900 mb-3">
+                What We Offer
+              </h4>
+              <ul class="space-y-2.5 w-full">
+                <li
+                  class="flex items-start gap-3 product-sub-desc text-gray-600"
+                >
+                  <span class="text-[#33C3E6] font-bold">•</span>
+                  <span
+                    ><strong>Voltage Regulation:</strong> Supplies the correct
+                    voltage for various onboard electrical systems and
+                    equipment.</span
+                  >
+                </li>
+                <li
+                  class="flex items-start gap-3 product-sub-desc text-gray-600"
+                >
+                  <span class="text-[#33C3E6] font-bold">•</span>
+                  <span
+                    ><strong>Electrical Isolation:</strong> Improves personnel
+                    and equipment safety by separating electrical
+                    circuits.</span
+                  >
+                </li>
+                <li
+                  class="flex items-start gap-3 product-sub-desc text-gray-600"
+                >
+                  <span class="text-[#33C3E6] font-bold">•</span>
+                  <span
+                    ><strong>High Efficiency:</strong> Transfers electrical
+                    power with very low energy losses.</span
+                  >
+                </li>
+                <li
+                  class="flex items-start gap-3 product-sub-desc text-gray-600"
+                >
+                  <span class="text-[#33C3E6] font-bold">•</span>
+                  <span
+                    ><strong>Reliable Operation:</strong> Built to withstand the
+                    demanding environmental conditions encountered at sea.</span
+                  >
+                </li>
+                <li
+                  class="flex items-start gap-3 product-sub-desc text-gray-600"
+                >
+                  <span class="text-[#33C3E6] font-bold">•</span>
+                  <span
+                    ><strong>Compact and Durable Design:</strong> Optimized for
+                    limited installation space while maintaining long service
+                    life.</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Panel 4: Electric Propulsion Motors -->
+          <div
+            id="panel-propulsion-motors"
+            class="product-panel hidden space-y-6"
+          >
+            <div>
+              <h3 class="product-panel-header text-gray-900 mb-2 uppercase">
+                Electric Propulsion Motors
+              </h3>
+              <p class="product-main-desc text-gray-700">
+                Electric propulsion motors provide the mechanical power required
+                to rotate a ship's propeller in electric and hybrid propulsion
+                systems. They operate using electromagnetic forces generated
+                between the stator and rotor. When electrical power is supplied
+                to the stator windings, a rotating magnetic field is produced,
+                causing the rotor to turn. This rotational motion is transmitted
+                directly or through a propulsion shaft to the propeller,
+                generating thrust that moves the vessel through the water.
+                Electric propulsion motors offer smooth operation, precise speed
+                control, and improved energy efficiency compared to conventional
+                mechanical propulsion systems.
+              </p>
+            </div>
+            <div>
+              <h4 class="product-main-desc font-bold text-gray-900 mb-3">
+                What We Offer
+              </h4>
+              <ul class="space-y-2.5 w-full">
+                <li
+                  class="flex items-start gap-3 product-sub-desc text-gray-600"
+                >
+                  <span class="text-[#33C3E6] font-bold">•</span>
+                  <span
+                    ><strong>High Propulsion Efficiency:</strong> Converts
+                    electrical energy into propeller thrust with minimal
+                    losses.</span
+                  >
+                </li>
+                <li
+                  class="flex items-start gap-3 product-sub-desc text-gray-600"
+                >
+                  <span class="text-[#33C3E6] font-bold">•</span>
+                  <span
+                    ><strong>Precise Speed and Torque Control:</strong> Provides
+                    excellent maneuverability during docking, positioning, and
+                    navigation.</span
+                  >
+                </li>
+                <li
+                  class="flex items-start gap-3 product-sub-desc text-gray-600"
+                >
+                  <span class="text-[#33C3E6] font-bold">•</span>
+                  <span
+                    ><strong>Reduced Fuel Consumption:</strong> Improves overall
+                    vessel efficiency when integrated into electric or hybrid
+                    propulsion systems.</span
+                  >
+                </li>
+                <li
+                  class="flex items-start gap-3 product-sub-desc text-gray-600"
+                >
+                  <span class="text-[#33C3E6] font-bold">•</span>
+                  <span
+                    ><strong>Low Noise and Vibration:</strong> Creates a quieter
+                    operating environment and reduces underwater radiated
+                    noise.</span
+                  >
+                </li>
+                <li
+                  class="flex items-start gap-3 product-sub-desc text-gray-600"
+                >
+                  <span class="text-[#33C3E6] font-bold">•</span>
+                  <span
+                    ><strong>Environmentally Friendly:</strong> Supports reduced
+                    emissions and compliance with modern environmental
+                    regulations through cleaner propulsion technology.</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Panel 5: Electric spare parts -->
+          <div
+            id="panel-electric-spare-parts"
+            class="product-panel hidden space-y-6"
+          >
+            <div>
+              <h3 class="product-panel-header text-gray-900 mb-2 uppercase">
+                Electric Spare Parts — Relays, Contactors, Sensors, Push
+                Buttons, Switches & Hot Plates
+              </h3>
+              <p class="product-main-desc text-gray-700">
+                Keep your electrical systems running safely and efficiently with
+                our comprehensive range of electric spare parts. From switching
+                and control components to sensing, operator controls, and
+                heating elements, our products are selected to support reliable
+                performance across industrial machinery, control panels,
+                automation systems, commercial equipment, and maintenance
+                applications.
+              </p>
+            </div>
+            <div>
+              <h4 class="product-main-desc font-bold text-gray-900 mb-3">
+                What We Offer
+              </h4>
+              <ul class="space-y-2.5 w-full">
+                <li
+                  class="flex items-start gap-3 product-sub-desc text-gray-600"
+                >
+                  <span class="text-[#33C3E6] font-bold">•</span>
+                  <span
+                    ><strong>Relays:</strong>Reliable electrical switching and
+                    control for automation and control circuits.</span
+                  >
+                </li>
+                <li
+                  class="flex items-start gap-3 product-sub-desc text-gray-600"
+                >
+                  <span class="text-[#33C3E6] font-bold">•</span>
+                  <span
+                    ><strong>Contactors:</strong>Robust switching solutions for
+                    motors, heaters, lighting, and other electrical loads.</span
+                  >
+                </li>
+                <li
+                  class="flex items-start gap-3 product-sub-desc text-gray-600"
+                >
+                  <span class="text-[#33C3E6] font-bold">•</span>
+                  <span
+                    ><strong>Sensors:</strong> Components for detecting
+                    position, proximity, temperature, movement, and operating
+                    conditions.</span
+                  >
+                </li>
+                <li
+                  class="flex items-start gap-3 product-sub-desc text-gray-600"
+                >
+                  <span class="text-[#33C3E6] font-bold">•</span>
+                  <span
+                    ><strong>Push Buttons:</strong> Practical operator controls
+                    for starting, stopping, resetting, and controlling
+                    equipment.</span
+                  >
+                </li>
+                <li
+                  class="flex items-start gap-3 product-sub-desc text-gray-600"
+                >
+                  <span class="text-[#33C3E6] font-bold">•</span>
+                  <span
+                    ><strong>Switches:</strong> Manual switching components for
+                    electrical circuits and machinery.</span
+                  >
+                </li>
+                <li
+                  class="flex items-start gap-3 product-sub-desc text-gray-600"
+                >
+                  <span class="text-[#33C3E6] font-bold">•</span>
+                  <span
+                    ><strong>Hot Plates:</strong>Electric heating components for
+                    equipment requiring controlled heat generation.</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Panel 6: Marine lights -->
+          <div id="panel-marine-lights" class="product-panel hidden space-y-6">
+            <div>
+              <h3 class="product-panel-header text-gray-900 mb-2 uppercase">
+                Marine Lighting — LED Lamps, Floodlights, Navigation Lights,
+                Searchlights
+              </h3>
+              <p class="product-main-desc text-gray-700">
+                Our Marine Lighting range provides practical lighting solutions
+                for commercial vessels, workboats, fishing boats, yachts,
+                offshore applications, engine rooms, decks, corridors, and other
+                marine environments. From energy-efficient LED lamps and
+                powerful floodlights to navigation lights, searchlights, and
+                marine-rated fixtures, our range covers the essential lighting
+                requirements of modern vessels.
+              </p>
+            </div>
+            <div>
+              <h4 class="product-main-desc font-bold text-gray-900 mb-3">
+                What We Offer
+              </h4>
+              <ul class="space-y-2.5 w-full">
+                <li
+                  class="flex items-start gap-3 product-sub-desc text-gray-600"
+                >
+                  <span class="text-[#33C3E6] font-bold">•</span>
+                  <span
+                    ><strong>LED Lamps:</strong> Efficient general-purpose lighting for cabins, corridors, engine rooms, and work areas.</span
+                  >
+                </li>
+                <li
+                  class="flex items-start gap-3 product-sub-desc text-gray-600"
+                >
+                  <span class="text-[#33C3E6] font-bold">•</span>
+                  <span
+                    ><strong>Floodlights:</strong> Powerful wide-area illumination for decks, cargo areas, working zones, and outdoor spaces.</span
+                  >
+                </li>
+                <li
+                  class="flex items-start gap-3 product-sub-desc text-gray-600"
+                >
+                  <span class="text-[#33C3E6] font-bold">•</span>
+                  <span
+                    ><strong>Navigation Lights:</strong> Essential signaling and visibility lighting for vessels operating at sea or in waterways.</span
+                  >
+                </li>
+                <li
+                  class="flex items-start gap-3 product-sub-desc text-gray-600"
+                >
+                  <span class="text-[#33C3E6] font-bold">•</span>
+                  <span
+                    ><strong>Searchlights:</strong> High-intensity directional lighting for navigation, inspection, docking, and nighttime operations.</span
+                  >
+                </li>
+
+                <li
+                  class="flex items-start gap-3 product-sub-desc text-gray-600"
+                >
+                  <span class="text-[#33C3E6] font-bold">•</span>
+                  <span
+                    ><strong>Fittings & Fixtures:</strong> Durable marine lighting housings and fixtures designed for practical installation in demanding environments.</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Panel 7: VFD Systems -->
+          <div id="panel-PLC" class="product-panel hidden space-y-6">
+            <div>
+              <h3 class="product-panel-header text-gray-900 mb-2 uppercase">
+                PLC — Programmable Logic Controllers
+              </h3>
+              <p class="product-main-desc text-gray-700">
+                VOur PLC range provides the essential control components needed to build, maintain, upgrade, and expand industrial automation systems. Whether you are replacing an existing PLC, developing a new control panel, or expanding an automation system, our selection helps you find the right control solution for your application.
+              </p>
+            </div>
+            <div>
+              <h4 class="product-main-desc font-bold text-gray-900 mb-3">
+                Our PLC solutions can include:
+              </h4>
+              <ul class="space-y-2.5 w-full">
+                <li
+                  class="flex items-start gap-3 product-sub-desc text-gray-600"
+                >
+                  <span class="text-[#33C3E6] font-bold">•</span>
+                  <span
+                    ><strong>Energy Efficiency:</strong> Matches motor speed to
+                    actual demand and reduces unnecessary power
+                    consumption.</span
+                  >
+                </li>
+                <li
+                  class="flex items-start gap-3 product-sub-desc text-gray-600"
+                >
+                  <span class="text-[#33C3E6] font-bold">•</span>
+                  <span
+                    ><strong>Compact PLCs:</strong> Integrated solutions for machines and smaller automation systems.</span
+                  >
+                </li>
+                <li
+                  class="flex items-start gap-3 product-sub-desc text-gray-600"
+                >
+                  <span class="text-[#33C3E6] font-bold">•</span>
+                  <span
+                    ><strong>Modular PLCs:</strong> Flexible systems that can be expanded with additional modules.</span
+                  >
+                </li>
+                <li
+                  class="flex items-start gap-3 product-sub-desc text-gray-600"
+                >
+                  <span class="text-[#33C3E6] font-bold">•</span>
+                  <span
+                    ><strong>CPU / Controller Modules:</strong> The processing core responsible for executing the control program.</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Panel 8: electrical protection -->
+          <div
+            id="panel-electrical-protection"
+            class="product-panel hidden space-y-6"
+          >
+            <div>
+              <h3 class="product-panel-header text-gray-900 mb-2 uppercase">
+                Electrical Protection — Circuit Breakers, Fuses, Overload Relays & Protection Devices
+              </h3>
+              <p class="product-main-desc text-gray-700">
+                Our Electrical Protection range includes circuit breakers, fuses, overload relays, and other protection components designed for applications across industrial machinery, control panels, motor systems, commercial installations, and electrical distribution.<br>
+                Whether you are building a new control panel, maintaining existing equipment, replacing a failed protection device, or upgrading an electrical system, choosing the correct protection component is essential for safe and dependable operation.
+              </p>
+            </div>
+            <div>
+              <h4 class="product-main-desc font-bold text-gray-900 mb-3">
+                What We Offer
+              </h4>
+              <ul class="space-y-2.5 w-full">
+                <li
+                  class="flex items-start gap-3 product-sub-desc text-gray-600"
+                >
+                  <span class="text-[#33C3E6] font-bold">•</span>
+                  <span
+                    ><strong>Circuit Breakers:</strong> Protection against overcurrent and short-circuit conditions.</span
+                  >
+                </li>
+                <li
+                  class="flex items-start gap-3 product-sub-desc text-gray-600"
+                >
+                  <span class="text-[#33C3E6] font-bold">•</span>
+                  <span
+                    ><strong>Fuses:</strong> FusesFast-acting circuit protection for electrical and electronic equipment.</span
+                  >
+                </li>
+                <li
+                  class="flex items-start gap-3 product-sub-desc text-gray-600"
+                >
+                  <span class="text-[#33C3E6] font-bold">•</span>
+                  <span
+                    ><strong>Overload Relays:</strong> Protection for motors against sustained overload conditions.</span
+                  >
+                </li>
+                <li
+                  class="flex items-start gap-3 product-sub-desc text-gray-600"
+                >
+                  <span class="text-[#33C3E6] font-bold">•</span>
+                  <span
+                    ><strong>Protection Accessories:</strong> Auxiliary contacts, terminals, accessories, and supporting components.</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Panel 9: Power Systems -->
+          <div
+            id="panel-power-systems"
+            class="product-panel hidden space-y-6"
+          >
+            <div>
+              <h3 class="product-panel-header text-gray-900 mb-2 uppercase">
+                Power Systems — Batteries, Battery Chargers, UPS Systems & Power Supplies
+              </h3>
+              <p class="product-main-desc text-gray-700">
+                Our Power Systems range includes batteries, battery chargers, UPS systems, power supplies, and related power components for industrial facilities, control panels, automation systems, telecommunications, marine applications, security systems, and other electrical installations.<br> Whether you need a dependable DC power source, backup power during an outage, a replacement battery, or a power supply for control equipment, our range provides solutions for a wide variety of applications.
+              </p>
+            </div>
+            <div>
+              <h4 class="product-main-desc font-bold text-gray-900 mb-3">
+                What We Offer
+              </h4>
+              <ul class="space-y-2.5 w-full">
+                <li
+                  class="flex items-start gap-3 product-sub-desc text-gray-600"
+                >
+                  <span class="text-[#33C3E6] font-bold">•</span>
+                  <span
+                    ><strong>Batteries:</strong> Energy storage solutions for standby, backup, and DC power applications.</span
+                  >
+                </li>
+                <li
+                  class="flex items-start gap-3 product-sub-desc text-gray-600"
+                >
+                  <span class="text-[#33C3E6] font-bold">•</span>
+                  <span
+                    ><strong>Battery Chargers:</strong> Reliable charging solutions for maintaining batteries and DC systems.</span
+                  >
+                </li>
+                <li
+                  class="flex items-start gap-3 product-sub-desc text-gray-600"
+                >
+                  <span class="text-[#33C3E6] font-bold">•</span>
+                  <span
+                    ><strong>UPS Systems:</strong> Uninterruptible power solutions for equipment requiring continuous power.</span
+                  >
+                </li>
+                <li
+                  class="flex items-start gap-3 product-sub-desc text-gray-600"
+                >
+                  <span class="text-[#33C3E6] font-bold">•</span>
+                  <span
+                    ><strong>Power Supplies:</strong> Stable AC-to-DC and DC power conversion for electrical and automation equipment.</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        
+          <!-- Panel 10: amp-->
+          <div
+            id="panel-amp"
+            class="product-panel hidden space-y-6"
+          >
+            <div>
+              <h3 class="product-panel-header text-gray-900 mb-2 uppercase">
+                Alternative Maritime Power (AMP)
+              </h3>
+              <p class="product-main-desc text-gray-700">
+                provides turnkey Alternative Maritime Power (AMP) and Shore Power Connection systems to help shipowners meet global decarbonization standards, lower port fuel costs, and achieve environmental compliance.
+              </p>
+            </div>
+            <div>
+              <h4 class="product-main-desc font-bold text-gray-900 mb-3">
+                What We Offer
+              </h4>
+              <ul class="space-y-2.5 w-full">
+                <li
+                  class="flex items-start gap-3 product-sub-desc text-gray-600"
+                >
+                  <span class="text-[#33C3E6] font-bold">•</span>
+                  <span
+                    ><strong>Class-Certified Quality:</strong> Full DNV management system certification and partner access to major international class-approved components</span
+                  >
+                </li>
+                <li
+                  class="flex items-start gap-3 product-sub-desc text-gray-600"
+                >
+                  <span class="text-[#33C3E6] font-bold">•</span>
+                  <span
+                    ><strong>Environmental Impact:</strong> Eliminates auxiliary engine emissions while berthed to ensure full compliance with zero-emission port mandates.</span
+                  >
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Always Visible Global Text Section with matching heading style -->
+        <div class="w-full space-y-6 pt-8">
+          <div class="text-center w-full mb-6">
+            <h2
+              class="font-brand-heading text-3xl text-gray-900 sm:text-4xl mb-2 text-center uppercase tracking-wide"
+              style="
+                font-family: &quot;Rajdhani&quot;, sans-serif;
+                font-weight: 700;
+              "
+            >
+              Why Choose <span class="text-[#33C3E6]">Admenc?</span>
+            </h2>
+          </div>
+          <div>
+            <h3 class="product-panel-header text-gray-900 mb-2 uppercase">
+              Complete Marine Energy Solutions
+            </h3>
+            <p class="product-main-desc text-gray-700">
+              Admenc delivers integrated electrical and energy solutions that
+              enhance efficiency, reliability, and sustainability across every
+              aspect of vessel operations.
+            </p>
+          </div>
+          <div>
+            <h4 class="product-main-desc font-bold text-gray-900 mb-3">
+              Key Advantages
+            </h4>
+            <ul class="space-y-2.5 w-full">
+              <li class="flex items-start gap-3 product-sub-desc text-gray-600">
+                <span class="text-[#33C3E6] font-bold">•</span>
+                <span
+                  ><strong>Comprehensive Product Portfolio:</strong> Complete
+                  solutions for power generation, propulsion, distribution, and
+                  onboard electrical systems.</span
+                >
+              </li>
+              <li class="flex items-start gap-3 product-sub-desc text-gray-600">
+                <span class="text-[#33C3E6] font-bold">•</span>
+                <span
+                  ><strong>Improved Energy Efficiency:</strong> Advanced
+                  technologies designed to optimize power usage and reduce
+                  operating costs.</span
+                >
+              </li>
+              <li class="flex items-start gap-3 product-sub-desc text-gray-600">
+                <span class="text-[#33C3E6] font-bold">•</span>
+                <span
+                  ><strong>Reliable Performance:</strong> Engineered for
+                  continuous operation in demanding marine environments with
+                  proven long-term durability.</span
+                >
+              </li>
+              <li class="flex items-start gap-3 product-sub-desc text-gray-600">
+                <span class="text-[#33C3E6] font-bold">•</span>
+                <span
+                  ><strong>Regulatory Compliance:</strong> Solutions designed to
+                  support current and future maritime safety and environmental
+                  standards.</span
+                >
+              </li>
+              <li class="flex items-start gap-3 product-sub-desc text-gray-600">
+                <span class="text-[#33C3E6] font-bold">•</span>
+                <span
+                  ><strong>Flexible Integration:</strong> Compatible with
+                  newbuild projects, retrofits, and a wide range of vessel
+                  types.</span
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="product-main-desc font-bold text-gray-900 mb-3">
+              Expert Support
+            </h4>
+            <ul class="space-y-2.5 w-full">
+              <li class="flex items-start gap-3 product-sub-desc text-gray-600">
+                <span class="text-[#33C3E6] font-bold">•</span>
+                <span
+                  ><strong>Engineering Expertise:</strong> Technical guidance
+                  from system design through installation and
+                  commissioning.</span
+                >
+              </li>
+              <li class="flex items-start gap-3 product-sub-desc text-gray-600">
+                <span class="text-[#33C3E6] font-bold">•</span>
+                <span
+                  ><strong>Customized Solutions:</strong> Products and
+                  configurations tailored to each vessel's operational
+                  requirements.</span
+                >
+              </li>
+              <li class="flex items-start gap-3 product-sub-desc text-gray-600">
+                <span class="text-[#33C3E6] font-bold">•</span>
+                <span
+                  ><strong>After-Sales Support:</strong> Responsive technical
+                  assistance, maintenance services, and spare parts
+                  availability.</span
+                >
+              </li>
+              <li class="flex items-start gap-3 product-sub-desc text-gray-600">
+                <span class="text-[#33C3E6] font-bold">•</span>
+                <span
+                  ><strong>Training & Technical Assistance:</strong>
+                  Comprehensive support for crew and maintenance personnel to
+                  ensure optimal system performance.</span
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Full-Width Banner Image Sticking to Sides -->
+    <div class="w-full my-8">
+      <img
+        src="assets/p18.jpg"
+        alt="Products Showcase Banner"
+        class="w-full h-auto object-cover block"
+      />
+    </div>
+
+    <!-- Call to Action Button linking to quotation.html positioned at the very end before closing container/scripts -->
+    <div
+      class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12 pt-4 flex justify-center"
+    >
+      <a
+        href="quotation.html"
+        class="inline-flex items-center gap-2 btn-primary text-white font-bold shadow-lg hover:shadow-xl transition-all px-8 py-4 text-base"
+        style="border-radius: 8px !important"
+      >
+        Get Quote for Products
+        <svg
+          class="w-5 h-5"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          stroke-width="2.5"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M13 7l5 5m0 0l-5 5m5-5H6"
+          />
+        </svg>
+      </a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="py-8 border-t-2 border-gray-200 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div
+          class="flex flex-col md:flex-row items-center justify-between text-center md:text-left gap-6"
+        >
+          <!-- Logo Section -->
+          <div class="flex items-center justify-center gap-3">
+            <div class="brand">
+              <img
+                src="assets/image009.png"
+                alt="ADMENC Logo"
+                class="logo h-6 lg:h-8 w-auto"
+              />
+            </div>
+          </div>
+
+          <!-- Copyright Text -->
+          <p class="text-gray-600 text-xs font-medium text-center">
+            © 2010 ADMENC – Advanced Marine Engineering. All rights reserved.
+          </p>
+
+          <!-- Social Icon -->
+          <div class="flex justify-center">
+            <a
+              href="https://www.linkedin.com/company/admenc"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="w-11 h-11 bg-white border-2 border-gray-200 rounded-full flex items-center justify-center hover:bg-[#33C3E6] hover:border-[#33C3E6] hover:text-white transition-all shadow-sm"
+              aria-label="Follow ADMENC on LinkedIn"
+            >
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a
+      href="https://wa.me/201114240497"
+      class="whatsapp-float"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Chat on WhatsApp"
+    >
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+        alt="WhatsApp"
+        width="32"
+        height="32"
+      />
+    </a>
+
+    <style>
+      .whatsapp-float {
+        position: fixed;
+        bottom: 24px;
+        right: 16px;
+        width: 64px;
+        height: 64px;
+        background-color: #25d366;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 10px 24px rgba(0, 0, 0, 0.28);
+        z-index: 9999;
+        text-decoration: none;
+        transition:
+          transform 0.2s ease,
+          box-shadow 0.2s ease;
+      }
+      .whatsapp-float:hover {
+        transform: translateY(-2px) scale(1.06);
+        box-shadow: 0 16px 34px rgba(0, 0, 0, 0.32);
+      }
+      @media (max-width: 480px) {
+        .whatsapp-float {
+          width: 56px;
+          height: 56px;
+          bottom: 18px;
+          right: 12px;
+        }
+        .whatsapp-float img {
+          width: 26px;
+          height: 26px;
+        }
+      }
+    </style>
+
+    <!-- Scripts Layer -->
+    <script>
+      // Product Tab Switching Logic
+      function showProduct(productId) {
+        const panel = document.getElementById("panel-" + productId);
+        const activeBtn = document.getElementById("btn-" + productId);
+
+        if (!panel || !activeBtn) {
+          return;
+        }
+
+        document
+          .querySelectorAll(".product-panel")
+          .forEach((panel) => panel.classList.add("hidden"));
+
+        document.querySelectorAll(".product-btn").forEach((btn) => {
+          btn.classList.remove("bg-[#33C3E6]", "text-white", "shadow-sm");
+          btn.classList.add(
+            "text-gray-700",
+            "bg-white",
+            "border",
+            "border-gray-200",
+            "hover:bg-gray-50",
+            "hover:text-gray-900",
+          );
+        });
+
+        panel.classList.remove("hidden");
+        activeBtn.classList.add("bg-[#33C3E6]", "text-white", "shadow-sm");
+        activeBtn.classList.remove(
+          "text-gray-700",
+          "bg-white",
+          "border",
+          "border-gray-200",
+          "hover:bg-gray-50",
+          "hover:text-gray-900",
+        );
+      }
+
+      // Mobile Navigation Component Logic
+      const mobileMenuBtn = document.getElementById("mobile-menu-btn");
+      const mobileMenu = document.getElementById("mobile-menu");
+      const iconOpen = document.getElementById("menu-icon-open");
+      const iconClose = document.getElementById("menu-icon-close");
+
+      if (mobileMenuBtn && mobileMenu) {
+        mobileMenuBtn.addEventListener("click", () => {
+          const isHidden = mobileMenu.classList.toggle("hidden");
+          if (isHidden) {
+            iconOpen.classList.remove("hidden");
+            iconClose.classList.add("hidden");
+          } else {
+            iconOpen.classList.add("hidden");
+            iconClose.classList.remove("hidden");
+          }
+        });
+      }
+
+      // Close menu when clicking a link
+      const mobileNavLinks = mobileMenu.querySelectorAll("a");
+      mobileNavLinks.forEach((link) => {
+        link.addEventListener("click", function () {
+          mobileMenu.classList.add("hidden");
+          iconOpen.classList.remove("hidden");
+          iconClose.classList.add("hidden");
+        });
+      });
+    </script>
+  </body>
+</html>

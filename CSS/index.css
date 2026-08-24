@@ -1,0 +1,1499 @@
+/* Base Body Typography Override */
+      body {
+          font-family: 'Poppins', sans-serif !important;
+          font-weight: 400 !important;
+          font-size: 14px !important;
+      }
+
+      /* Desktop nav links - Adjusted to be smaller */
+      nav a {
+          font-size: 0.85rem !important;
+          font-weight: 600 !important;
+      }
+
+      /* Mobile menu links - Adjusted to be smaller */
+      #mobile-menu a {
+          font-size: 0.9rem !important; 
+          font-weight: 600 !important;
+      }
+
+      /* Call Us text - Adjusted to be smaller */
+      nav .text-xs,
+      nav .text-sm {
+          font-size: 0.8rem !important;
+      }
+
+     /* Get Quote button text, slightly bigger size, squarish with rounded edges (border-radius: 8px) */
+      nav .btn-primary,
+      .btn-primary {
+          font-size: 0.95rem !important;
+          padding: 0.6rem 1.5rem !important;
+          background-color: #33C3E6 !important;
+          border-radius: 8px !important;
+          border: 2px solid #33C3E6 !important;
+          color: #fff !important;
+      }
+      
+      .btn-primary:hover {
+          background-color: #0ea5e9 !important;
+          border-color: #0ea5e9;
+      }
+
+      /* Dynamic Product Headers */
+      .product-panel-header,
+      .font-display {
+          font-family: 'Rajdhani', sans-serif !important;
+          font-weight: 700 !important;
+      }
+
+      /* Main Intro Paragraphs under Headers */
+      .product-main-desc {
+          font-size: 1.02rem !important;
+          line-height: 1.55 !important;
+          font-weight: 400 !important;
+      }
+
+      /* Smaller List/Card Descriptions */
+      .product-sub-desc {
+          font-size: 0.92rem !important;
+          line-height: 1.55 !important;
+          font-weight: 400 !important;
+      }
+
+      /* Make CALL US phone number perfectly bold */
+      .site-nav .call-us-number {
+          font-family: "Poppins", sans-serif !important;
+          font-weight: 600 !important;
+          font-variation-settings: "wght" 600 !important;
+          font-size: 0.85rem !important;
+      }
+
+      .nav-glass {
+          background-color: #ffffff !important;
+          backdrop-filter: none !important;
+      }
+      
+
+      /* ======================================
+          WHATSAPP FLOATING BUTTON STYLES
+          ====================================== */
+      .whatsapp-float {
+          position: fixed;
+          bottom: 24px;
+          right: 24px;
+          width: 64px;
+          height: 64px;
+          background-color: #25D366;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          box-shadow: 0 10px 24px rgba(0, 0, 0, 0.28);
+          z-index: 9999;
+          text-decoration: none;
+          transition: transform 0.2s ease, box-shadow 0.2s ease;
+      }
+
+      .whatsapp-float:hover {
+          transform: translateY(-2px) scale(1.06);
+          box-shadow: 0 16px 34px rgba(0, 0, 0, 0.32);
+      }
+
+      @media (max-width: 480px) {
+          .whatsapp-float {
+              width: 56px;
+              height: 56px;
+              bottom: 18px;
+              right: 18px;
+          }
+
+          .whatsapp-float img {
+              width: 26px;
+              height: 26px;
+          }
+      }
+
+.whatsapp-float {
+        position: fixed;
+        bottom: 24px;
+        right: 16px;
+        width: 64px;
+        height: 64px;
+        background-color: #25D366;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 10px 24px rgba(0, 0, 0, 0.28);
+        z-index: 9999;
+        text-decoration: none;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .whatsapp-float:hover {
+        transform: translateY(-2px) scale(1.06);
+        box-shadow: 0 16px 34px rgba(0, 0, 0, 0.32);
+    }
+    @media (max-width: 480px) {
+        .whatsapp-float {
+            width: 56px;
+            height: 56px;
+            bottom: 18px;
+            right: 12px;
+            }
+        .whatsapp-float img {
+            width: 26px;
+            height: 26px;
+        }
+    }
+
+.btn-primary{
+  background-color:#33C3E6;
+  border: 2px solid #33C3E6;
+  color: #fff;
+}
+.btn-primary:hover{
+  background-color: #33C3E6;
+  border-color: #33C3E6;
+}
+
+
+.service-icon-wrapper {
+    background-color: #33C3E6;
+}
+
+
+
+/* Smaller section titles (About, Services, Team, Projects, Careers, Contact) */
+#about-title,
+#services-title,
+#team-title,
+#projects-title,
+#careers-title,
+#contact-title {
+    font-size: 2.2rem;   /* smaller but still bold */
+    line-height: 1.2;
+}
+
+@media (min-width: 1024px) {
+    #about-title,
+    #services-title,
+    #team-title,
+    #projects-title,
+    #careers-title,
+    #contact-title {
+        font-size: 2.8rem;
+    }
+}
+
+/* Reduce paragraph sizes slightly */
+#about-description,
+#team-subtitle,
+#projects-subtitle,
+#careers-subtitle,
+#contact-subtitle {
+    font-size: 1rem;     /* instead of text-lg */
+    line-height: 1.6;
+}
+
+/* Reduce sub‑section headings inside blocks */
+h3.font-display {
+    font-size: 1.6rem;
+}
+
+/* Reduce small feature grids (like Certified Experts, etc.) */
+#about .text-sm,
+#services .text-sm,
+#team .text-sm,
+#projects .text-sm {
+    font-size: 0.85rem;
+}
+
+/* TEAM SECTION — make entire team area more compact */
+#team {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+/* Main titles */
+#team-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+#team-subtitle {
+    font-size: 0.95rem;
+}
+
+/* Leadership header */
+#team h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* TEAM CARDS — smaller + tighter layout */
+#team .group {
+    padding: 1.25rem;
+}
+
+/* Circle icons */
+#team .group .w-32,
+#team .group .h-32 {
+    width: 80px;
+    height: 80px;
+}
+
+/* Names */
+#team .group h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+}
+
+/* Titles (CEO, etc.) */
+#team .group p.text-\[\#33C3E6\] {
+    font-size: 0.95rem;
+    margin-bottom: 0.7rem;
+}
+
+/* Descriptions */
+#team .group p.text-gray-600 {
+    font-size: 0.85rem;
+    line-height: 1.4;
+}
+
+/* GRID SPACING — reduce vertical space */
+#team .grid {
+    gap: 1.25rem;
+}
+
+/* Branch cards */
+#team .rounded-2xl {
+    padding: 1.25rem;
+}
+
+/* Branch titles */
+#team h4 {
+    font-size: 1.1rem;
+    margin-bottom: 0.4rem;
+}
+
+/* Branch descriptions */
+#team .text-gray-600 {
+    font-size: 0.85rem;
+}
+
+
+.hero-section {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(135deg, #f8fafc 0%, #e0f2fe 50%, #f0f9ff 100%);
+}
+
+.hero-section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("./p1.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.15;
+    z-index: 0;
+    pointer-events: none;
+}
+
+/* Hero Text Gradient */
+.hero-text-gradient {
+    background: linear-gradient(135deg,  #33C3E6 0%, #33C3E6 50%, #06b6d4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    filter: drop-shadow(0 2px 4px rgba(14, 165, 233, 0.3));
+}
+
+/* Hero Primary Button */
+.hero-btn-primary {
+    background: linear-gradient(135deg,  #33C3E6 0%, #33C3E6 100%);
+    box-shadow: 0 4px 20px rgba(14, 165, 233, 0.4), 0 0 0 0 rgba(51, 195, 230, 0.4);
+    transition: all 0.3s ease;
+    border: none;
+}
+
+.hero-btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(14, 165, 233, 0.5), 0 0 20px rgba(51, 195, 230, 0.3);
+}
+
+/* Hero Secondary Button - Optimized */
+.hero-btn-secondary {
+    background: rgba(255, 255, 255, 0.95); /* slightly stronger instead of blur */
+    border: 1px solid #e5e7eb;
+    color: #374151;
+
+    /* lighter shadow */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+
+    /* remove expensive blur */
+    /* backdrop-filter: blur(10px); ❌ removed */
+
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover effect (cheap + smooth) */
+.hero-btn-secondary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+}
+
+.hero-btn-secondary:hover {
+    border-color: #33C3E6;
+    color:  #33C3E6;
+    box-shadow: 0 8px 25px rgba(51, 195, 230, 0.2);
+    transform: translateY(-2px);
+}
+
+/* Hero Stat Cards */
+.hero-stat-card {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(51, 195, 230, 0.15);
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-stat-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg,  #33C3E6, #33C3E6, #06b6d4);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.hero-stat-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 35px rgba(51, 195, 230, 0.15);
+    border-color: rgba(51, 195, 230, 0.3);
+}
+
+.hero-stat-card:hover::before {
+    opacity: 1;
+}
+
+.hero-stat-number {
+    background: linear-gradient(135deg,  #33C3E6 0%, #33C3E6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Pulse animation for decorative elements */
+@keyframes pulse-slow {
+    0%, 100% { opacity: 0.1; transform: scale(1); }
+    50% { opacity: 0.15; transform: scale(1.05); }
+}
+
+.animate-pulse-slow {
+    animation: pulse-slow 4s ease-in-out infinite;
+}
+
+/* ===== RESPONSIVE STYLES ===== */
+
+/* Mobile Menu Animation */
+#mobile-menu {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+
+#mobile-menu.open {
+    max-height: 500px;
+}
+
+/* Tablet Breakpoint (md: 768px) */
+@media (max-width: 1023px) {
+    /* Hero Section */
+    .hero-section {
+        padding-top: 7rem;
+    }
+    
+    /* Hero Subtitle */
+    .hero-section p {
+        font-size: 1rem;
+    }
+    
+    /* Hero Stats */
+    .hero-stat-card .relative {
+        padding: 1rem;
+    }
+    
+    .hero-stat-number {
+        font-size: 1.75rem;
+    }
+    
+    /* Section Headers */
+    section h2 {
+        font-size: 1.75rem;
+    }
+    
+    /* Service Cards Grid */
+    .grid.md\\:grid-cols-2.lg\\:grid-cols-3 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    /* Team Grid */
+    #team .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    /* Partners Grid */
+    .grid.lg\\:grid-cols-4 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Mobile Breakpoint (sm: 640px) */
+@media (max-width: 767px) {
+    /* Hero Section */
+    .hero-section {
+        padding-top: 6.5rem;
+        padding-bottom: 1.5rem;
+    }
+    
+    /* Hero Subtitle */
+    .hero-section p {
+        font-size: 0.9rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    
+    /* Hero Buttons */
+    .hero-btn-primary,
+    .hero-btn-secondary {
+        padding: 0.75rem 1.5rem;
+        font-size: 0.875rem;
+    }
+    
+    /* Hero Stats */
+    .hero-stat-card {
+        border-radius: 12px;
+    }
+    
+    .hero-stat-card .relative {
+        padding: 0.75rem;
+    }
+    
+    .hero-stat-number {
+        font-size: 1.5rem;
+    }
+    
+    .hero-stat-card p:last-child {
+        font-size: 0.65rem;
+    }
+    
+    /* All Section Padding */
+    section {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    
+    /* Section Headers */
+    section h2 {
+        font-size: 1.5rem;
+        margin-bottom: 0.75rem;
+    }
+    
+    section h3 {
+        font-size: 1.25rem;
+    }
+    
+    /* Service Cards - Stack */
+    .grid.md\\:grid-cols-2.lg\\:grid-cols-3,
+    .grid.sm\\:grid-cols-2.lg\\:grid-cols-3 {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Team Grid - Stack */
+    #team .grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    /* Partners Grid */
+    .grid.lg\\:grid-cols-4,
+    .grid.sm\\:grid-cols-3 {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.75rem;
+    }
+    
+    /* Partner Cards */
+    .grid.lg\\:grid-cols-4 > div {
+        padding: 0.75rem;
+    }
+    
+    .grid.lg\\:grid-cols-4 img {
+        height: 2rem;
+    }
+    
+    /* About Grid */
+    .grid.lg\\:grid-cols-2 {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    /* Form Grid */
+    .grid.sm\\:grid-cols-2,
+    .grid.md\\:grid-cols-2 {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Testimonial Cards */
+    .testimonial-card {
+        padding: 1rem;
+    }
+    
+    /* Contact Section Grid */
+    .grid.lg\\:grid-cols-3 {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Footer */
+    footer .flex {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+    
+    /* General container padding */
+    .max-w-7xl,
+    .max-w-6xl,
+    .max-w-4xl {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    /* Badge sizing */
+    .inline-flex.px-4.py-2 {
+        padding: 0.375rem 0.75rem;
+        font-size: 0.7rem;
+    }
+}
+
+/* Extra Small Mobile (xs: 480px) */
+@media (max-width: 480px) {
+    /* Hero Stats - 3 column compact */
+    .grid.grid-cols-3 {
+        gap: 0.5rem;
+    }
+    
+    .hero-stat-number {
+        font-size: 1.25rem;
+    }
+    
+    .hero-stat-card p:last-child {
+        font-size: 0.6rem;
+    }
+    
+    /* Partners - 2 columns */
+    .grid.lg\\:grid-cols-4 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    /* Even smaller padding */
+    .max-w-7xl,
+    .max-w-6xl,
+    .max-w-4xl {
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+    }
+}
+
+#about .grid.sm\:grid-cols-2.gap-6.pt-6 {
+    padding-top: 0.3rem;   /* reduce huge top spacing */
+    margin-top: 0;         /* force it closer to the paragraph */
+}
+/* Reduce the vertical spacing between the top row and bottom row */
+#about .grid.sm\:grid-cols-2 {
+    row-gap: 0.1rem;   /* default was 1.5rem (gap-6) */
+
+/* ===== Horizontal Image Scroller ===== */
+
+.scroll-container {
+  width: 100%;
+  overflow: hidden;
+  margin: 40px 0;
+}
+
+.scroll-track {
+  display: flex;              /* ✅ THIS makes images side-by-side */
+  gap: 16px;
+  width: max-content;
+  animation: scroll 6s linear infinite;
+}
+
+.scroll-track img {
+  width: 100px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* Reduce all section titles (About, Services, Team, Projects, Careers, Contact) */
+section h2 {
+    font-size: 1.9rem;
+    line-height: 1.2;
+}
+
+
+/* Reduce all section subtitles (gray text under titles) */
+section > p,
+section .max-w-3xl p,
+section .max-w-2xl p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+
+/* Smaller headings inside cards (like service cards, team cards, branches) */
+h3.font-display,
+#team h3,
+#services h3 {
+    font-size: 1.4rem;  /* smaller than before */
+}
+
+/* Smaller h4 (card titles) */
+h4 {
+    font-size: 1.1rem;
+}
+
+/* Smaller text inside lists, bullet points, features */
+.text-sm {
+    font-size: 0.8rem;
+}
+
+/* Smaller buttons everywhere */
+button,
+.btn-primary,
+.hero-btn-primary,
+.hero-btn-secondary,
+a.btn-primary {
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem;
+}
+
+/* Smaller form labels */
+label {
+    font-size: 0.8rem;
+}
+
+/* Smaller form inputs */
+input,
+select,
+textarea {
+    font-size: 0.85rem;
+}
+
+
+/* ===== LIGHTER CORNER SHADING + MORE VISIBLE HERO BACKGROUND IMAGE ===== */
+
+
+/* 2) Show the background image more (increase opacity of ::before image) */
+.hero-section::before {
+    opacity: 0.22; /* was 0.15 — shows the image more */
+}
+
+/* 3) Soften the blue corner "orbs" overlay (the absolute decorative circles) */
+.hero-section > .absolute.pointer-events-none > div:nth-child(1),
+.hero-section > .absolute.pointer-events-none > div:nth-child(2),
+.hero-section > .absolute.pointer-events-none > div:nth-child(3) {
+    opacity: 0.04;    /* lighter blue glow (was 0.10 / 0.08 / 0.05) */
+    filter: blur(40px); /* slightly more diffused, less solid */
+}
+
+/* You can fine-tune each orb individually if needed: */
+.hero-section > .absolute.pointer-events-none > div:nth-child(1) { opacity: 0.05; }
+.hero-section > .absolute.pointer-events-none > div:nth-child(2) { opacity: 0.04; }
+.hero-section > .absolute.pointer-events-none > div:nth-child(3) { opacity: 0.03; }
+
+/* 4) Reduce the white gradient overlay so the image is not washed out */
+.hero-section > .absolute.pointer-events-none > div:nth-child(4) {
+    /* Replace Tailwind utility BG with a custom lighter overlay */
+    background: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0.00) 0%,
+        rgba(255, 255, 255, 0.20) 50%,
+        rgba(255, 255, 255, 0.50) 100%
+    );  /* was via-white/40 to white/80 (more opaque) */
+}
+
+/* 5) Optional: slightly reduce the hero section’s top/bottom padding to show more image area */
+.hero-section {
+    padding-top: 9rem;
+    padding-bottom: 2rem;
+}
+/* ===== NAV BAR TEXT SIZE SLIGHTLY BIGGER ===== */
+
+/* Desktop nav links */
+nav a {
+    font-size: 1rem;   /* was ~0.85rem */
+    font-weight: 600;
+}
+
+/* Mobile menu links */
+#mobile-menu a {
+    font-size: 1.05rem; 
+    font-weight: 600;
+}
+
+/* Call Us text */
+nav .text-xs,
+nav .text-sm {
+    font-size: 0.95rem;
+}
+
+/* Get Quote button text */
+nav .btn-primary {
+    font-size: 0.95rem;
+    padding: 0.55rem 1.3rem;
+}
+
+@media (max-width: 767px) {
+    .hero-section {
+        padding-top: 6.5rem;
+    }
+}
+@media (min-width: 1280px) {
+  #hero-title { font-size: 3.6rem; }
+}
+
+@media (max-width: 1023px) {
+  #hero-title { font-size: 2.6rem; }
+}
+
+@media (max-width: 639px) {
+  #hero-title { font-size: 2.1rem; }
+}
+
+
+
+/* 2) Unified size for ALL other hero titles (non-Home)
+   We target the page-specific hero title classes you already use,
+   and also a generic .page-hero-title for any future page. */
+.projects-hero-title,
+.careers-hero-title,
+.page-hero-title {
+  font-size: 2rem;      /* desktop base */
+  line-height: 1.2;
+  letter-spacing: 0.2px;
+}
+
+@media (min-width: 1280px) {
+  .projects-hero-title,
+  .careers-hero-title,
+  .page-hero-title {
+    font-size: 2rem;    /* XL screens */
+  }
+}
+
+@media (max-width: 1023px) {
+  .projects-hero-title,
+  .careers-hero-title,
+  .page-hero-title {
+    font-size: 2.7rem;    /* tablets */
+  }
+}
+
+@media (max-width: 639px) {
+  .projects-hero-title,
+  .careers-hero-title,
+  .page-hero-title {
+    font-size: 1.95rem;   /* mobile */
+  }
+}
+/* ===== STANDARD HERO TITLES (ALL PAGES EXCEPT HOME) ===== */
+
+.page-hero-title {
+    font-size: 2rem;
+    line-height: 1.2;
+}
+
+@media (min-width: 1024px) {
+    .page-hero-title {
+        font-size: 2rem;
+    }
+}
+
+/* Fix hero stats alignment */
+.hero-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);   /* 3 equal columns */
+    gap: 1.5rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+/* Make hero statistic cards smaller */
+.hero-stat-card {
+    padding: 1.2rem 0.8rem;      /* reduce height & width */
+    border-radius: 14px;         /* smaller corners */
+    transform: scale(0.9);                  /* shrink overall */
+}
+
+.hero-stat-number {
+    font-size: 1.8rem;           /* reduce number size */
+    font-weight: 800;
+}
+
+.hero-stat-card p:last-child {
+    font-size: 0.75rem;          /* reduce label size */
+}
+
+
+.site-nav .btn-primary {
+  font-size: 0.85rem;
+  padding: 0.55rem 1.2rem;
+}
+
+
+
+.site-nav .logo {
+  height: 32px;
+  width: auto;
+}
+
+
+.site-nav a.nav-link {
+    font-weight: 600;
+    font-weight: 600;
+}
+
+/* Neutralize earlier font-size rules so they don't fight this */
+nav a { font-size: inherit; }                 /* neutralize 1rem */
+.site-nav .nav-link { font-size: inherit; }   /* neutralize 0.9rem */
+#mobile-menu a { font-size: inherit; }        /* neutralize 1.05rem */
+
+/* Apply the unified sizes */
+@media (min-width: 1024px) {
+  .site-nav a.nav-link {
+    font-size: var(--nav-size-desktop);
+  }
+}
+
+@media (max-width: 1023px) {
+  .site-nav a.nav-link,
+  #mobile-menu a.mobile-nav-link {
+    font-size: var(--nav-size-mobile);
+  }
+}
+
+/* ===== MAKE ADMENC HOME NAVBAR MATCH PROJECTS & CAREERS ===== */
+
+.site-nav a.nav-link {
+    font-family: "Poppins", sans-serif;
+    font-size: 0.9rem;        /* same as projects & careers */
+    font-weight: 600;         /* same weight */
+    line-height: 1.2;         /* same line height */
+    letter-spacing: 0;        /* identical spacing */
+    color: #374151;           /* Tailwind text-gray-700 */
+}
+
+/* Ensure hover colors stay identical too */
+.site-nav a.nav-link:hover {
+    color: #33C3E6;
+    background: rgba(51, 195, 230, 0.05);
+}
+
+/* Mobile menu links - match same style */
+#mobile-menu a.mobile-nav-link {
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;        /* same as projects/careers mobile */
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+/* Make CALL US phone number perfectly bold (same as Projects & Careers) */
+.site-nav .call-us-number {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;     /* heavier bold */
+    font-variation-settings: "wght" 600; /* forces true bold in variable fonts */
+}
+
+
+/* Force bold Get Quote text (matches Projects & Careers exactly) */
+.site-nav a.btn-primary,
+.site-nav a.btn-primary span,
+.site-nav .get-quote-text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-variation-settings: "wght" 700;
+}
+/* ===== Chatbot Button ===== */
+#chatbot-button {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    width: 65px;
+    height: 65px;
+    background: #33C3E6;
+    color: white;
+    border-radius: 50%;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+    z-index: 9999;
+    transition: 0.3s ease;
+}
+
+#chatbot-button:hover {
+    background:#2bb2d3;
+    transform: scale(1.1);
+}
+
+/* ===== Chatbot Theme Vars ===== */
+:root {
+  --cb-primary: #33C3E6;
+  --cb-primary-600: #2bb2d3;
+  --cb-bg: #ffffff;
+  --cb-muted: #6b7280; /* gray-500 */
+  --cb-shadow: 0 12px 38px rgba(0,0,0,.18);
+  --cb-radius: 18px;
+  --cb-z: 999999999;
+}
+
+/* ===== Container positioning ===== */
+#admenc-chatbot { position: fixed; bottom: 24px; right: 24px; z-index: var(--cb-z); }
+
+/* ===== Floating Action Button (FAB) ===== */
+#cb-fab{
+  appearance: none; border: 0; outline: none; cursor: pointer;
+  width: 62px; height: 62px; border-radius: 50%;
+  background: var(--cb-primary); color: #fff;
+  box-shadow: 0 12px 30px rgba(51,195,230,.5);
+  display: grid; place-items: center;
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+#cb-fab:hover{ transform: translateY(-2px) scale(1.04); box-shadow: 0 16px 36px rgba(51,195,230,.56); }
+#cb-fab:active{ transform: scale(.98); }
+
+/* ===== Window ===== */
+#cb-window{
+  position: absolute; bottom: 82px; right: 0;
+  width: min(360px, 92vw); height: 520px; display: grid;
+  grid-template-rows: auto 1fr auto auto; /* header | messages | quick | input */
+  background: var(--cb-bg); border-radius: var(--cb-radius);
+  box-shadow: var(--cb-shadow); overflow: hidden; opacity: 0; pointer-events: none;
+  transform-origin: bottom right; transform: scale(.96) translateY(8px);
+  transition: opacity .18s ease, transform .18s ease;
+}
+#cb-window.open{ opacity: 1; pointer-events: all; transform: scale(1) translateY(0); }
+
+/* ===== Header ===== */
+#cb-header{
+  background: linear-gradient(135deg, var(--cb-primary), var(--cb-primary-600));
+  color:#fff; padding: 14px 14px 12px; display: flex; align-items: center; justify-content: space-between;
+}
+.cb-brand{ display:flex; align-items:center; gap:10px; }
+.cb-logo{ width:28px; height:28px; object-fit: contain; filter: drop-shadow(0 2px 4px rgba(0,0,0,.2)); }
+#cb-title{ font: 700 16px/1.2 "Poppins", sans-serif; letter-spacing:.2px; }
+#cb-close{
+  background: transparent; border: 0; color: #fff; font-size: 22px; line-height: 1; cursor: pointer;
+  width: 32px; height: 32px; border-radius: 8px; transition: background .15s ease;
+}
+#cb-close:hover{ background: rgba(255,255,255,.18); }
+
+/* ===== Messages ===== */
+#cb-messages{ padding: 14px 14px 6px; background: #f9fafb; position: relative; }
+.cb-scroll{ overflow-y: auto; scrollbar-width: thin; scrollbar-color: #cfeff7 transparent; }
+.cb-scroll::-webkit-scrollbar{ width:8px; } 
+.cb-scroll::-webkit-scrollbar-thumb{ background:#cfeff7; border-radius:6px; }
+
+/* Message row */
+.cb-row{ display:flex; gap:10px; margin: 8px 0; align-items: flex-end; }
+.cb-row.bot{ justify-content: flex-start; }
+.cb-row.user{ justify-content: flex-end; }
+
+/* Avatars */
+.cb-avatar{
+  width: 28px; height: 28px; border-radius: 50%; flex: 0 0 28px; display:grid; place-items:center; color:#fff;
+  background: var(--cb-primary);
+  box-shadow: 0 2px 8px rgba(51,195,230,.35);
+  font-weight: 700; font-size: 12px; font-family: "Poppins", sans-serif;
+}
+.cb-avatar.user{ background: #0ea5e9; }
+
+/* Bubbles */
+.cb-bubble{
+  max-width: 75%; padding: 10px 12px; border-radius: 14px; font: 500 14px/1.45 "Poppins", sans-serif;
+  box-shadow: 0 6px 20px rgba(0,0,0,.06); position: relative;
+  word-break: break-word; background: #fff; color:#111827;
+}
+.cb-row.bot .cb-bubble{ background: #e9f8ff; color:#0f172a; }
+.cb-row.user .cb-bubble{ background: var(--cb-primary); color:#fff; }
+
+/* Bubble tails */
+.cb-row.bot .cb-bubble:after{
+  content:""; position: absolute; left: -6px; bottom: 6px; width: 10px; height: 10px;
+  background: #e9f8ff; border-bottom-left-radius: 3px; transform: rotate(45deg);
+}
+.cb-row.user .cb-bubble:after{
+  content:""; position: absolute; right: -6px; bottom: 6px; width: 10px; height: 10px;
+  background: var(--cb-primary); border-bottom-right-radius: 3px; transform: rotate(45deg);
+}
+
+/* Typing indicator */
+.cb-typing{ display:flex; align-items:center; gap:8px; margin: 8px 0; }
+.cb-typing .dots{ display:flex; gap:4px; }
+.cb-typing .dot{ width:6px; height:6px; background:#9bdff0; border-radius:50%; animation: cb-bounce 1s infinite; }
+.cb-typing .dot:nth-child(2){ animation-delay: .15s; }
+.cb-typing .dot:nth-child(3){ animation-delay: .3s; }
+@keyframes cb-bounce{
+  0%,80%,100% { transform: translateY(0); opacity:.6; }
+  40% { transform: translateY(-4px); opacity:1; }
+}
+
+/* ===== Quick replies ===== */
+#cb-quick-replies{ display:flex; gap:8px; padding: 4px 14px 10px; flex-wrap: wrap; background:#f9fafb; }
+#cb-quick-replies button{
+  background:#fff; color:#036e87; border:1px solid #d8f3fb; border-radius: 999px; padding: 6px 10px;
+  font: 600 12px/1 "Poppins", sans-serif; cursor:pointer; transition: all .15s ease;
+}
+#cb-quick-replies button:hover{ background:#e9f8ff; border-color:#b8eaf7; }
+
+/* ===== Input bar ===== */
+#cb-input-bar{
+  display:flex; gap:8px; align-items:center; padding: 10px; background:#fff; border-top: 1px solid #eef2f7;
+}
+#cb-input{
+  flex:1; border:1px solid #dbe7ef; border-radius: 12px; padding: 10px 12px; outline: none;
+  font: 500 14px/1.2 "Poppins", sans-serif;
+}
+#cb-input:focus{ border-color: #a5e6f6; box-shadow: 0 0 0 3px rgba(51,195,230,.18); }
+#cb-send{
+  background: var(--cb-primary); color:#fff; border:0; border-radius: 12px; padding: 10px 14px; cursor:pointer;
+  font: 700 13px/1 "Poppins", sans-serif; transition: transform .1s ease, background .12s ease;
+}
+#cb-send:hover{ background: var(--cb-primary-600); }
+#cb-send:active{ transform: scale(.98); }
+
+/* ===== Responsive ===== */
+@media (max-width: 480px){
+  #admenc-chatbot{ bottom: 18px; right: 18px; }
+  #cb-window{ width: min(92vw, 380px); height: 72vh; }
+}
+/* ==========================================
+   COMPACT SERVICES SECTION
+   ========================================== */
+
+/* Reduce the main section spacing */
+#services {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* Make the section title smaller */
+#services-title {
+    font-size: 1.9rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Make subtitle smaller */
+#services p.text-lg {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    max-width: 80%;
+    margin: 0 auto 0.8rem auto;
+}
+
+/* Reduce grid spacing */
+#services .grid {
+    gap: 1rem;
+}
+
+/* Service cards smaller */
+#services .service-card {
+    padding: 1rem;
+    border-radius: 14px;
+    min-height: auto;
+}
+
+/* Shrink the top icons OR remove them entirely */
+#services .service-icon-wrapper {
+    width: 42px;
+    height: 42px;
+    border-radius: 10px;
+    margin-bottom: 0.6rem;
+    transform: scale(0.8);
+}
+
+/* If you want to REMOVE the icons completely, UNCOMMENT this line: */
+/* #services .service-icon-wrapper { display: none; } */
+
+/* Service card titles */
+#services h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.4rem;
+}
+
+/* Description paragraphs */
+#services .service-card p {
+    font-size: 0.82rem;
+    line-height: 1.35;
+    margin-bottom: 0.6rem;
+}
+
+/* Checklist text */
+#services ul li {
+    font-size: 0.78rem;
+    gap: 0.4rem;
+}
+
+/* Checklist icons */
+#services ul li svg {
+    width: 14px;
+    height: 14px;
+}
+
+/* Make grid fit better on desktop */
+@media (min-width: 1024px) {
+    #services .grid.md\:grid-cols-2.lg\:grid-cols-3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+/* ==========================================
+   COMPACT TEAM SECTION — ICONS REMOVED
+   ========================================== */
+
+/* Reduce main section padding */
+#team {
+    padding-top: 1.8rem;
+    padding-bottom: 2rem;
+}
+
+/* Section title smaller */
+#team-title {
+    font-size: 1.9rem;
+    margin-bottom: 0.4rem;
+}
+
+/* Subtitle smaller */
+#team-subtitle {
+    font-size: 0.9rem;
+    max-width: 70%;
+    margin: 0 auto 1.2rem auto;
+}
+
+/* Leadership header smaller */
+#team h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+}
+
+/* Leadership cards */
+#team .group {
+    padding: 0.9rem;
+    border-radius: 14px;
+    min-height: auto;
+}
+
+/* Leadership avatar circles smaller */
+#team .group .w-32,
+#team .group .h-32 {
+    width: 60px;
+    height: 60px;
+    font-size: 1.1rem;
+}
+
+/* Leadership names */
+#team .group h4 {
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+/* Leadership titles */
+#team .group p.text-\[\#33C3E6\] {
+    font-size: 1rem;
+    margin-bottom: 0.4rem;
+}
+
+/* Leadership description */
+#team .group p.text-gray-600 {
+    font-size: 1rem;
+    line-height: 1.3;
+}
+
+/* Leadership grid tighter */
+#team .grid.md\:grid-cols-2 {
+    gap: 1rem;
+}
+
+/* ==========================================
+   BRANCHES — ICONS REMOVED
+   ========================================== */
+
+/* Remove the square icons completely */
+#team .w-16.h-16 {
+    display: none;
+}
+
+/* Branch cards smaller */
+#team .rounded-2xl {
+    padding: 1rem;
+    border-radius: 14px;
+}
+
+/* Branch titles */
+#team h4 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Branch descriptions */
+#team .text-gray-600 {
+    font-size: 1rem;
+    line-height: 1.35;
+}
+
+/* Checklist smaller */
+#team ul li {
+    font-size: 0.78rem;
+    line-height: 1.3;
+    gap: 0.35rem;
+}
+
+/* Checklist icons smaller */
+#team ul li svg {
+    width: 14px;
+    height: 14px;
+}
+
+/* Branch grid tighter */
+#team .grid.md\:grid-cols-3 {
+    gap: 1rem;
+}
+
+/* Fit 3 branches evenly */
+@media (min-width: 1024px) {
+    #team .grid.md\:grid-cols-3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+/* ==========================================
+   REMOVE LEADERSHIP AVATAR ICONS (RE / AA)
+   ========================================== */
+
+#team .group .w-32,
+#team .group .h-32 {
+    display: none;
+}
+
+/* Fix spacing after removing icons */
+#team .group {
+    padding-top: 1.2rem;
+}
+
+/* Move text upward to close the empty gap */
+#team .group h4 {
+    margin-top: 0;
+}
+/* Blue branch titles */
+.branch-title {
+    color: #33C3E6;
+    font-size: 1.3rem;
+    letter-spacing: 0.3px;
+}
+
+/* Make "Tel.:" blue too */
+.branch-subtitle {
+    color: #33C3E6;
+    font-weight: 700;
+}
+
+/* Improve card look */
+#team .rounded-2xl {
+    border-radius: 16px;
+    transition: 0.25s ease-in-out;
+}
+
+#team .rounded-2xl:hover {
+    box-shadow: 0 10px 28px rgba(51, 195, 230, 0.25);
+    transform: translateY(-4px);
+}
+/* Make partner logos smaller */
+.partners-section img {
+    height: 40px;   /* adjust this number to control size */
+    width: auto;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Shrink the box around each logo */
+.partners-section .p-6,
+.grid > div {
+    padding: 1rem;
+}
+
+/* ===== SCROLLER CONTAINER ===== */
+.scroll-container {
+  width: 90%;
+  margin: 50px auto;
+ 
+}
+
+/* ===== TRACK ===== */
+.scroll-track {
+  display: flex;
+  gap: 24px;
+  width: max-content;
+}
+
+/* ===== IMAGE CARD ===== */
+.scroll-track img {
+  width: 300px;
+  height: 450px;
+  flex-shrink: 0;
+
+  border-radius: 14px;
+  border: 2px solid #e5e7eb;
+  background: #ffffff00;
+
+  box-shadow: 0 6px 14px rgba(44, 109, 177, 0.61);
+  cursor: pointer;
+
+  transition: 
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
+}
+
+/* Hover effect */
+.scroll-track img:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 22px rgb(16, 84, 192);
+}
+
+/* ===== ACTIVE (CLICKED) IMAGE ===== */
+.scroll-track img.active {
+  border-color: #33C3E6;
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 16px 35px rgb(51, 138, 230);
+  z-index: 2;
+}
+
+/* ==================================================
+   CONTACT FORM – FULL SPACING RESET & NORMALIZATION
+   ================================================== */
+
+/* 1. Restore grid behavior */
+#contact .grid {
+  display: grid;
+}
+
+/* 2. Restore correct column layout */
+#contact .sm\:grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+/* 3. Restore Tailwind gap sizes */
+#contact .gap-4 {
+  gap: 1rem;
+}
+
+#contact .space-y-4 > * + * {
+  margin-top: 1rem;
+}
+
+/* 4. Fix card padding (not oversized) */
+#contact .rounded-2xl {
+  padding: 1.75rem;
+}
+
+/* 5. Normalize labels */
+#contact label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+/* 6. Normalize inputs */
+#contact input,
+#contact textarea {
+  font-size: 0.85rem;
+  padding: 0.6rem 0.75rem;
+}
+
+/* 7. Fix textarea height */
+#contact textarea {
+  min-height: 110px;
+}
+
+/* 8. Fix spacing before submit button */
+#contact button[type="submit"] {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  padding: 0.75rem;
+}
+
+#contact .grid {
+  row-gap: 0.2rem;   /* ↓ was too large */
+  column-gap: 0.2rem; /* keep column spacing */
+}
+
+/* ======================================
+   GLOBAL MOBILE RESPONSIVENESS FIXES
+   ====================================== */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  button,
+  a.btn {
+    width: 100%;
+  }
+}
+}
